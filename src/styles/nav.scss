@@ -7,7 +7,10 @@
     width: 32px;
     height: 32px;
   }
-  .x path {
+  #three_dot_menu path {
+    fill: $white;
+  }
+  #Delete-ex path {
     fill: $white;
   }
 }
