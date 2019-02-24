@@ -1,5 +1,11 @@
 import React from 'react';
+import { ReactComponent as Img } from '../images/logo-coloredCsakis2019.svg';
 
 export default function Logo({ title }) {
-  return <header>{title ? <h1>{title}</h1> : null}</header>;
+  return (
+    <header>
+      <Img />
+      {title ? <h1>{title}</h1> : null}
+    </header>
+  );
 }
