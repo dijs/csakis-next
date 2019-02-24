@@ -3,11 +3,11 @@ import data from './data.json';
 export default function(lang) {
   const handler = {
     get: function(obj, key) {
-      if (!data[key]) return '<EMPTY>';
+      if (!data[key]) return undefined;
       if (typeof data[key] === 'string') {
         return data[key];
       }
-      if (!data[key][lang]) return '<EMPTY>';
+      if (!data[key][lang]) return undefined;
       return data[key][lang];
     }
   };

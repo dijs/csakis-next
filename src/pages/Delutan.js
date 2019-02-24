@@ -15,28 +15,12 @@ export default function Delutan({ lang }) {
           <Countdown fromDate={_.delutanDate} />
           <FeaturedText
             title={_.delutanFeaturedTextTitle}
-            subtitle="Praise - Sermon - Fellowship"
-            content="We rarely have an opportunity to build our marriages. Often we get cought up in the daily toil of tasks and we do not have quality time with our spouse and/or our children. This afternoon event is dedicated to helping fostor this quality time and growth. It will be organised quarterly in Vigadó. During the lectures, we will provide separate supervision for children, where we teach them about the love of God through biblical stories."
+            subtitle={_.delutanFeaturedTextSubtitle}
+            content={_.delutanFeaturedTextContent}
           />
         </div>
         <div className="delutan-bio section">
-          <Bios
-            title="Meet the Speakers"
-            bios={[
-              {
-                content:
-                  'Pellentesque blandit metus vitae metus convallis mattis. Integer ac risus eu dolor.',
-                image: '//placehold.it/100',
-                alt: 'name of speaker'
-              },
-              {
-                content:
-                  'Convallis mattis. Integer ac risus eu dolor. Yep okay that is the one.',
-                image: '//placehold.it/100',
-                alt: 'name of speaker 2'
-              }
-            ]}
-          />
+          <Bios title={_.delutanBiosTitle} bios={_.delutanBios} />
           <FeaturedText />
           <button>Remove Me</button>
         </div>

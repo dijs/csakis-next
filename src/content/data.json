@@ -3,5 +3,29 @@
   "delutanFeaturedTextTitle": {
     "en": "What is Csakis Delutan?",
     "hu": "Mi ez Csakis Delutan?"
+  },
+  "delutanFeaturedTextSubtitle": {
+    "en": "Praise - Sermon - Fellowship"
+  },
+  "delutanFeaturedTextContent": {
+    "en": "We rarely have an opportunity to build our marriages. Often we get cought up in the daily toil of tasks and we do not have quality time with our spouse and/or our children. This afternoon event is dedicated to helping fostor this quality time and growth. It will be organised quarterly in Vigadó. During the lectures, we will provide separate supervision for children, where we teach them about the love of God through biblical stories."
+  },
+  "delutanBiosTitle": {
+    "en": "Meet the Speakers",
+    "hu": "Szia"
+  },
+  "delutanBios": {
+    "en": [
+      {
+        "content": "Pellentesque blandit metus vitae metus convallis mattis. Integer ac risus eu dolor.",
+        "image": "//placehold.it/100",
+        "alt": "name of speaker"
+      },
+      {
+        "content": "Convallis mattis. Integer ac risus eu dolor. Yep okay that is the one.",
+        "image": "//placehold.it/100",
+        "alt": "name of speaker 2"
+      }
+    ]
   }
 }
