@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { collect } from 'react-recollect';
 import classnames from 'classnames';
-
+import Language from './Language';
 // Use portal to render outside of rest of app
 
 function Nav({ store }) {
@@ -18,6 +18,7 @@ function Nav({ store }) {
       <Link to="./tabor" onClick={close}>
         Tabor
       </Link>
+      <Language close={close} />
     </div>
   );
 }

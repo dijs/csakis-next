@@ -32,13 +32,7 @@ export default function App() {
               component={withLang(Tabor)}
               exact
             />
-            <Route
-              title="Home"
-              path="/:lang"
-              component={withLang(Home)}
-              exact
-            />
-            <Route component={withLang(Home)} />
+            <Route title="Home" path="/:lang" component={withLang(Home)} />
           </Switch>
         </div>
       </Router>

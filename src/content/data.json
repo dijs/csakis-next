@@ -1,5 +1,6 @@
 {
   "delutanDate": "3/31/2019",
+  "delutanTitle": "Delutàn",
   "delutanFeatured": {
     "en": {
       "title": "What is Csakis Delutan?",
@@ -25,6 +26,7 @@
     }
   },
   "taborDate": "7/3/2019",
+  "taborTitle": "Tàbor",
   "taborRegister": {
     "en": "REGISTER"
   },

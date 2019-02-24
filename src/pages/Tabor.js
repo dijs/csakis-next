@@ -10,7 +10,7 @@ export default function Tabor({ lang }) {
   return (
     <div className="app">
       <div className="tabor-header section">
-        <Logo />
+        <Logo title={_.taborTitle} />
         <Countdown fromDate={_.taborDate} />
         <FeaturedText {..._.taborFeatured} />
         <button> {_.taborRegister} </button>
