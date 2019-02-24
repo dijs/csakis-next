@@ -6,6 +6,8 @@ import Tabor from './pages/Tabor';
 import Nav from './components/Nav';
 import NavToggle from './components/NavToggle';
 
+const withLang = Page => ({ match: { params } }) => <Page {...params} />;
+
 export default function App() {
   return (
     <React.Fragment>
@@ -16,8 +18,8 @@ export default function App() {
           <Switch>
             <Route
               title="Delutan"
-              path="/delutan"
-              component={() => <Delutan />}
+              path="/:lang?/delutan"
+              component={withLang(Delutan)}
               exact
             />
             <Route
