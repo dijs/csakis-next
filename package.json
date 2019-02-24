@@ -3,6 +3,7 @@
    "version": "0.1.0",
    "private": true,
    "dependencies": {
+      "node-sass": "^4.11.0",
       "react": "^16.8.3",
       "react-dom": "^16.8.3",
       "react-scripts": "2.1.5"
@@ -26,6 +27,7 @@
       "not op_mini all"
    ],
    "devDependencies": {
+      "prettier": "^1.16.4",
       "react-snap": "^1.23.0",
       "sw-precache": "^5.2.1"
    },
