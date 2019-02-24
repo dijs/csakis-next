@@ -28,8 +28,14 @@ export default function App() {
             />
             <Route
               title="Tabor"
-              path="/tabor"
+              path="/:lang?/tabor"
               component={withLang(Tabor)}
+              exact
+            />
+            <Route
+              title="Home"
+              path="/:lang"
+              component={withLang(Home)}
               exact
             />
             <Route component={withLang(Home)} />

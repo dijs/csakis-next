@@ -13,14 +13,10 @@ export default function Delutan({ lang }) {
         <div className="delutan-header section">
           <Logo />
           <Countdown fromDate={_.delutanDate} />
-          <FeaturedText
-            title={_.delutanFeaturedTextTitle}
-            subtitle={_.delutanFeaturedTextSubtitle}
-            content={_.delutanFeaturedTextContent}
-          />
+          <FeaturedText {..._.delutanFeatured} />
         </div>
         <div className="delutan-bio section">
-          <Bios title={_.delutanBiosTitle} bios={_.delutanBios} />
+          <Bios {..._.delutanBios} />
           <FeaturedText />
         </div>
       </div>
