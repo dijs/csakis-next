@@ -17,19 +17,19 @@ export default function Countdown({ fromDate }) {
   return (
     <div className="countdown">
       <div className="weeks">
-        <div className="value">{weeks}</div>
+        <div className="value">{weeks.toString().padStart(2, '0')}</div>
         <label>Weeks</label>
       </div>
       <div className="days">
-        <div className="value">{days}</div>
+        <div className="value">{days.toString().padStart(2, '0')}</div>
         <label>Days</label>
       </div>
       <div className="hours">
-        <div className="value">{hours}</div>
+        <div className="value">{hours.toString().padStart(2, '0')}</div>
         <label>Hours</label>
       </div>
       <div className="mins">
-        <div className="value">{mins}</div>
+        <div className="value">{mins.toString().padStart(2, '0')}</div>
         <label>Mins</label>
       </div>
     </div>

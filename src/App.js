@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Countdown from './components/Countdown';
 import FeaturedText from './components/FeaturedText';
+import Bios from './components/Bios';
 
 export default function App() {
   return (
@@ -10,7 +11,24 @@ export default function App() {
         <Header />
         <button>Button</button>
         <FeaturedText />
-        <Countdown fromDate="3/1/2019" />
+        <Countdown fromDate="3/31/2019" />
+        <Bios
+          title="Meet the Speakers"
+          bios={[
+            {
+              content:
+                'Pellentesque blandit metus vitae metus convallis mattis. Integer ac risus eu dolor.',
+              image: '//placehold.it/200',
+              alt: 'name of speaker'
+            },
+            {
+              content:
+                'Convallis mattis. Integer ac risus eu dolor. Yep okay that is the one.',
+              image: '//placehold.it/300',
+              alt: 'name of speaker 2'
+            }
+          ]}
+        />
       </div>
     </div>
   );
