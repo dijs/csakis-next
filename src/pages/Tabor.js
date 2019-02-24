@@ -11,7 +11,7 @@ export default function Tabor({ lang }) {
     <div className="app">
       <div className="tabor-header section">
         <Logo title={_.taborTitle} />
-        <Countdown fromDate={_.taborDate} />
+        <Countdown lang={lang} fromDate={_.taborDate} />
         <FeaturedText {..._.taborFeatured} />
         <button> {_.taborRegister} </button>
       </div>

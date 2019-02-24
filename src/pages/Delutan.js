@@ -13,7 +13,7 @@ export default function Delutan({ lang }) {
       <div className="app">
         <div className="delutan-header section">
           <Logo title={_.delutanTitle} />
-          <Countdown fromDate={_.delutanDate} />
+          <Countdown lang={lang} fromDate={_.delutanDate} />
           <FeaturedText {..._.delutanFeatured} />
         </div>
         <div className="delutan-bio section">

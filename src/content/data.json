@@ -1,4 +1,20 @@
 {
+  "weeks": {
+    "en": "Weeks",
+    "hu": "Het"
+  },
+  "days": {
+    "en": "Days",
+    "hu": "Nap"
+  },
+  "hours": {
+    "en": "Hours",
+    "hu": "Ora"
+  },
+  "mins": {
+    "en": "Mins",
+    "hu": "Perc"
+  },
   "delutanDate": "3/31/2019",
   "delutanTitle": "Delutàn",
   "delutanFeatured": {
