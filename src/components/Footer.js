@@ -1,11 +1,18 @@
 import React from 'react';
-import { ReactComponent as Img } from '../images/logo-whiteCsakis2019.svg';
+import { ReactComponent as Logo } from '../images/logo-whiteCsakis2019.svg';
+import { ReactComponent as Calendar } from '../icons/calendar.svg';
+import { ReactComponent as Location } from '../icons/location.svg';
+import { ReactComponent as Facebook } from '../icons/facebook.svg';
 
 export default function FeaturedText() {
   return (
     <div className="footer">
-      <Img />
-      <div>Cal Loc Fb</div>
+      <Logo className="logo" />
+      <div className="icons">
+        <Calendar />
+        <Location />
+        <Facebook />
+      </div>
     </div>
   );
 }
