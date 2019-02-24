@@ -6,7 +6,11 @@ import Tabor from './pages/Tabor';
 import Nav from './components/Nav';
 import NavToggle from './components/NavToggle';
 
-const withLang = Page => ({ match: { params } }) => <Page {...params} />;
+const withLang = Page => ({
+  match: {
+    params: { lang }
+  }
+}) => <Page lang={lang || 'hu'} />;
 
 export default function App() {
   return (
@@ -25,10 +29,10 @@ export default function App() {
             <Route
               title="Tabor"
               path="/tabor"
-              component={() => <Tabor />}
+              component={withLang(Tabor)}
               exact
             />
-            <Route component={Home} />
+            <Route component={withLang(Home)} />
           </Switch>
         </div>
       </Router>
