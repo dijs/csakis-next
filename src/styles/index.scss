@@ -14,6 +14,7 @@ body {
   font-family: lato, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: $dark-blue;
 }
 
 .adorn {
@@ -30,6 +31,8 @@ h1 {
   font-style: normal;
   font-size: 80px;
   line-height: 72px;
+  margin: 0;
+  text-align: center;
 }
 h2,
 .csakis-font {
@@ -37,6 +40,7 @@ h2,
   font-weight: 700;
   font-style: normal;
   font-size: 24pt;
+  text-align: center;
 }
 
 h3 {
@@ -55,25 +59,22 @@ p {
 
 .section {
   box-shadow: $dark-blue 1px 4px 9px;
+  padding: 32px 16px 32px 16px;
+  align-content: center;
+  //remeber to remove later/refactor
   background-color: $green;
 }
 
 .pill {
   background-color: $white;
   border-radius: 128px;
-  font-family: lato, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 20px;
-  padding: 10px 50px;
+  padding: 8px 32px;
 }
 
 button {
-  //box-shadow: $dark-blue 1px 4px 9px;
-  box-shadow: 0 4px 15px rgba(59, 58, 92, 0.3),
-    0 11px 23px rgba(59, 58, 92, 0.2);
+  box-shadow: 0 4px 16px rgba(59, 58, 92, 0.3), 0 8px 24px rgba(59, 58, 92, 0.2);
   border: none;
-  @extend .pill;
+  @extend p, .pill;
 }
 
 @import './countdown.scss';

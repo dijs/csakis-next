@@ -17,19 +17,19 @@ export default function Countdown({ fromDate }) {
   return (
     <div className="countdown">
       <div className="weeks">
-        <div className="value">{weeks}</div>
+        <p>{weeks}</p>
         <label>Weeks</label>
       </div>
       <div className="days">
-        <div className="value">{days}</div>
+        <p>{days}</p>
         <label>Days</label>
       </div>
       <div className="hours">
-        <div className="value">{hours}</div>
+        <p>{hours}</p>
         <label>Hours</label>
       </div>
       <div className="mins">
-        <div className="value">{mins}</div>
+        <p>{mins}</p>
         <label>Mins</label>
       </div>
     </div>

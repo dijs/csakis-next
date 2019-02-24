@@ -8,9 +8,9 @@ export default function App() {
     <div className="app">
       <div className="section">
         <Header />
-        <button>Button</button>
-        <FeaturedText />
         <Countdown fromDate="3/1/2019" />
+        <FeaturedText />
+        <button>Remove Me</button>
       </div>
     </div>
   );
