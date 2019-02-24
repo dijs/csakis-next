@@ -98,6 +98,13 @@ label {
 .delutan-header {
   background-color: $teal;
 }
+.home-header {
+  background-color: $dark-blue;
+}
+
+.home-events {
+  background-color: $light-blue;
+}
 .delutan-bio,
 .tabor-bio {
   background-color: $blue;
@@ -105,11 +112,19 @@ label {
 .tabor-header {
   background-color: $salmon;
 }
+.home-photos {
+  background-color: $yellow;
+}
 //FONT COLOR
+.home-header {
+  color: white;
+}
 .delutan-header,
 .delutan-bio,
 .tabor-header,
-.tabor-bio {
+.tabor-bio,
+.home-events,
+.home-photos {
   h1,
   h2,
   h3,
