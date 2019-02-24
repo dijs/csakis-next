@@ -8,11 +8,7 @@
   > div {
     text-align: center;
   }
-  p {
+  h4 {
     @extend .pill;
-  }
-  label {
-    font-family: adorn-bouquet, sans-serif;
-    font-size: 24px;
   }
 }

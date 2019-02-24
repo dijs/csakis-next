@@ -6,12 +6,20 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    img {
+      margin-left: 0;
+      margin-right: 8px;
+    }
     &:nth-of-type(2n) {
       flex-direction: row-reverse;
+      img {
+        margin-left: 8px;
+        margin-right: 0;
+      }
     }
   }
   img {
     border-radius: 50%;
-    max-height: 200px;
+    max-height: 100px;
   }
 }
