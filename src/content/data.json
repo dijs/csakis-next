@@ -26,11 +26,17 @@
   },
   "taborDate": "7/3/2019",
   "taborRegister": {
-    "en": "REGISTER"
+    "en": "REGISTER",
+    "hu": "REGISTER"
   },
   "taborFeatured": {
     "hu": {
-      "title": "What is the Csakis Tabor?",
+      "title": "Mi az a Csakis Tábor?",
+      "subtitle": "In Essence: Family Camp",
+      "content": "Lets escape."
+    },
+    "en": {
+      "title": "What is Csakis Tábor?",
       "subtitle": "In Essence: Family Camp",
       "content": "Lets escape."
     }
