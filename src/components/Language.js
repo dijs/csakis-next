@@ -8,6 +8,12 @@ function getParams(pathname) {
   const {
     params: { lang, page }
   } = match;
+  if (!page && !lang) {
+    return {
+      lang: 'hu',
+      page: undefined
+    };
+  }
   if (!page && lang) {
     return {
       lang: 'hu',
