@@ -90,12 +90,16 @@ label {
   padding: 32px 16px 32px 16px;
   align-content: center;
   @extend .shadow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 //BACKGROUND COLOR
 .delutan-header {
   background-color: $teal;
 }
-.delutan-bio {
+.delutan-bio,
+.tabor-bio {
   background-color: $blue;
 }
 .tabor-header {
@@ -104,14 +108,18 @@ label {
 //FONT COLOR
 .delutan-header,
 .delutan-bio,
-.tabor-header {
+.tabor-header,
+.tabor-bio {
   h1,
   h2,
   h3,
   p,
   label {
-    color: white;
+    color: $white;
   }
+}
+.tabor-header button {
+  color: $salmon;
 }
 .pill {
   background-color: $white;
@@ -125,6 +133,8 @@ label {
 }
 button {
   @extend p, .pill, .shadow;
+  width: min-content;
+  align-self: center;
 }
 
 @import './countdown.scss';
