@@ -1,12 +1,12 @@
 @import url('https://use.typekit.net/srn8psy.css');
 
 $white: #fff;
-$black: #010823;
 $yellow: #e4b254;
-$green: #3b906c;
+$teal: #3b906c;
 $orange: #ee7858;
-$blue: #56a3a0;
-$dark-blue: #313a5c;
+$light-blue: #56a3a0;
+$blue: #313a5c;
+$dark-blue: #010823;
 
 body {
   margin: 0;
@@ -14,7 +14,7 @@ body {
   font-family: lato, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: $dark-blue;
+  color: $blue;
 }
 
 .adorn {
@@ -23,7 +23,13 @@ body {
   font-style: normal;
   font-size: 32px;
 }
-
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 4px 0 4px 0;
+}
 h1 {
   @extend .adorn;
   font-family: adorn-bouquet, sans-serif;
@@ -37,7 +43,7 @@ h1 {
 h2,
 .csakis-font {
   font-family: lato, sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-style: normal;
   font-size: 24pt;
   text-align: center;
@@ -47,35 +53,66 @@ h3 {
   font-family: lato, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 20pt;
+  font-size: 16pt;
+  text-align: center;
+}
+
+h4 {
+  font-family: lato, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12pt;
+  margin: 0;
 }
 
 p {
   font-family: lato, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 16pt;
+  font-size: 12pt;
 }
 
+label {
+  font-family: adorn-bouquet, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+}
 .section {
-  box-shadow: $dark-blue 1px 4px 9px;
   padding: 32px 16px 32px 16px;
   align-content: center;
-  //remeber to remove later/refactor
-  background-color: $green;
+  @extend .shadow;
 }
-
+//BACKGROUND COLOR
+.delutan-header {
+  background-color: $teal;
+}
+.delutan-bio {
+  background-color: $blue;
+}
+//FONT COLOR
+.delutan-header,
+.delutan-bio {
+  h1,
+  h2,
+  h3,
+  p {
+    color: white;
+  }
+}
 .pill {
   background-color: $white;
   border-radius: 128px;
-  padding: 8px 32px;
+  padding: 8px 24px;
 }
 
-button {
+.shadow {
   box-shadow: 0 4px 16px rgba(59, 58, 92, 0.3), 0 8px 24px rgba(59, 58, 92, 0.2);
   border: none;
-  @extend p, .pill;
+}
+button {
+  @extend p, .pill, .shadow;
 }
 
 @import './countdown.scss';
 @import './bios.scss';
+@import './featured.scss';
