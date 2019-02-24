@@ -9,7 +9,6 @@ export default function App() {
     <div className="app">
       <div className="section">
         <Header />
-        <button>Button</button>
         <FeaturedText />
         <Countdown fromDate="3/31/2019" />
         <Bios
@@ -29,6 +28,8 @@ export default function App() {
             }
           ]}
         />
+        <FeaturedText />
+        <button>Remove Me</button>
       </div>
     </div>
   );
