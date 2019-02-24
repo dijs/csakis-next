@@ -1,0 +1,9 @@
+.footer {
+  background-color: $dark-blue;
+  color: white;
+  margin-bottom: 0;
+  @extend .shadow;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
