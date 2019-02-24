@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="app">
       <Header />
-      Body here
+      <button>Button</button>
     </div>
   );
 }
