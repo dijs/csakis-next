@@ -19,6 +19,12 @@ export default function Tabor({ lang }) {
         <Bios {..._.taborBios} />
         <FeaturedText />
       </div>
+      <div className="tabor-location section">
+        <h2> Where </h2>
+      </div>
+      <div className="tabor-details section">
+        <h2> What </h2>
+      </div>
     </div>
   );
 }

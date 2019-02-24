@@ -3,6 +3,7 @@ import Logo from '../components/Logo';
 import Countdown from '../components/Countdown';
 import FeaturedText from '../components/FeaturedText';
 import Bios from '../components/Bios';
+import Details from '../components/Details';
 import content from '../content';
 
 export default function Delutan({ lang }) {
@@ -18,6 +19,9 @@ export default function Delutan({ lang }) {
         <div className="delutan-bio section">
           <Bios {..._.delutanBios} />
           <FeaturedText />
+        </div>
+        <div className="delutan-details section">
+          <Details title="Hello" content="hi" />
         </div>
       </div>
     </div>

@@ -14,6 +14,10 @@ export default function Home() {
           subtitle="subtitle"
           content="content"
         />
+        <div className="event-buttons">
+          <button className="delutan">Délután</button>
+          <button className="tabor">Tábor</button>
+        </div>
       </div>
       <div className="home-photos section">
         <h2> Photo Gallery </h2>
