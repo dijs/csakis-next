@@ -48,15 +48,6 @@ h2,
   font-size: 16pt;
   text-align: center;
 }
-.h2-accent {
-  @extend .adorn;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 56px;
-  line-height: 64px;
-  margin: 0;
-  text-align: center;
-}
 
 h3 {
   font-family: lato, sans-serif;
@@ -95,7 +86,8 @@ label {
   justify-content: space-around;
 }
 //BACKGROUND COLOR
-.delutan-header {
+.delutan-header,
+button.delutan {
   background-color: $teal;
 }
 .home-header {
@@ -109,14 +101,18 @@ label {
 .tabor-bio {
   background-color: $blue;
 }
-.tabor-header {
+.tabor-header,
+button.tabor {
   background-color: $salmon;
 }
-.home-photos {
+.home-photos,
+.tabor-details {
   background-color: $yellow;
 }
 //FONT COLOR
-.home-header {
+.home-header,
+button.tabor,
+button.delutan {
   color: white;
 }
 .delutan-header,
@@ -131,6 +127,15 @@ label {
   p,
   label {
     color: $white;
+  }
+}
+.tabor-location {
+  h1,
+  h2,
+  h3,
+  p,
+  label {
+    color: $teal;
   }
 }
 .tabor-header button {
@@ -152,7 +157,18 @@ button {
   align-self: center;
 }
 
+button.tabor,
+button.delutan {
+  @extend .adorn;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+  text-align: center;
+}
 @import './countdown.scss';
 @import './bios.scss';
 @import './nav.scss';
 @import './featured.scss';
+@import './home.scss';
