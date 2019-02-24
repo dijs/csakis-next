@@ -22,7 +22,6 @@ export default function Delutan({ lang }) {
         <div className="delutan-bio section">
           <Bios title={_.delutanBiosTitle} bios={_.delutanBios} />
           <FeaturedText />
-          <button>Remove Me</button>
         </div>
       </div>
     </div>

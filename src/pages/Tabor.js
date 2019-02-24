@@ -15,6 +15,7 @@ export default function Tabor() {
           subtitle="In Essence: Family Camp"
           content="Lets escape."
         />
+        <button> REGISTER </button>
       </div>
       <div className="tabor-bio section">
         <Bios
