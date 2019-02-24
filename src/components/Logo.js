@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as Img } from '../images/logo-coloredCsakis2019.svg';
+import { ReactComponent as Img } from '../images/logo-coloredCsakis2019withCircle.svg';
 
 export default function Logo({ title }) {
   return (

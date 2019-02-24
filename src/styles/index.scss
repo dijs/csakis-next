@@ -167,6 +167,15 @@ button.delutan {
   margin: 0;
   text-align: center;
 }
+.home-header,
+.delutan-header,
+.tabor-header {
+  svg {
+    circle {
+      @extend .shadow;
+    }
+  }
+}
 @import './countdown.scss';
 @import './bios.scss';
 @import './nav.scss';
