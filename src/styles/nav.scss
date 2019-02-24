@@ -1,8 +1,15 @@
 .nav-toggle {
   position: fixed;
-  right: 16px;
-  top: 0px;
+  right: 8px;
+  top: 8px;
   font-size: 32px;
+  svg {
+    width: 32px;
+    height: 32px;
+  }
+  .x path {
+    fill: $teal;
+  }
 }
 
 .nav {
