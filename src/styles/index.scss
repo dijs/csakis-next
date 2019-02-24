@@ -32,14 +32,20 @@ h1 {
   @extend .adorn;
 }
 
-button {
-  border-radius: 120px;
-  box-shadow: #010823 1px 4px 9px;
+.section {
+  box-shadow: $dark-blue 1px 4px 9px;
+}
 
-  color: #3c3c3c;
+.pill {
+  border-radius: 128px;
   font-family: lato, sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
   padding: 10px 50px;
+}
+
+button {
+  box-shadow: $dark-blue 1px 4px 9px;
+  @extend .pill;
 }
