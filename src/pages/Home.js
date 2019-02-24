@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../components/Logo';
 import FeaturedText from '../components/FeaturedText';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <div className="home-events section">
         <h2> Upcoming Events </h2>
       </div>
+      <Footer />
     </div>
   );
 }
