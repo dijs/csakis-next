@@ -38,7 +38,6 @@ export default function Delutan({ lang }) {
             ]}
           />
           <FeaturedText />
-          <button>Remove Me</button>
         </div>
       </div>
     </div>
