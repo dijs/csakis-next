@@ -3,7 +3,7 @@
 $white: #fff;
 $yellow: #e4b254;
 $teal: #3b906c;
-$orange: #ee7858;
+$salmon: #ee7858;
 $light-blue: #56a3a0;
 $blue: #313a5c;
 $dark-blue: #010823;
@@ -48,6 +48,15 @@ h2,
   font-size: 24pt;
   text-align: center;
 }
+.h2-accent {
+  @extend .adorn;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 56px;
+  line-height: 64px;
+  margin: 0;
+  text-align: center;
+}
 
 h3 {
   font-family: lato, sans-serif;
@@ -89,13 +98,18 @@ label {
 .delutan-bio {
   background-color: $blue;
 }
+.tabor-header {
+  background-color: $salmon;
+}
 //FONT COLOR
 .delutan-header,
-.delutan-bio {
+.delutan-bio,
+.tabor-header {
   h1,
   h2,
   h3,
-  p {
+  p,
+  label {
     color: white;
   }
 }
