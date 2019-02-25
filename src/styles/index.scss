@@ -91,7 +91,8 @@ label {
 button.delutan {
   background-color: $teal;
 }
-.home-header {
+.home-header,
+.tabor-details button {
   background-color: $dark-blue;
 }
 
@@ -142,6 +143,9 @@ button.delutan {
 }
 .tabor-header button {
   color: $salmon;
+}
+.tabor-details button {
+  color: $yellow;
 }
 .pill {
   background-color: $white;

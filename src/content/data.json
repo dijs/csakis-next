@@ -162,5 +162,20 @@
         }
       ]
     }
-  }
+  },
+  "taborDetails": {
+    "en": {
+      "title": "What Will We Do ",
+      "content": "Place a generic summary of the program here."
+    },
+    "hu": {
+      "title": "Mit Fogunk Csinalni?",
+      "content": "content - just a summary in Hungarian"
+    }
+  },
+  "taborDetailImages": [
+    { "src": "//placehold.it/100", "alt": "text" },
+    { "src": "//placehold.it/100", "alt": "text" },
+    { "src": "//placehold.it/100", "alt": "text" }
+  ]
 }
