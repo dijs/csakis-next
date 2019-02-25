@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "echo \"No Tests\"",
     "eject": "react-scripts eject",
     "sw": "sw-precache --root=build --config=sw-precache-config.js --verbose",
     "add-domain": "echo \"csakis.net\" > build/CNAME",
