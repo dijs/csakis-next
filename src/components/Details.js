@@ -1,11 +1,15 @@
 import React from 'react';
 
-export default function Details({ title, content = [] }) {
+export default function Details({ title, content, images = [] }) {
   return (
     <div className="details">
       <h2>{title}</h2>
       <p>{content}</p>
-      <div className="image-row">image image image</div>
+      <div className="image-row">
+        {images.map(e => (
+          <img {...e} />
+        ))}
+      </div>
     </div>
   );
 }

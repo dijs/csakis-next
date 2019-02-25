@@ -1,0 +1,13 @@
+.image-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    @extend .shadow;
+  }
+}

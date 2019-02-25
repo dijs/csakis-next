@@ -114,7 +114,7 @@ button.tabor {
 .home-header,
 button.tabor,
 button.delutan {
-  color: white;
+  color: $white;
 }
 .delutan-header,
 .delutan-bio,
@@ -130,7 +130,8 @@ button.delutan {
     color: $white;
   }
 }
-.tabor-location {
+.tabor-location,
+.delutan-details {
   h1,
   h2,
   h3,
@@ -185,3 +186,4 @@ button.delutan {
 @import './footer.scss';
 @import './logo.scss';
 @import './eventcard.scss';
+@import './details.scss';

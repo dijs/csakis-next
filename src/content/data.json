@@ -95,6 +95,21 @@
       ]
     }
   },
+  "delutanDetails": {
+    "en": {
+      "title": "What Will We Do ",
+      "content": "We will begin this even at 4:00 pm. We will start with a small introduction, followed by family-friendly  worship. Then all children will be allowed to continue to their lesson while the adults stay for a lecture (begining aroung 4:45p), more worship (beginning around 5:45p). Then we will wrap up the night with a time of fellowship and discussion beginning at aroung 6:15p."
+    },
+    "hu": {
+      "title": "Mit Fogunk Csinalni?",
+      "content": "content"
+    }
+  },
+  "delutanDetailImages": [
+    { "src": "//placehold.it/100", "alt": "text" },
+    { "src": "//placehold.it/100", "alt": "text" },
+    { "src": "//placehold.it/100", "alt": "text" }
+  ],
   "taborDate": "7/3/2019",
   "taborTitle": {
     "en": "Camp",
