@@ -6,8 +6,8 @@ export default function Details({ title, content, images = [] }) {
       <h2>{title}</h2>
       <p>{content}</p>
       <div className="image-row">
-        {images.map(e => (
-          <img {...e} />
+        {images.map(({ src, alt }, index) => (
+          <img key={index} src={src} alt={alt} />
         ))}
       </div>
     </div>

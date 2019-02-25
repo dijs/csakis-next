@@ -12,8 +12,8 @@ export default function Location({ title, content, images = [] }) {
         </div>
       </div>
       <div className="image-row">
-        {images.map(e => (
-          <img {...e} />
+        {images.map(({ src, alt }) => (
+          <img key={src} src={src} alt={alt} />
         ))}
       </div>
     </div>
