@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../components/Logo';
 import FeaturedText from '../components/FeaturedText';
 import Footer from '../components/Footer';
+import Album from '../components/Album';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       </div>
       <div className="home-photos section">
         <h2> Photo Gallery </h2>
+        <Album albumId="1916057938672576" />
       </div>
       <div className="home-events section">
         <h2> Upcoming Events </h2>
