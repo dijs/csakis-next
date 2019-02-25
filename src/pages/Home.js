@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../components/Logo';
 import FeaturedText from '../components/FeaturedText';
 import Footer from '../components/Footer';
+import EventCard from '../components/EventCard';
 import content from '../content';
 
 export default function Home({ lang }) {
@@ -23,6 +24,8 @@ export default function Home({ lang }) {
       </div>
       <div className="home-events section">
         <h2> Upcoming Events </h2>
+        <EventCard />
+        <EventCard />
       </div>
       <Footer />
     </div>
