@@ -1,0 +1,13 @@
+.location .content-row {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 8px;
+  svg {
+    .cls-1 {
+      fill: $light-blue;
+    }
+    width: 80px;
+    height: 84px;
+    padding-right: 8px;
+  }
+}
