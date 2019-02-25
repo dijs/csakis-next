@@ -27,6 +27,26 @@
       "content": "CSAKIS is a movement that offers Christian families the opportunity to strengthen their relationship with God, with each other and with their children. <br /> We have been organizing events since 2016. So far we have organized 3 summer Family Christian Festivals in our local area."
     }
   },
+  "homeEventOne": {
+    "hu": {
+      "eventTitle": "Délután",
+      "description": "Az itt történő közös éneklés, előadás, tapasztalataink megosztása, szeretetvendégség mind ezt a célt szolgálják."
+    },
+    "en": {
+      "eventTitle": "Afternoon",
+      "description": "Join us for an afternoon of worship, teaching and fellowship. Childcare is provided, and lectures will be in Hungarian."
+    }
+  },
+  "homeEventTwo": {
+    "hu": {
+      "eventTitle": "Tábor",
+      "description": "Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolósásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére."
+    },
+    "en": {
+      "eventTitle": "Camp",
+      "description": "This camp, in the Balvanyos area, provides an opportunity to rest and grow in God and as a family"
+    }
+  },
   "delutanDate": "3/31/2019",
   "delutanTitle": {
     "en": "Afternoons",

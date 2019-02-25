@@ -44,6 +44,11 @@
       line-height: 24px;
     }
   }
+  .event-title {
+    @extend .adorn;
+    font-size: 29px;
+    line-height: 24px;
+  }
   &:nth-of-type(2n) {
     flex-direction: row-reverse;
     h2,

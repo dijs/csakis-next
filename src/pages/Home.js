@@ -24,8 +24,8 @@ export default function Home({ lang }) {
       </div>
       <div className="home-events section">
         <h2> Upcoming Events </h2>
-        <EventCard />
-        <EventCard />
+        <EventCard {..._.homeEventOne} />
+        <EventCard {..._.homeEventTwo} />
       </div>
       <Footer />
     </div>
