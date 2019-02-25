@@ -4,14 +4,16 @@
   align-items: center;
   .bio {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
+    width: 100%;
     img {
       margin-left: 0;
       margin-right: 8px;
     }
     &:nth-of-type(2n) {
       flex-direction: row-reverse;
+      padding-top: 8px;
       img {
         margin-left: 8px;
         margin-right: 0;
