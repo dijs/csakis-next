@@ -1,0 +1,22 @@
+.carousel {
+  li {
+    img {
+      height: 150px;
+      width: auto !important;
+      border: $white !important;
+      border-style: solid !important;
+      border-width: 8px !important;
+    }
+  }
+  .slide {
+    background: none !important;
+  }
+  button {
+    background-color: none !important;
+    box-shadow: none;
+  }
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+  background: none !important;
+}
