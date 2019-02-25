@@ -32,7 +32,7 @@ function Language({ history, close }) {
   const nextTo = `/${nextLang}/${page || ''}`;
   const nextLangName = lang === 'en' ? 'Magyar' : 'English';
   return (
-    <Link to={nextTo} onClick={close}>
+    <Link className="language" to={nextTo} onClick={close}>
       {nextLangName}
     </Link>
   );
