@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "sw": "sw-precache --root=build --config=sw-precache-config.js --verbose",
     "add-domain": "echo \"csakis.net\" > build/CNAME",
-    "postbuild": "react-snap && npm run sw && npm run add-domain"
+    "postbuild": "react-snap && npm run sw"
   },
   "eslintConfig": {
     "extends": "react-app"
