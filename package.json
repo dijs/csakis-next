@@ -2,6 +2,7 @@
   "name": "csakis",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://dijs.github.io/csakis-next",
   "dependencies": {
     "classnames": "^2.2.6",
     "node-sass": "^4.11.0",
