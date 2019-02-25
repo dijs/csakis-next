@@ -5,6 +5,7 @@ import FeaturedText from '../components/FeaturedText';
 import Bios from '../components/Bios';
 import Footer from '../components/Footer';
 import Details from '../components/Details';
+import Location from '../components/Location';
 import content from '../content';
 
 export default function Tabor({ lang }) {
@@ -22,7 +23,7 @@ export default function Tabor({ lang }) {
         <FeaturedText />
       </div>
       <div className="tabor-location section">
-        <h2> Where </h2>
+        <Location {..._.taborLocation} images={_.taborLocationImages} />
       </div>
       <div className="tabor-details section">
         <Details {..._.taborDetails} images={_.taborDetailImages} />

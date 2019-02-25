@@ -14,10 +14,10 @@ function Nav({ store }) {
       <Link to="./" onClick={close}>
         Home
       </Link>
-      <Link to="./delutan" onClick={close}>
+      <Link className="event-menu" to="./delutan" onClick={close}>
         Delutan
       </Link>
-      <Link to="./tabor" onClick={close}>
+      <Link className="event-menu" to="./tabor" onClick={close}>
         Tabor
       </Link>
       <Language close={close} />

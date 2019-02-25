@@ -177,5 +177,20 @@
     { "src": "//placehold.it/100", "alt": "text" },
     { "src": "//placehold.it/100", "alt": "text" },
     { "src": "//placehold.it/100", "alt": "text" }
+  ],
+  "taborLocation": {
+    "en": {
+      "title": "Location: Balvanyos ",
+      "content": "Place a generic summary of the program here."
+    },
+    "hu": {
+      "title": "Hol fogunk: Balvanyos ",
+      "content": "content - just a summary in Hungarian"
+    }
+  },
+  "taborLocationImages": [
+    { "src": "//placehold.it/100", "alt": "text" },
+    { "src": "//placehold.it/100", "alt": "text" },
+    { "src": "//placehold.it/100", "alt": "text" }
   ]
 }
