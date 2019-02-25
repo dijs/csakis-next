@@ -15,6 +15,38 @@
     "en": "Mins",
     "hu": "Perc"
   },
+  "homeFeatured": {
+    "hu": {
+      "title": "Mi az Csakis?",
+      "subtitle": "Családban Keresztyénként Istennel",
+      "content": "A CSAKIS egy  mozgalom, mely lehetőséget kínál keresztyén családok számára arra hogy a házastársak megerősítsék kapcsolatukat Istennel, egymással és gyermekeikkel. <br /> 2016 óta szervezünk eseményeket, ezidáig 3 alkalommal került sor Csakis Családos Keresztyén Fesztiválra a kézdivásárhelyi sportcsarnokban, idéntől Csakis délutánokkal és Családos táborral lepünk meg benneteket."
+    },
+    "en": {
+      "title": "About CSAKIS?",
+      "subtitle": "An Organization Fostoring Chirstian Growth within Families",
+      "content": "CSAKIS is a movement that offers Christian families the opportunity to strengthen their relationship with God, with each other and with their children. <br /> We have been organizing events since 2016. So far we have organized 3 summer Family Christian Festivals in our local area."
+    }
+  },
+  "homeEventOne": {
+    "hu": {
+      "eventTitle": "Délután",
+      "description": "Az itt történő közös éneklés, előadás, tapasztalataink megosztása, szeretetvendégség mind ezt a célt szolgálják."
+    },
+    "en": {
+      "eventTitle": "Afternoon",
+      "description": "Join us for an afternoon of worship, teaching and fellowship. Childcare is provided, and lectures will be in Hungarian."
+    }
+  },
+  "homeEventTwo": {
+    "hu": {
+      "eventTitle": "Tábor",
+      "description": "Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolósásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére."
+    },
+    "en": {
+      "eventTitle": "Camp",
+      "description": "This camp, in the Balvanyos area, provides an opportunity to rest and grow in God and as a family"
+    }
+  },
   "delutanDate": "3/31/2019",
   "delutanTitle": {
     "en": "Afternoons",
@@ -63,6 +95,21 @@
       ]
     }
   },
+  "delutanDetails": {
+    "en": {
+      "title": "What Will We Do ",
+      "content": "We will begin this even at 4:00 pm. We will start with a small introduction, followed by family-friendly  worship. Then all children will be allowed to continue to their lesson while the adults stay for a lecture (begining aroung 4:45p), more worship (beginning around 5:45p). Then we will wrap up the night with a time of fellowship and discussion beginning at aroung 6:15p."
+    },
+    "hu": {
+      "title": "Mit Fogunk Csinalni?",
+      "content": "content"
+    }
+  },
+  "delutanDetailImages": [
+    { "src": "//placehold.it/100", "alt": "text" },
+    { "src": "//placehold.it/100", "alt": "text" },
+    { "src": "//placehold.it/100", "alt": "text" }
+  ],
   "taborDate": "7/3/2019",
   "taborTitle": {
     "en": "Camp",
@@ -115,5 +162,20 @@
         }
       ]
     }
-  }
+  },
+  "taborDetails": {
+    "en": {
+      "title": "What Will We Do ",
+      "content": "Place a generic summary of the program here."
+    },
+    "hu": {
+      "title": "Mit Fogunk Csinalni?",
+      "content": "content - just a summary in Hungarian"
+    }
+  },
+  "taborDetailImages": [
+    { "src": "//placehold.it/100", "alt": "text" },
+    { "src": "//placehold.it/100", "alt": "text" },
+    { "src": "//placehold.it/100", "alt": "text" }
+  ]
 }

@@ -22,7 +22,7 @@ export default function Delutan({ lang }) {
           <FeaturedText />
         </div>
         <div className="delutan-details section">
-          <Details title="Hello" content="hi" />
+          <Details {..._.delutanDetails} images={_.delutanDetailImages} />
         </div>
       </div>
       <Footer />

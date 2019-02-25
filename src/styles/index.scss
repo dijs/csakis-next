@@ -23,6 +23,7 @@ body {
   font-style: normal;
   font-size: 32px;
 }
+
 h1,
 h2,
 h3,
@@ -90,7 +91,8 @@ label {
 button.delutan {
   background-color: $teal;
 }
-.home-header {
+.home-header,
+.tabor-details button {
   background-color: $dark-blue;
 }
 
@@ -113,7 +115,7 @@ button.tabor {
 .home-header,
 button.tabor,
 button.delutan {
-  color: white;
+  color: $white;
 }
 .delutan-header,
 .delutan-bio,
@@ -129,7 +131,8 @@ button.delutan {
     color: $white;
   }
 }
-.tabor-location {
+.tabor-location,
+.delutan-details {
   h1,
   h2,
   h3,
@@ -140,6 +143,9 @@ button.delutan {
 }
 .tabor-header button {
   color: $salmon;
+}
+.tabor-details button {
+  color: $yellow;
 }
 .pill {
   background-color: $white;
@@ -183,3 +189,5 @@ button.delutan {
 @import './home.scss';
 @import './footer.scss';
 @import './logo.scss';
+@import './eventcard.scss';
+@import './details.scss';

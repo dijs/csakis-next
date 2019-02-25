@@ -4,6 +4,7 @@ import Countdown from '../components/Countdown';
 import FeaturedText from '../components/FeaturedText';
 import Bios from '../components/Bios';
 import Footer from '../components/Footer';
+import Details from '../components/Details';
 import content from '../content';
 
 export default function Tabor({ lang }) {
@@ -24,7 +25,8 @@ export default function Tabor({ lang }) {
         <h2> Where </h2>
       </div>
       <div className="tabor-details section">
-        <h2> What </h2>
+        <Details {..._.taborDetails} images={_.taborDetailImages} />
+        <button>REGISTER</button>
       </div>
       <Footer />
     </div>

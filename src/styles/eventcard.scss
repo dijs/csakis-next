@@ -1,0 +1,68 @@
+.event-card {
+  margin-top: 16px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  width: calc(100%-32px);
+  background-color: $dark-blue;
+  .content {
+    padding: 8px;
+    h2,
+    h3,
+    p {
+      text-align: left;
+    }
+
+    width: 100%;
+    button {
+      width: 70%;
+      background-color: $yellow;
+      color: $dark-blue;
+      font-size: 12px;
+      margin-left: 14%;
+    }
+  }
+  .logo {
+    padding: 8px;
+    background-color: $white;
+    border-radius: 16px 0 0 16px;
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    svg {
+      .cls-1 {
+        fill: $dark-blue;
+      }
+      width: 80px;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      color: $light-blue;
+      font-size: 24px;
+      line-height: 24px;
+    }
+  }
+  .event-title {
+    @extend .adorn;
+    font-size: 29px;
+    line-height: 24px;
+  }
+  &:nth-of-type(2n) {
+    flex-direction: row-reverse;
+    h2,
+    h3,
+    p {
+      text-align: right;
+      color: $dark-blue;
+    }
+    background-color: $salmon;
+    .logo {
+      border-radius: 0 16px 16px 0;
+      h1 {
+        color: $salmon;
+      }
+    }
+  }
+}
