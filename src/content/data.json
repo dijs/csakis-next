@@ -15,6 +15,18 @@
     "en": "Mins",
     "hu": "Perc"
   },
+  "homeFeatured": {
+    "hu": {
+      "title": "Mi az Csakis?",
+      "subtitle": "Családban Keresztyénként Istennel",
+      "content": "A CSAKIS egy  mozgalom, mely lehetőséget kínál keresztyén családok számára arra hogy a házastársak megerősítsék kapcsolatukat Istennel, egymással és gyermekeikkel. <br /> 2016 óta szervezünk eseményeket, ezidáig 3 alkalommal került sor Csakis Családos Keresztyén Fesztiválra a kézdivásárhelyi sportcsarnokban, idéntől Csakis délutánokkal és Családos táborral lepünk meg benneteket."
+    },
+    "en": {
+      "title": "About CSAKIS?",
+      "subtitle": "An Organization Fostoring Chirstian Growth within Families",
+      "content": "CSAKIS is a movement that offers Christian families the opportunity to strengthen their relationship with God, with each other and with their children. <br /> We have been organizing events since 2016. So far we have organized 3 summer Family Christian Festivals in our local area."
+    }
+  },
   "delutanDate": "3/31/2019",
   "delutanTitle": {
     "en": "Afternoons",
