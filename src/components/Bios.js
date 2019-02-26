@@ -4,8 +4,10 @@ function Bio({ content, speakerName, image, alt }) {
   return (
     <div key={alt} className="bio">
       <img src={image} alt={alt} />
-      <p>{speakerName}</p>
-      <p>{content}</p>
+      <div>
+        <p className="bold">{speakerName}</p>
+        <p>{content}</p>
+      </div>
     </div>
   );
 }

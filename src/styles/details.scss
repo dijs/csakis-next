@@ -5,9 +5,12 @@
   padding-top: 8px;
   padding-bottom: 16px;
   img {
-    width: 72px;
-    height: 72px;
+    width: 88px;
+    height: 88px;
     border-radius: 50%;
     @extend .shadow;
   }
+}
+.details strong {
+  font-weight: 700;
 }

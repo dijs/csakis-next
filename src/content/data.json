@@ -30,13 +30,15 @@
       "eventTitle": "Délután",
       "eventDate": "Már. 31 @ 16:00",
       "description": "Az itt történő közös éneklés, előadás, tapasztalataink megosztása, szeretetvendégség segít a házasságunk épülésében.",
-      "buttonText": "LEARN MORE"
+      "buttonText": "LEARN MORE",
+      "buttonLink": "/delutan"
     },
     "en": {
       "eventTitle": "Afternoon",
       "eventDate": "Mar. 31 @ 4p",
       "description": "Join us for an afternoon of worship, teaching and fellowship. Childcare is provided and lectures will be in Hungarian.",
-      "buttonText": "LEARN MORE"
+      "buttonText": "LEARN MORE",
+      "buttonLink": "/en/delutan"
     }
   },
   "homeEventTwo": {
@@ -44,13 +46,15 @@
       "eventTitle": "Tábor",
       "eventDate": "Júl. 3-6",
       "description": "Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolósásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére.",
-      "buttonText": "LEARN MORE"
+      "buttonText": "LEARN MORE",
+      "buttonLink": "/tabor"
     },
     "en": {
       "eventTitle": "Camp",
       "eventDate": "Jul. 3rd-6th",
       "description": "This camp, in the Bálványos area, provides an opportunity to rest and grow in God and as a family",
-      "buttonText": "LEARN MORE"
+      "buttonText": "LEARN MORE",
+      "buttonLink": "/en/tabor"
     }
   },
   "delutanDate": "3/31/2019",
@@ -96,11 +100,11 @@
   "delutanDetails": {
     "en": {
       "title": "What Will We Do?",
-      "content": "4:00p - Introduction and Family-Friendly Worship <br /> 4:30p - Main Lecture: the Fragility of  <br /> Marriage with Pastor Geréb Géza <br /> 5:30p - Worship and Prayer Time <br /> 6:00 - Fellowship and Discussion"
+      "content": "<strong>4:00p</strong> - Introduction and Family-Friendly Worship <br /> <strong>4:30p</strong> - Main Lecture: the Fragility of  <br /> Marriage with Pastor Geréb Géza <br /> <strong>5:30p</strong> - Worship and Prayer Time <br /> <strong>6:00</strong> - Fellowship and Discussion"
     },
     "hu": {
       "title": "Program",
-      "content": "16:00 - Bevezető, dicsőités <br /> 16:30 - Eloadás: Kötődés vagy szabadság? <br /> A házassági kapcsolat törékenysége, Geréb Géza <br /> 17:30 - Dicsőités, imádság <br /> 18:00 - Szeretetvendégség"
+      "content": "<strong>16:00</strong> - Bevezető, dicsőités <br /> <strong>16:30</strong> - Eloadás: Kötődés vagy szabadság? <br /> A házassági kapcsolat törékenysége, Geréb Géza <br /> <strong>17:30</strong> - Dicsőités, imádság <br /> <strong>18:00</strong> - Szeretetvendégség"
     }
   },
   "delutanDetailImages": [
@@ -134,7 +138,7 @@
       "title": "Meet the Speakers and Counselors",
       "bios": [
         {
-          "speakerName": "Levente and Mária Horváth",
+          "speakerName": "Levente & Mária Horváth",
           "content": "Information coming soon",
           "image": "//placehold.it/100",
           "alt": "name of speaker"
@@ -180,11 +184,11 @@
   "taborDetails": {
     "en": {
       "title": "Program Summary",
-      "content": "<strong>July 3<strong><br />4:00p - Arrival and Registration<br />7:00p - Dinner<br /><strong>July 4-5<strong><br />7:00a - Workout and Prayer Time<br />8:00a - Breakfast<br />9:00a - Lecture, small groups, couple counseling and freetime<br />1:30p - lunch<br />2:30p - Lecture, couple counseling and freetime<br />5:30p - Spouse discussion time<br />6:00p - Worship with children<br />7:00p - Dinner<br /><strong>July 6<strong><br />7:00a - Workout and Prayer Time<br />8:00a - Breakfast<br />9:00a - Lecture, small groups, couple counseling and freetime<br />1:30p - lunch<br />2:30p - Lecture, couple counseling and freetime<br />5:30p - Spouse discussion time<br />6:00p - Worship with children<br />7:00p - Dinner<br />8:00p - Head home"
+      "content": "<strong>July 3</strong><br />4:00p - Arrival and Registration<br />7:00p - Dinner<br /><strong>July 4-5</strong><br />7:00a - Workout and Prayer Time<br />8:00a - Breakfast<br />9:00a - Lecture, small groups, couple counseling and freetime<br />1:30p - lunch<br />2:30p - Lecture, couple counseling and freetime<br />5:30p - Spouse discussion time<br />6:00p - Worship with children<br />7:00p - Dinner<br /><strong>July 6</strong><br />7:00a - Workout and Prayer Time<br />8:00a - Breakfast<br />9:00a - Lecture, small groups, couple counseling and freetime<br />1:30p - lunch<br />2:30p - Lecture, couple counseling and freetime<br />5:30p - Spouse discussion time<br />6:00p - Worship with children<br />7:00p - Dinner<br />8:00p - Head home"
     },
     "hu": {
       "title": "Program",
-      "content": "<strong>Július 3<strong><br />16:00 - Érkezés, regisztráció<br />19:00 - Vacsora<br/><strong>Július 4-5<strong><br/>7:00 - Torna, imaora<br />8:00 - Reggeli<br />9:00 - Előadás, kiscsoportok, mentori beszélgetés, szabadidő<br />13:30 - Ebédszünet<br />14:30 -  Előadás, mentori beszélgetés, szabadidő<br />17:30 - Házastársi megosztás<br />18:00 - Dicsőités + áhitat a gyerekekkel<br />19:00 - Vacsora<br /><strong>Július 6<strong><br/>7:00 - Torna, imaora<br />8:00 - Reggeli<br />9:00 - Előadás, kiscsoportok, mentori beszélgetés, szabadidő<br />13:30 - Ebédszünet<br />14:30 -  Előadás, mentori beszélgetés, szabadidő<br />17:30 - Házastársi megosztás<br />18:00 - Dicsőités + áhitat a gyerekekkel<br />19:00 - Vacsora<br />20:00 - Hazautazás"
+      "content": "<strong>Július 3</strong><br />16:00 - Érkezés, regisztráció<br />19:00 - Vacsora<br/><strong>Július 4-5</strong><br/>7:00 - Torna, imaora<br />8:00 - Reggeli<br />9:00 - Előadás, kiscsoportok, mentori beszélgetés, szabadidő<br />13:30 - Ebédszünet<br />14:30 -  Előadás, mentori beszélgetés, szabadidő<br />17:30 - Házastársi megosztás<br />18:00 - Dicsőités + áhitat a gyerekekkel<br />19:00 - Vacsora<br /><strong>Július 6</strong><br/>7:00 - Torna, imaora<br />8:00 - Reggeli<br />9:00 - Előadás, kiscsoportok, mentori beszélgetés, szabadidő<br />13:30 - Ebédszünet<br />14:30 -  Előadás, mentori beszélgetés, szabadidő<br />17:30 - Házastársi megosztás<br />18:00 - Dicsőités + áhitat a gyerekekkel<br />19:00 - Vacsora<br />20:00 - Hazautazás"
     }
   },
   "taborDetailImages": [

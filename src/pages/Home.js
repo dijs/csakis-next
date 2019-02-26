@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Album from '../components/Album';
 import EventCard from '../components/EventCard';
 import content from '../content';
+import { Link } from 'react-router-dom';
 
 export default function Home({ lang }) {
   const _ = content(lang);
@@ -16,8 +17,12 @@ export default function Home({ lang }) {
       <div className="home-text section">
         <FeaturedText {..._.homeFeatured} />
         <div className="event-buttons">
-          <button className="delutan">Délután</button>
-          <button className="tabor">Tábor</button>
+          <Link to="/delutan">
+            <button className="delutan">Délután</button>
+          </Link>
+          <Link to="/tabor">
+            <button className="tabor">Tábor</button>
+          </Link>
         </div>
       </div>
       <div className="home-photos section">
