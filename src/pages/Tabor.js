@@ -27,7 +27,7 @@ export default function Tabor({ lang }) {
       </div>
       <div className="tabor-details section">
         <Details {..._.taborDetails} images={_.taborDetailImages} />
-        <button>REGISTER</button>
+        <button>{_.taborRegister}</button>
       </div>
       <Footer />
     </div>

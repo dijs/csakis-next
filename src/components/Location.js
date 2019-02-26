@@ -1,13 +1,14 @@
 import React from 'react';
 import { ReactComponent as Img } from '../icons/location.svg';
 
-export default function Location({ title, content, images = [] }) {
+export default function Location({ subtitle, title, content, images = [] }) {
   return (
     <div className="location">
       <div className="content-row">
         <Img />
         <div className="content">
           <h2>{title}</h2>
+          <h3>{subtitle}</h3>
           <p>{content}</p>
         </div>
       </div>

@@ -17,12 +17,10 @@
   },
   "homeFeatured": {
     "hu": {
-      "title": "Mi a Csakis?",
       "subtitle": "Családban Keresztyénként Istennel",
       "content": "A CSAKIS egy mozgalom, mely lehetőséget kínál keresztyén családok számára arra hogy a házastársak megerősítsék kapcsolatukat Istennel, egymással és gyermekeikkel. <br /> 2016 óta szervezünk eseményeket, ezidáig 3 alkalommal került sor <em>Csakis Családos Keresztyén Fesztiválra</em> a kézdivásárhelyi sportcsarnokban, idéntől <em>Csakis délutánokkal</em> és <em>Családos táborral</em> lepünk meg benneteket."
     },
     "en": {
-      "title": "About CSAKIS?",
       "subtitle": "An Organization Fostoring Chirstian Growth within Families",
       "content": "CSAKIS is a movement that offers Christian families the opportunity to strengthen their relationship with God, with each other and with their children. <br /> We have been organizing events since 2016. So far we have organized 3 summer Family Christian Festivals in our local area."
     }
@@ -30,25 +28,29 @@
   "homeEventOne": {
     "hu": {
       "eventTitle": "Délután",
-      "eventdate": "Már. 31 @ 16:00",
-      "description": "Az itt történő közös éneklés, előadás, tapasztalataink megosztása, szeretetvendégség segít a házasságunk épülésében."
+      "eventDate": "Már. 31 @ 16:00",
+      "description": "Az itt történő közös éneklés, előadás, tapasztalataink megosztása, szeretetvendégség segít a házasságunk épülésében.",
+      "buttonText": "LEARN MORE"
     },
     "en": {
       "eventTitle": "Afternoon",
-      "eventdate": "Mar. 31 @ 4p",
-      "description": "Join us for an afternoon of worship, teaching and fellowship. Childcare is provided and lectures will be in Hungarian."
+      "eventDate": "Mar. 31 @ 4p",
+      "description": "Join us for an afternoon of worship, teaching and fellowship. Childcare is provided and lectures will be in Hungarian.",
+      "buttonText": "LEARN MORE"
     }
   },
   "homeEventTwo": {
     "hu": {
       "eventTitle": "Tábor",
-      "eventdate": "Júl. 3-6",
-      "description": "Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolósásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére."
+      "eventDate": "Júl. 3-6",
+      "description": "Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolósásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére.",
+      "buttonText": "LEARN MORE"
     },
     "en": {
       "eventTitle": "Camp",
-      "eventdate": "Jul. 3rd-6th",
-      "description": "This camp, in the Bálványos area, provides an opportunity to rest and grow in God and as a family"
+      "eventDate": "Jul. 3rd-6th",
+      "description": "This camp, in the Bálványos area, provides an opportunity to rest and grow in God and as a family",
+      "buttonText": "LEARN MORE"
     }
   },
   "delutanDate": "3/31/2019",
@@ -70,21 +72,25 @@
   "delutanBios": {
     "en": {
       "title": "Meet the Speakers",
-      "bios": {
-        "speakerName": "Geréb Géza",
-        "content": "Pastor Geréb is a father of three and works at Bonus Pastor.",
-        "image": "//placehold.it/100",
-        "alt": "Geréb Géza"
-      }
+      "bios": [
+        {
+          "speakerName": "Geréb Géza",
+          "content": "Pastor Geréb is a father of three and works at Bonus Pastor.",
+          "image": "//placehold.it/100",
+          "alt": "Geréb Géza"
+        }
+      ]
     },
     "hu": {
       "title": "Ismerd meg az előadót",
-      "bios": {
-        "speakerName": "Geréb Géza",
-        "content": "Geréb Géza lelkipásztor, a Bonus Pastor munkatársa, 3 gyermek édesapja.",
-        "image": "//placehold.it/100",
-        "alt": "Geréb Géza"
-      }
+      "bios": [
+        {
+          "speakerName": "Geréb Géza",
+          "content": "Geréb Géza lelkipásztor, a Bonus Pastor munkatársa, 3 gyermek édesapja.",
+          "image": "//placehold.it/100",
+          "alt": "Geréb Géza"
+        }
+      ]
     }
   },
   "delutanDetails": {

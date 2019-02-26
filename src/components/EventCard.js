@@ -1,7 +1,12 @@
 import React from 'react';
 import { ReactComponent as Logo } from '../images/logo-coloredCsakis2019.svg';
 
-export default function EventCard({ eventTitle, description = [] }) {
+export default function EventCard({
+  eventTitle,
+  eventDate,
+  buttonText,
+  description = []
+}) {
   return (
     <div className="event-card">
       <div className="logo">
@@ -12,9 +17,9 @@ export default function EventCard({ eventTitle, description = [] }) {
         <h2>
           CHAKIS <span className="event-title">{eventTitle}</span>
         </h2>
-        <h3> Mar 31 @ 4p</h3>
+        <h3> {eventDate}</h3>
         <p>{description}</p>
-        <button>LEARN MORE</button>
+        <button>{buttonText} </button>
       </div>
     </div>
   );
