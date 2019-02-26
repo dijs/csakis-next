@@ -209,8 +209,17 @@
     }
   },
   "taborLocationImages": [
-    { "src": "//placehold.it/100", "alt": "text" },
-    { "src": "//placehold.it/100", "alt": "text" },
-    { "src": "//placehold.it/100", "alt": "text" }
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_fill,e_art:red_rock,h_500,w_500,x_165,y_101/v1551187869/Photos%20for%202019%20web%20promotion/Istvana/52918066_576001692900044_1075576689863426048_n.png",
+      "alt": "Istvana arial view"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_fill,e_art:red_rock,h_500,w_500/v1551187862/Photos%20for%202019%20web%20promotion/Istvana/53152816_2221534428112690_2611389654120792064_n.png",
+      "alt": "Istvana pool - uszni hely"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_crop,e_art:red_rock,h_275,w_275/v1551187861/Photos%20for%202019%20web%20promotion/Istvana/52887062_2278305225553714_7730637800734720000_n.jpg",
+      "alt": "Istvana dining room"
+    }
   ]
 }
