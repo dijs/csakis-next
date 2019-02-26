@@ -9,7 +9,7 @@
   },
   "hours": {
     "en": "Hours",
-    "hu": "Ora"
+    "hu": "Óra"
   },
   "mins": {
     "en": "Mins",
@@ -17,9 +17,9 @@
   },
   "homeFeatured": {
     "hu": {
-      "title": "Mi az Csakis?",
+      "title": "Mi a Csakis?",
       "subtitle": "Családban Keresztyénként Istennel",
-      "content": "A CSAKIS egy  mozgalom, mely lehetőséget kínál keresztyén családok számára arra hogy a házastársak megerősítsék kapcsolatukat Istennel, egymással és gyermekeikkel. <br /> 2016 óta szervezünk eseményeket, ezidáig 3 alkalommal került sor Csakis Családos Keresztyén Fesztiválra a kézdivásárhelyi sportcsarnokban, idéntől Csakis délutánokkal és Családos táborral lepünk meg benneteket."
+      "content": "A CSAKIS egy mozgalom, mely lehetőséget kínál keresztyén családok számára arra hogy a házastársak megerősítsék kapcsolatukat Istennel, egymással és gyermekeikkel. <br /> 2016 óta szervezünk eseményeket, ezidáig 3 alkalommal került sor <em>Csakis Családos Keresztyén Fesztiválra</em> a kézdivásárhelyi sportcsarnokban, idéntől <em>Csakis délutánokkal</em> és <em>Családos táborral</em> lepünk meg benneteket."
     },
     "en": {
       "title": "About CSAKIS?",
@@ -30,79 +30,71 @@
   "homeEventOne": {
     "hu": {
       "eventTitle": "Délután",
-      "description": "Az itt történő közös éneklés, előadás, tapasztalataink megosztása, szeretetvendégség mind ezt a célt szolgálják."
+      "eventdate": "Már. 31 @ 16:00",
+      "description": "Az itt történő közös éneklés, előadás, tapasztalataink megosztása, szeretetvendégség segít a házasságunk épülésében."
     },
     "en": {
       "eventTitle": "Afternoon",
-      "description": "Join us for an afternoon of worship, teaching and fellowship. Childcare is provided, and lectures will be in Hungarian."
+      "eventdate": "Mar. 31 @ 4p",
+      "description": "Join us for an afternoon of worship, teaching and fellowship. Childcare is provided and lectures will be in Hungarian."
     }
   },
   "homeEventTwo": {
     "hu": {
       "eventTitle": "Tábor",
+      "eventdate": "Júl. 3-6",
       "description": "Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolósásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére."
     },
     "en": {
       "eventTitle": "Camp",
-      "description": "This camp, in the Balvanyos area, provides an opportunity to rest and grow in God and as a family"
+      "eventdate": "Jul. 3rd-6th",
+      "description": "This camp, in the Bálványos area, provides an opportunity to rest and grow in God and as a family"
     }
   },
   "delutanDate": "3/31/2019",
   "delutanTitle": {
     "en": "Afternoons",
-    "hu": "Delutàn"
+    "hu": "Délután"
   },
   "delutanFeatured": {
     "en": {
-      "title": "What are Csakis Afternoons?",
+      "eventTitle": "Afternoon",
       "subtitle": "Praise - Sermon - Fellowship",
-      "content": "We rarely have an opportunity to build our marriages. Often we get caught up in the daily toil of tasks and we do not have quality time with our spouse and/or our children. <br /> This afternoon event is dedicated to helping fostor this quality time and growth. It will be organised quarterly in Vigadó. During the lectures, we will provide separate supervision for children, where we teach them about the love of God through biblical stories."
+      "content": "We rarely have an opportunity to build our marriages. Often we get caught up in the daily toil of tasks and we do not make quality time with our spouse and/or our children. <br /> This afternoon event is dedicated to helping fostor this quality time and growth. It will be organised quarterly in Vigadó. During the lectures, we will provide separate supervision for children, where we teach them about the love of God through biblical stories."
     },
     "hu": {
-      "title": "Mi az Csakis Delutan?",
+      "eventTitle": "Délután",
       "content": "Ritkán van lehetőségunk tenni a házasságunk épüléséért, a mindennapok taposómalmában sokszor nem jut  minőségi idő  párunkra, gyermekeinkre. <br /> A CSAKIS Délután, amely negyedévente kerül megszervezésre a Vigadóban, ebben szeretne segítséget nyújtani családjaink számára.. Az itt történő közös éneklés, előadás, tapasztalataink megosztása, szeretetvendégség mind ezt a célt szolgálják. Az előadások ideje alatt gyermekeinknek külön felügyeletet biztosítunk, ahol a bibliai történeteken - és közös foglalkozásokon keresztül Isten szeretetéről tanítunk nekik."
     }
   },
   "delutanBios": {
     "en": {
       "title": "Meet the Speakers",
-      "bios": [
-        {
-          "content": "Geréb Géza",
-          "image": "//placehold.it/100",
-          "alt": "Geréb Géza"
-        },
-        {
-          "content": "Convallis mattis. Integer ac risus eu dolor. Yep okay that is the one.",
-          "image": "//placehold.it/100",
-          "alt": "name of speaker 2"
-        }
-      ]
+      "bios": {
+        "speakerName": "Geréb Géza",
+        "content": "Pastor Geréb is a father of three and works at Bonus Pastor.",
+        "image": "//placehold.it/100",
+        "alt": "Geréb Géza"
+      }
     },
     "hu": {
-      "title": "Talalkoszol a Előadások",
-      "bios": [
-        {
-          "content": "Geréb Géza",
-          "image": "//placehold.it/100",
-          "alt": "Geréb Géza"
-        },
-        {
-          "content": "Convallis mattis. Integer ac risus eu dolor. Yep okay that is the one.",
-          "image": "//placehold.it/100",
-          "alt": "name of speaker 2"
-        }
-      ]
+      "title": "Ismerd meg az előadót",
+      "bios": {
+        "speakerName": "Geréb Géza",
+        "content": "Geréb Géza lelkipásztor, a Bonus Pastor munkatársa, 3 gyermek édesapja.",
+        "image": "//placehold.it/100",
+        "alt": "Geréb Géza"
+      }
     }
   },
   "delutanDetails": {
     "en": {
-      "title": "What Will We Do ",
-      "content": "We will begin this even at 4:00 pm. We will start with a small introduction, followed by family-friendly  worship. Then all children will be allowed to continue to their lesson while the adults stay for a lecture (begining aroung 4:45p), more worship (beginning around 5:45p). Then we will wrap up the night with a time of fellowship and discussion beginning at aroung 6:15p."
+      "title": "What Will We Do?",
+      "content": "4:00p - Introduction and Family-Friendly Worship <br /> 4:30p - Main Lecture: the Fragility of  <br /> Marriage with Pastor Geréb Géza <br /> 5:30p - Worship and Prayer Time <br /> 6:00 - Fellowship and Discussion"
     },
     "hu": {
-      "title": "Mit Fogunk Csinalni?",
-      "content": "content"
+      "title": "Program",
+      "content": "16:00 - Bevezető, dicsőités <br /> 16:30 - Eloadás: Kötődés vagy szabadság? <br /> A házassági kapcsolat törékenysége, Geréb Géza <br /> 17:30 - Dicsőités, imádság <br /> 18:00 - Szeretetvendégség"
     }
   },
   "delutanDetailImages": [
@@ -121,56 +113,72 @@
   },
   "taborFeatured": {
     "hu": {
-      "title": "Mi az a Csakis Tábor?",
+      "eventTitle": "Tábor",
       "subtitle": "Tesó kurzus házaspároknak",
-      "content": "Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolósásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére. Programjaink között szerepelnek előadások, kiscsoportos beszélgetések, tanácsadás (mentori beszélgetés házaspároknak), valamint gyermekprogramok, játék, sport, kirándulás. <br /> A téborunk helyszíne: Bálványosfürdő, Istvana vendégház és táborhely <br /> Szervezők: Manna Keresztyén Egyesület és Jó Pásztor Egyesület"
+      "content": "Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolósásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére. Programjaink között szerepelnek előadások, kiscsoportos beszélgetések, tanácsadás (mentori beszélgetés házaspároknak), valamint gyermekprogramok, játék, sport, kirándulás. <br /> A táborunk helyszíne: Bálványosfürdő, Istvana vendégház és táborhely <br /> Szervezők: Manna Keresztyén Egyesület és Jó Pásztor Egyesület"
     },
     "en": {
-      "title": "What is Csakis Tábor?",
-      "subtitle": "In Essence: Family Camp",
-      "content": "This escape is a great opportunity for families to relax while building relationships with God and their family. Our schedule includes lectures, small group discussions, counseling (mentoring for married couples), children's programs, games, sports and excursions. This the Manna Christian Association and Good Shepherd Association"
+      "eventTitle": "Tábor",
+      "subtitle": "Christian Family Camp",
+      "content": "This escape is a great opportunity for families to relax while building relationships with God and their family. Our schedule includes lectures, small group discussions, counseling (mentoring for married couples), children's programs, games, sports and excursions. This is organised by the Manna Christian Association and Good Shepherd Association"
     }
   },
   "taborBios": {
     "en": {
-      "title": "Meet the Speakers",
+      "title": "Meet the Speakers and Counselors",
       "bios": [
         {
-          "content": "Pellentesque blandit metus vitae metus convallis mattis. Integer ac risus eu dolor.",
+          "speakerName": "Levente and Mária Horváth",
+          "content": "Information coming soon",
           "image": "//placehold.it/100",
           "alt": "name of speaker"
         },
         {
-          "content": "Convallis mattis. Integer ac risus eu dolor. Yep okay that is the one.",
+          "speakerName": "Information coming soon",
+          "content": "Information coming soon",
           "image": "//placehold.it/100",
-          "alt": "name of speaker 2"
+          "alt": "name of speaker"
+        },
+        {
+          "speakerName": "Information coming soon",
+          "content": "Information coming soon",
+          "image": "//placehold.it/100",
+          "alt": "name of speaker"
         }
       ]
     },
     "hu": {
-      "title": "Meet the Speakers",
+      "title": "Ismerd meg az előadókat ",
       "bios": [
         {
-          "content": "Pellentesque blandit metus vitae metus convallis mattis. Integer ac risus eu dolor.",
+          "speakerName": "Horváth Levente és Mária",
+          "content": "Részletek hamarosan",
           "image": "//placehold.it/100",
           "alt": "name of speaker"
         },
         {
-          "content": "Convallis mattis. Integer ac risus eu dolor. Yep okay that is the one.",
+          "speakerName": "Részletek hamarosan",
+          "content": "Részletek hamarosan",
           "image": "//placehold.it/100",
-          "alt": "name of speaker 2"
+          "alt": "name of speaker"
+        },
+        {
+          "speakerName": "Részletek hamarosan",
+          "content": "Részletek hamarosan",
+          "image": "//placehold.it/100",
+          "alt": "name of speaker"
         }
       ]
     }
   },
   "taborDetails": {
     "en": {
-      "title": "What Will We Do ",
-      "content": "Place a generic summary of the program here."
+      "title": "Program Summary",
+      "content": "<strong>July 3<strong><br />4:00p - Arrival and Registration<br />7:00p - Dinner<br /><strong>July 4-5<strong><br />7:00a - Workout and Prayer Time<br />8:00a - Breakfast<br />9:00a - Lecture, small groups, couple counseling and freetime<br />1:30p - lunch<br />2:30p - Lecture, couple counseling and freetime<br />5:30p - Spouse discussion time<br />6:00p - Worship with children<br />7:00p - Dinner<br /><strong>July 6<strong><br />7:00a - Workout and Prayer Time<br />8:00a - Breakfast<br />9:00a - Lecture, small groups, couple counseling and freetime<br />1:30p - lunch<br />2:30p - Lecture, couple counseling and freetime<br />5:30p - Spouse discussion time<br />6:00p - Worship with children<br />7:00p - Dinner<br />8:00p - Head home"
     },
     "hu": {
-      "title": "Mit Fogunk Csinalni?",
-      "content": "content - just a summary in Hungarian"
+      "title": "Program",
+      "content": "<strong>Július 3<strong><br />16:00 - Érkezés, regisztráció<br />19:00 - Vacsora<br/><strong>Július 4-5<strong><br/>7:00 - Torna, imaora<br />8:00 - Reggeli<br />9:00 - Előadás, kiscsoportok, mentori beszélgetés, szabadidő<br />13:30 - Ebédszünet<br />14:30 -  Előadás, mentori beszélgetés, szabadidő<br />17:30 - Házastársi megosztás<br />18:00 - Dicsőités + áhitat a gyerekekkel<br />19:00 - Vacsora<br /><strong>Július 6<strong><br/>7:00 - Torna, imaora<br />8:00 - Reggeli<br />9:00 - Előadás, kiscsoportok, mentori beszélgetés, szabadidő<br />13:30 - Ebédszünet<br />14:30 -  Előadás, mentori beszélgetés, szabadidő<br />17:30 - Házastársi megosztás<br />18:00 - Dicsőités + áhitat a gyerekekkel<br />19:00 - Vacsora<br />20:00 - Hazautazás"
     }
   },
   "taborDetailImages": [
@@ -180,12 +188,14 @@
   ],
   "taborLocation": {
     "en": {
-      "title": "Location: Balvanyos ",
-      "content": "Place a generic summary of the program here."
+      "title": "Location: Bálványos",
+      "subtitle": "Istvana guesthouse and campground ",
+      "content": "This high quality location provides a relaxing place with rooms, apartments, a swiming pool, great views of the mountainous area, fresh air and good food."
     },
     "hu": {
-      "title": "Hol fogunk: Balvanyos ",
-      "content": "content - just a summary in Hungarian"
+      "title": "Hely: Bálványos",
+      "subtitle": "Istvana vendégház és táborhely ",
+      "content": "Az Istvana vendégházban apartmanok, 2-3 szobás ágyak,  felújított fürdőszobával ellátott házikók várják vendégeiket. A festői környezet, a friss levegő, a finom ételek mind biztosítottak. "
     }
   },
   "taborLocationImages": [
