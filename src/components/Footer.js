@@ -15,7 +15,7 @@ export default function FeaturedText() {
         <a href="https://csakis.net">
           <Information />
         </a>
-        <a href="mailto:">
+        <a href="mailto:csakisromania@gmail.com">
           <Mail />
         </a>
         <a
