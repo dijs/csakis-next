@@ -4,14 +4,10 @@ import FeaturedText from '../components/FeaturedText';
 import Footer from '../components/Footer';
 import Album from '../components/Album';
 import EventCard from '../components/EventCard';
-import NoMatch from '../components/NoMatch';
 import content from '../content';
 import { Link } from 'react-router-dom';
 
 export default function Home({ lang }) {
-  if (lang !== 'en' && lang !== 'hu') {
-    return <NoMatch />;
-  }
   const _ = content(lang);
   return (
     <div>

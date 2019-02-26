@@ -44,7 +44,17 @@ export default function App() {
             <Route
               title="Home"
               path="/:lang?"
-              component={withLang(withNav(Home))}
+              component={({
+                match: {
+                  params: { lang }
+                }
+              }) => {
+                if (lang !== undefined && lang !== 'en' && lang !== 'hu') {
+                  return <NoMatch />;
+                } else {
+                  return withNav(() => <Home lang={lang || 'hu'} />)();
+                }
+              }}
               exact
             />
             <Route component={NoMatch} />
