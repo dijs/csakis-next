@@ -12,6 +12,14 @@ const withLang = Page => ({
   }
 }) => <Page lang={lang || 'hu'} />;
 
+const NoMatch = ({ location }) => (
+  <div>
+    <h3>
+      No match for <code>{location.pathname}</code>
+    </h3>
+  </div>
+);
+
 export default function App() {
   return (
     <React.Fragment>
@@ -32,7 +40,25 @@ export default function App() {
               component={withLang(Tabor)}
               exact
             />
-            <Route title="Home" path="/:lang?" component={withLang(Home)} />
+            <Route
+              title="Home"
+              path="/"
+              component={() => <Home lang="hu" />}
+              exact
+            />
+            <Route
+              title="Home"
+              path="/en"
+              component={() => <Home lang="en" />}
+              exact
+            />
+            <Route
+              title="Home"
+              path="/hu"
+              component={() => <Home lang="hu" />}
+              exact
+            />
+            <Route component={NoMatch} />
           </Switch>
         </div>
       </Router>

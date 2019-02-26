@@ -15,6 +15,12 @@ function getParams(pathname) {
     };
   }
   if (!page && lang) {
+    if (['en', 'hu'].includes(lang)) {
+      return { lang };
+    }
+    if (!['tabor', 'delutan'].includes(lang)) {
+      return null;
+    }
     return {
       lang: 'hu',
       page: lang
@@ -27,7 +33,9 @@ function getParams(pathname) {
 }
 
 function Language({ history, close }) {
-  const { lang, page } = getParams(history.location.pathname);
+  const params = getParams(history.location.pathname);
+  if (!params) return null;
+  const { lang, page } = params;
   const nextLang = lang === 'en' ? 'hu' : 'en';
   const nextTo = `/${nextLang}/${page || ''}`;
   const nextLangName = lang === 'en' ? 'Magyar' : 'English';

@@ -38,7 +38,7 @@
     "sw-precache": "^5.2.1"
   },
   "reactSnap": {
-    "skipThirdPartyRequests": true,
+    "skipThirdPartyRequests": false,
     "inlineCss": true
   }
 }

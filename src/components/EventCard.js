@@ -7,7 +7,7 @@ export default function EventCard({
   eventDate,
   buttonText,
   description,
-  buttonLink = []
+  buttonLink
 }) {
   return (
     <div className="event-card">
@@ -22,7 +22,7 @@ export default function EventCard({
         <h3> {eventDate}</h3>
         <p>{description}</p>
         <Link to={buttonLink}>
-          <button>{buttonText} </button>
+          <button>{buttonText}</button>
         </Link>
       </div>
     </div>
