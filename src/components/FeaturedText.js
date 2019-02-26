@@ -5,7 +5,7 @@ export default function FeaturedText({ title, subtitle, content = [] }) {
     <div className="featured">
       <h2>{title}</h2>
       <h3>{subtitle}</h3>
-      <p className="content">{content}</p>
+      <p className="content" dangerouslySetInnerHTML={{ __html: content }} />
     </div>
   );
 }

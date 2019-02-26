@@ -2,6 +2,7 @@
   "name": "csakis",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://dijs.github.io/csakis-next",
   "dependencies": {
     "classnames": "^2.2.6",
     "node-sass": "^4.11.0",
@@ -16,11 +17,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "echo \"No Tests\"",
     "eject": "react-scripts eject",
     "sw": "sw-precache --root=build --config=sw-precache-config.js --verbose",
     "add-domain": "echo \"csakis.net\" > build/CNAME",
-    "postbuild": "react-snap && npm run sw && npm run add-domain"
+    "postbuild": "react-snap && npm run sw"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -15,7 +15,7 @@ const withLang = Page => ({
 export default function App() {
   return (
     <React.Fragment>
-      <Router>
+      <Router basename="/csakis-next">
         <div>
           <Nav />
           <NavToggle />
