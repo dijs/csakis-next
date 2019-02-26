@@ -1,28 +1,45 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import { collect } from 'react-recollect';
 import classnames from 'classnames';
-import Language from './Language';
+
+function Language({ pathname, lang, close }) {
+  let to =
+    lang === 'en' ? pathname.replace('en', 'hu') : pathname.replace('hu', 'en');
+  if (to === '/') {
+    to = lang === 'en' ? '/hu' : '/en';
+  }
+  return (
+    <Link className="language" to={to} onClick={close}>
+      {lang === 'en' ? 'Magyar' : 'English'}
+    </Link>
+  );
+}
 
 // Use portal to render outside of rest of app
 // Add blur overlay to rest of page...
-
-function Nav({ store }) {
+function Nav({
+  store,
+  location: { pathname },
+  match: {
+    params: { lang = 'hu' }
+  }
+}) {
   const close = () => (store.open = false);
   return (
     <div className={classnames('nav', { open: store.open })}>
-      <Link to="./" onClick={close}>
+      <Link to={`/${lang}/`} onClick={close}>
         Home
       </Link>
-      <Link className="event-menu" to="./delutan" onClick={close}>
+      <Link className="event-menu" to={`/${lang}/delutan`} onClick={close}>
         Delutan
       </Link>
-      <Link className="event-menu" to="./tabor" onClick={close}>
+      <Link className="event-menu" to={`/${lang}/tabor`} onClick={close}>
         Tabor
       </Link>
-      <Language close={close} />
+      <Language pathname={pathname} lang={lang} close={close} />
     </div>
   );
 }
 
-export default collect(Nav);
+export default withRouter(collect(Nav));

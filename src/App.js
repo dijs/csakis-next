@@ -5,6 +5,7 @@ import Delutan from './pages/Delutan';
 import Tabor from './pages/Tabor';
 import Nav from './components/Nav';
 import NavToggle from './components/NavToggle';
+import NoMatch from './components/NoMatch';
 
 const withLang = Page => ({
   match: {
@@ -12,50 +13,38 @@ const withLang = Page => ({
   }
 }) => <Page lang={lang || 'hu'} />;
 
-const NoMatch = ({ location }) => (
-  <div>
-    <h3>
-      No match for <code>{location.pathname}</code>
-    </h3>
-  </div>
-);
+const withNav = Page => {
+  return props => (
+    <div>
+      <Nav />
+      <NavToggle />
+      <Page {...props} />
+    </div>
+  );
+};
 
 export default function App() {
   return (
     <React.Fragment>
       <Router basename="/csakis-next">
         <div>
-          <Nav />
-          <NavToggle />
           <Switch>
             <Route
               title="Delutan"
               path="/:lang?/delutan"
-              component={withLang(Delutan)}
+              component={withLang(withNav(Delutan))}
               exact
             />
             <Route
               title="Tabor"
               path="/:lang?/tabor"
-              component={withLang(Tabor)}
+              component={withLang(withNav(Tabor))}
               exact
             />
             <Route
               title="Home"
-              path="/"
-              component={() => <Home lang="hu" />}
-              exact
-            />
-            <Route
-              title="Home"
-              path="/en"
-              component={() => <Home lang="en" />}
-              exact
-            />
-            <Route
-              title="Home"
-              path="/hu"
-              component={() => <Home lang="hu" />}
+              path="/:lang?"
+              component={withLang(withNav(Home))}
               exact
             />
             <Route component={NoMatch} />
