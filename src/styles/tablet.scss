@@ -8,7 +8,7 @@
   }
   h4,
   p {
-    font-size: 18pt;
+    font-size: 20pt;
   }
   .home-header {
     .logo svg {
@@ -23,6 +23,19 @@
     font-size: 36px;
     line-height: 45px;
     padding: 16px 36px 16px 36px;
+  }
+  .nav {
+    a {
+      font-size: 30px;
+    }
+    .language {
+      font-size: 32px;
+      font-weight: 300;
+    }
+    .event-menu {
+      font-size: 48px;
+      line-height: 48px;
+    }
   }
   .home-header {
     .section {
@@ -63,6 +76,53 @@
     button {
       margin-top: 16px;
       font-size: 24px !important;
+    }
+  }
+  .countdown {
+    h4 {
+      font-size: 32px;
+      padding: 16px 46px;
+      margin-bottom: 24px;
+    }
+    label {
+      font-size: 56px;
+      line-height: 56px;
+    }
+    margin-bottom: 24px;
+  }
+  .bio img {
+    max-width: 304px;
+    max-height: 304px;
+  }
+  .delutan-header,
+  .tabor-header {
+    .logo {
+      svg {
+        height: 200px;
+        width: 184px;
+      }
+      h1 {
+        font-size: 96pt;
+        line-height: 200px;
+      }
+    }
+  }
+  .delutan-details,
+  .tabor-details,
+  .tabor-location {
+    padding: 36px 48px;
+    img {
+      width: 196px;
+      height: 196px;
+    }
+  }
+  .location .content-row .content {
+    width: 80%;
+  }
+  .tabor-header,
+  .tabor-details {
+    button {
+      margin-top: 32px;
     }
   }
   .footer {

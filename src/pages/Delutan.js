@@ -9,6 +9,11 @@ import content from '../content';
 
 export default function Delutan({ lang }) {
   const _ = content(lang);
+  /*
+  <div className="delutan-bio section">
+    <Bios {..._.delutanBios} />
+  </div>
+  */
   return (
     <div>
       <div className="app">
@@ -17,10 +22,7 @@ export default function Delutan({ lang }) {
           <Countdown lang={lang} fromDate={_.delutanDate} />
           <FeaturedText {..._.delutanFeatured} />
         </div>
-        <div className="delutan-bio section">
-          <Bios {..._.delutanBios} />
-          <FeaturedText />
-        </div>
+
         <div className="delutan-details section">
           <Details {..._.delutanDetails} images={_.delutanDetailImages} />
         </div>
