@@ -129,8 +129,17 @@ button.delutan {
     color: $white;
   }
 }
-.tabor-location,
+
 .delutan-details {
+  h1,
+  h2,
+  h3,
+  p,
+  label {
+    color: $blue;
+  }
+}
+.tabor-location {
   h1,
   h2,
   h3,
