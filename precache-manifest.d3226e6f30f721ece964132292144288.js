@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/csakis-next/static/media/information.b9d866e4.svg"
   },
   {
-    "revision": "d5e00c48d5e631833203",
-    "url": "/csakis-next/static/css/main.6c301d46.chunk.css"
+    "revision": "6d7a552202b5bdea10ad",
+    "url": "/csakis-next/static/css/main.0c583597.chunk.css"
   },
   {
     "revision": "208188a91c8d4c32b23e",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/csakis-next/static/media/photo-gallery.63443714.svg"
   },
   {
-    "revision": "d5e00c48d5e631833203",
-    "url": "/csakis-next/static/js/main.d5e00c48.chunk.js"
+    "revision": "6d7a552202b5bdea10ad",
+    "url": "/csakis-next/static/js/main.6d7a5522.chunk.js"
   },
   {
     "revision": "7d01ed2408017e4dd87d23b9acad3c7a",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/csakis-next/static/css/2.0401954f.chunk.css"
   },
   {
-    "revision": "93929771c69fafb460bedf8fdea045f3",
+    "revision": "fe6fee0f62150b604a5d2d871bcc0171",
     "url": "/csakis-next/index.html"
   }
 ];
