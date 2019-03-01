@@ -4,22 +4,13 @@
   align-items: center;
   .bio {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
-    text-align: right;
+    text-align: center;
     img {
-      margin-left: 0;
-      margin-right: 8px;
-    }
-    &:nth-of-type(2n) {
-      flex-direction: row-reverse;
-      padding-top: 8px;
-      text-align: left;
-      img {
-        margin-left: 8px;
-        margin-right: 0;
-      }
+      align-self: center;
+      margin: 8px;
+      border: $white 8px solid;
     }
   }
   .bold {
@@ -27,6 +18,7 @@
   }
   img {
     border-radius: 50%;
-    max-height: 100px;
+    max-height: 200px;
+    max-width: 200px;
   }
 }
