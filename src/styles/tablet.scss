@@ -2,4 +2,42 @@
   h2 {
     font-size: 24pt;
   }
+  h3 {
+    font-size: 20pt;
+    font-weight: 400;
+  }
+  h4,
+  p {
+    font-size: 16pt;
+  }
+  .home-header {
+    .logo svg {
+      height: 300px !important;
+      width: 300px !important;
+    }
+  }
+  button.tabor,
+  button.delutan {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 36px;
+    line-height: 45px;
+    padding: 16px 36px 16px 36px;
+  }
+  .home-header {
+    .section {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+  }
+  .section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .album {
+    margin-top: 16px;
+    .carousel li img {
+      height: 250px;
+    }
+  }
 }
