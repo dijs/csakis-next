@@ -40,4 +40,16 @@
       height: 250px;
     }
   }
+  .event-card {
+    .event-title {
+      font-size: 48px;
+    }
+    .logo svg {
+      width: 148px;
+      height: 140px;
+    }
+    button {
+      font-size: 24px !important;
+    }
+  }
 }
