@@ -17,7 +17,7 @@ export default function EventCard({
       </div>
       <div className="content">
         <h2>
-          CHAKIS <span className="event-title">{eventTitle}</span>
+          CSAKIS <span className="event-title">{eventTitle}</span>
         </h2>
         <h3> {eventDate}</h3>
         <p>{description}</p>
