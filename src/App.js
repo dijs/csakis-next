@@ -26,7 +26,7 @@ const withNav = Page => {
 export default function App() {
   return (
     <React.Fragment>
-      <Router basename="/csakis-next">
+      <Router>
         <div>
           <Switch>
             <Route
