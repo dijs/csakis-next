@@ -1,14 +1,14 @@
 @media screen and (min-width: 768px) {
   h2 {
-    font-size: 24pt;
+    font-size: 32pt;
   }
   h3 {
-    font-size: 20pt;
+    font-size: 24pt;
     font-weight: 400;
   }
   h4,
   p {
-    font-size: 16pt;
+    font-size: 18pt;
   }
   .home-header {
     .logo svg {
@@ -41,14 +41,27 @@
     }
   }
   .event-card {
+    margin: 16px;
     .event-title {
-      font-size: 48px;
+      font-size: 56px;
     }
-    .logo svg {
-      width: 148px;
-      height: 140px;
+    .content {
+      padding: 24px;
+    }
+    .logo {
+      padding-left: 24px;
+      padding-right: 24px;
+      h1 {
+        font-size: 48px;
+        line-height: 32px;
+      }
+      svg {
+        width: 148px;
+        height: 140px;
+      }
     }
     button {
+      margin-top: 16px;
       font-size: 24px !important;
     }
   }
