@@ -26,11 +26,11 @@ export default function Home({ lang }) {
         </div>
       </div>
       <div className="home-photos section">
-        <h2> Photo Gallery </h2>
+        <h2> {_.homePhotoTitle} </h2>
         <Album albumId="1916057938672576" />
       </div>
       <div className="home-events section">
-        <h2> Upcoming Events </h2>
+        <h2> {_.homeEventTitle} </h2>
         <EventCard {..._.homeEventOne} />
         <EventCard {..._.homeEventTwo} />
       </div>

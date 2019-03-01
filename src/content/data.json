@@ -25,6 +25,14 @@
       "content": "CSAKIS is a movement that offers Christian families the opportunity to strengthen their relationship with God, with each other and with their children. <br /> We have been organizing events since 2016. So far we have organized 3 summer Family Christian Festivals in our local area."
     }
   },
+  "homePhotoTitle": {
+    "en": "Photos",
+    "hu": "Fotók"
+  },
+  "homeEventTitle": {
+    "en": "Upcoming Events",
+    "hu": " Közelgő Események"
+  },
   "homeEventOne": {
     "hu": {
       "eventTitle": "Délután",
