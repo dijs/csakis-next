@@ -8,6 +8,19 @@ import Details from '../components/Details';
 import Location from '../components/Location';
 import content from '../content';
 
+function Register({ text }) {
+  return (
+    <a
+      className="register"
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://goo.gl/forms/ZZa9zxQz4thEaaHI2"
+    >
+      <button>{text} </button>
+    </a>
+  );
+}
+
 export default function Tabor({ lang }) {
   const _ = content(lang);
   return (
@@ -16,7 +29,7 @@ export default function Tabor({ lang }) {
         <Logo title={_.taborTitle} />
         <Countdown lang={lang} fromDate={_.taborDate} />
         <FeaturedText {..._.taborFeatured} />
-        <button> {_.taborRegister} </button>
+        <Register text={_.taborRegister} />
       </div>
       <div className="tabor-bio section">
         <Bios {..._.taborBios} />
@@ -27,7 +40,7 @@ export default function Tabor({ lang }) {
       </div>
       <div className="tabor-details section">
         <Details {..._.taborDetails} images={_.taborDetailImages} />
-        <button>{_.taborRegister}</button>
+        <Register text={_.taborRegister} />
       </div>
       <Footer />
     </div>

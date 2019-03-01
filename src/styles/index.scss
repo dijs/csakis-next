@@ -189,6 +189,12 @@ button.delutan {
     }
   }
 }
+
+.section .register {
+  display: block;
+  text-align: center;
+}
+
 @import './countdown.scss';
 @import './bios.scss';
 @import './nav.scss';
