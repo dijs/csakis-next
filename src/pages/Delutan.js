@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../components/Logo';
 import Countdown from '../components/Countdown';
 import FeaturedText from '../components/FeaturedText';
-import Bios from '../components/Bios';
+// import Bios from '../components/Bios';
 import Details from '../components/Details';
 import Footer from '../components/Footer';
 import content from '../content';
