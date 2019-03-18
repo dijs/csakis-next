@@ -36,14 +36,14 @@
   "homeEventOne": {
     "hu": {
       "eventTitle": "Délután",
-      "eventDate": "Már. 31 @ 16:00",
+      "eventDate": "Már. 31 @ 16:00 | Vígadó Művelődési Ház kisterme",
       "description": "Az itt történő közös éneklés, előadás, tapasztalataink megosztása, szeretetvendégség segít a házasságunk épülésében.",
       "buttonText": "TUDJ MEG TÖBBET",
       "buttonLink": "/delutan"
     },
     "en": {
       "eventTitle": "Afternoon",
-      "eventDate": "Mar. 31 @ 4p",
+      "eventDate": "Mar. 31 @ 4p | Location: Vígadó Művelődési Ház kisterme",
       "description": "Join us for an afternoon of worship, teaching and fellowship. Childcare is provided and lectures will be in Hungarian.",
       "buttonText": "LEARN MORE",
       "buttonLink": "/en/delutan"
@@ -74,11 +74,11 @@
     "en": {
       "eventTitle": "Afternoon",
       "subtitle": "Praise - Sermon - Fellowship",
-      "content": "We rarely have an opportunity to build our marriages. Often we get caught up in the daily toil of tasks and we do not make quality time with our spouse and/or our children. <br /> This afternoon event is dedicated to helping fostor this quality time and growth. It will be organised quarterly in Vigadó. During the lectures, we will provide separate supervision for children, where we teach them about the love of God through biblical stories."
+      "content": "<strong>Mar. 31 @ 4:00pm<br /> Location: Vígadó Művelődési Ház Kisterme</strong> <br />We rarely have an opportunity to build our marriages. Often we get caught up in the daily toil of tasks and we do not make quality time with our spouse and/or our children. <br /> This afternoon event is dedicated to helping fostor this quality time and growth. It will be organised quarterly in Vigadó. During the lectures, we will provide separate supervision for children, where we teach them about the love of God through biblical stories."
     },
     "hu": {
       "eventTitle": "Délután",
-      "content": "Ritkán van lehetőségunk tenni a házasságunk épüléséért, a mindennapok taposómalmában sokszor nem jut  minőségi idő  párunkra, gyermekeinkre. <br /> A CSAKIS Délután, amely negyedévente kerül megszervezésre a Vigadóban, ebben szeretne segítséget nyújtani családjaink számára.. Az itt történő közös éneklés, előadás, tapasztalataink megosztása, szeretetvendégség mind ezt a célt szolgálják. Az előadások ideje alatt gyermekeinknek külön felügyeletet biztosítunk, ahol a bibliai történeteken - és közös foglalkozásokon keresztül Isten szeretetéről tanítunk nekik."
+      "content": "<strong>Márc. 31 @ 16:00<br />Vígadó Művelődési Ház Kisterme</strong> <br />Ritkán van lehetőségunk tenni a házasságunk épüléséért, a mindennapok taposómalmában sokszor nem jut  minőségi idő  párunkra, gyermekeinkre. <br /> A CSAKIS Délután, amely negyedévente kerül megszervezésre a Vigadóban, ebben szeretne segítséget nyújtani családjaink számára.. Az itt történő közös éneklés, előadás, tapasztalataink megosztása, szeretetvendégség mind ezt a célt szolgálják. Az előadások ideje alatt gyermekeinknek külön felügyeletet biztosítunk, ahol a bibliai történeteken - és közös foglalkozásokon keresztül Isten szeretetéről tanítunk nekik."
     }
   },
   "delutanBios": {
