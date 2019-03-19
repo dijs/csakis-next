@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b9d866e4f8d1528f0a106bd76a35722a",
-    "url": "/static/media/information.b9d866e4.svg"
+    "revision": "634437141ddee7eea11acaaee4b973cc",
+    "url": "/static/media/photo-gallery.63443714.svg"
   },
   {
-    "revision": "036e4cd382d82cbc5e30",
-    "url": "/static/css/main.6f5d90f1.chunk.css"
+    "revision": "0a1325366d82ff7eb961",
+    "url": "/static/css/main.578894de.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -16,8 +16,12 @@ self.__precacheManifest = [
     "url": "/static/media/delete-ex.ecc55595.svg"
   },
   {
-    "revision": "6adef330fe49d9ffb3bb",
-    "url": "/static/js/2.6adef330.chunk.js"
+    "revision": "b26425d319c32f2ae280",
+    "url": "/static/js/2.b26425d3.chunk.js"
+  },
+  {
+    "revision": "d0cb7899b3299c30e37aeb0e6e1543cc",
+    "url": "/static/media/bonus-pastor.d0cb7899.png"
   },
   {
     "revision": "c00223632a33a6bcbdc42f2b6777744a",
@@ -28,12 +32,12 @@ self.__precacheManifest = [
     "url": "/static/media/logo-whiteCsakis2019.28e93a4d.svg"
   },
   {
-    "revision": "634437141ddee7eea11acaaee4b973cc",
-    "url": "/static/media/photo-gallery.63443714.svg"
+    "revision": "0a1325366d82ff7eb961",
+    "url": "/static/js/main.0a132536.chunk.js"
   },
   {
-    "revision": "036e4cd382d82cbc5e30",
-    "url": "/static/js/main.036e4cd3.chunk.js"
+    "revision": "b9d866e4f8d1528f0a106bd76a35722a",
+    "url": "/static/media/information.b9d866e4.svg"
   },
   {
     "revision": "7d01ed2408017e4dd87d23b9acad3c7a",
@@ -56,11 +60,11 @@ self.__precacheManifest = [
     "url": "/static/media/three-dot-menu.4c36debe.svg"
   },
   {
-    "revision": "6adef330fe49d9ffb3bb",
+    "revision": "b26425d319c32f2ae280",
     "url": "/static/css/2.0401954f.chunk.css"
   },
   {
-    "revision": "a0e8b86f143e61141478698292b7118f",
+    "revision": "d2ed07516bb9ddd4aaef924f91a283eb",
     "url": "/index.html"
   }
 ];
