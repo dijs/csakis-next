@@ -6,6 +6,7 @@ import Bios from '../components/Bios';
 import Footer from '../components/Footer';
 import Details from '../components/Details';
 import Location from '../components/Location';
+import BonusPastorLogo from '../images/bonus-pastor.png';
 import content from '../content';
 
 function Register({ text }) {
@@ -30,6 +31,10 @@ export default function Tabor({ lang }) {
         <Countdown lang={lang} fromDate={_.taborDate} />
         <FeaturedText {..._.taborFeatured} />
         <Register text={_.taborRegister} />
+      </div>
+      <div className="partner section">
+        <img src={BonusPastorLogo} alt="bonus-pastor-logo" />
+        <h2>Partner</h2>
       </div>
       <div className="tabor-bio section">
         <Bios {..._.taborBios} />

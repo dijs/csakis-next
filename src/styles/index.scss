@@ -195,6 +195,22 @@ button.delutan {
   text-align: center;
 }
 
+.partner {
+  display: flex;
+  flex-direction: row-reverse;
+  //width: 100%;
+  justify-content: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  h2 {
+    color: #994d54;
+    padding-top: 42px;
+  }
+}
 @import './countdown.scss';
 @import './bios.scss';
 @import './nav.scss';
