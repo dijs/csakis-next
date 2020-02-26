@@ -17,11 +17,8 @@ export default function Home({ lang }) {
       <div className="home-text section">
         <FeaturedText {..._.homeFeatured} />
         <div className="event-buttons">
-          <Link to="/delutan">
-            <button className="delutan">Délután</button>
-          </Link>
           <Link to="/tabor">
-            <button className="tabor">Tábor</button>
+            <button className="tabor">{_.taborTitle}</button>
           </Link>
         </div>
       </div>
@@ -31,7 +28,6 @@ export default function Home({ lang }) {
       </div>
       <div className="home-events section">
         <h2> {_.homeEventTitle} </h2>
-        <EventCard {..._.homeEventOne} />
         <EventCard {..._.homeEventTwo} />
       </div>
       <Footer />

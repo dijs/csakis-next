@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import { collect } from 'react-recollect';
 import classnames from 'classnames';
+import content from '../content';
 
 function Language({ pathname, lang, close }) {
   let to =
@@ -30,9 +31,6 @@ function Nav({
     <div className={classnames('nav', { open: store.open })}>
       <Link to={`/${lang}/`} onClick={close}>
         Home
-      </Link>
-      <Link className="event-menu" to={`/${lang}/delutan`} onClick={close}>
-        Delutan
       </Link>
       <Link className="event-menu" to={`/${lang}/tabor`} onClick={close}>
         Tabor

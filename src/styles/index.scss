@@ -102,6 +102,7 @@ button.delutan {
   background-color: $blue;
 }
 .tabor-header,
+.foto,
 button.tabor {
   background-color: $salmon;
 }
@@ -197,7 +198,7 @@ button.delutan {
 
 .partner {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   //width: 100%;
   justify-content: center;
   padding-top: 0;
@@ -205,10 +206,12 @@ button.delutan {
   img {
     width: 100px;
     height: 100px;
+    margin: 32px 0;
   }
   h2 {
     color: #994d54;
-    padding-top: 42px;
+    padding-top: 20px;
+    margin: 32px 0;
   }
 }
 @import './countdown.scss';
@@ -219,6 +222,7 @@ button.delutan {
 @import './footer.scss';
 @import './logo.scss';
 @import './eventcard.scss';
+@import './foto.scss';
 @import './details.scss';
 @import './location.scss';
 @import './album.scss';
