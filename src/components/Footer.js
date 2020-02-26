@@ -28,7 +28,7 @@ export default function FeaturedText() {
         <a
           target="_blank"
           rel="noreferrer noopener"
-          href="https://www.facebook.com/pg/csakiscsaladban/photos"
+          href="https://www.facebook.com/pg/csakiscsaladban/photos/?tab=album&album_id=2578809232397440"
         >
           <PhotoGallery />
         </a>
