@@ -2,17 +2,19 @@ import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import { collect } from 'react-recollect';
 import classnames from 'classnames';
-import content from '../content';
 
-function Language({ pathname, lang, close }) {
-  let to =
-    lang === 'en' ? pathname.replace('en', 'hu') : pathname.replace('hu', 'en');
-  if (to === '/') {
-    to = lang === 'en' ? '/hu' : '/en';
+function Language({ pathname, lang, onClick }) {
+  let to = '/';
+  if (pathname === '/') {
+    if (lang === 'en') {
+      to = '/en';
+    }
+  } else {
+    to = pathname.replace(/hu|en/, lang);
   }
   return (
-    <Link className="language" to={to} onClick={close}>
-      {lang === 'en' ? 'Magyar' : 'English'}
+    <Link className="language" to={to} onClick={onClick}>
+      {lang === 'hu' ? 'Magyar' : 'English'}
     </Link>
   );
 }
@@ -28,14 +30,20 @@ function Nav({
 }) {
   const close = () => (store.open = false);
   return (
-    <div className={classnames('nav', { open: store.open })}>
-      <Link to={`/${lang}/`} onClick={close}>
-        Home
-      </Link>
-      <Link className="event-menu" to={`/${lang}/tabor`} onClick={close}>
-        Tabor
-      </Link>
-      <Language pathname={pathname} lang={lang} close={close} />
+    <div
+      className={classnames('nav-container', { open: store.open })}
+      onClick={close}
+    >
+      <div className={classnames('nav')}>
+        <Link to={`/${lang}/`} onClick={close}>
+          Home
+        </Link>
+        <Link className="event-menu" to={`/${lang}/tabor`} onClick={close}>
+          Tabor
+        </Link>
+        <Language pathname={pathname} lang="hu" onClick={close} />
+        <Language pathname={pathname} lang="en" onClick={close} />
+      </div>
     </div>
   );
 }

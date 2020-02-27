@@ -23,12 +23,12 @@ function Register({ text }) {
   );
 }
 
-export default function Tabor({ lang }) {
+export default function Tabor({ lang = 'hu' }) {
   const _ = content(lang);
   return (
     <div className="app">
       <div className="tabor-header section">
-        <Logo title={_.taborTitle} />
+        <Logo lang={lang} title={_.taborTitle} />
         <Countdown lang={lang} fromDate={_.taborDate} />
         <FeaturedText {..._.taborFeatured} />
         <Register text={_.taborRegister} />
