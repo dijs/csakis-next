@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import Details from '../components/Details';
 import Location from '../components/Location';
 import BonusPastorLogo from '../images/bonus-pastor.png';
+import MannaLogo from '../images/manna-logo.jpg';
 import content from '../content';
 
 function Register({ text }) {
@@ -22,23 +23,23 @@ function Register({ text }) {
   );
 }
 
-export default function Tabor({ lang }) {
+export default function Tabor({ lang = 'hu' }) {
   const _ = content(lang);
   return (
     <div className="app">
       <div className="tabor-header section">
-        <Logo title={_.taborTitle} />
+        <Logo lang={lang} title={_.taborTitle} />
         <Countdown lang={lang} fromDate={_.taborDate} />
         <FeaturedText {..._.taborFeatured} />
         <Register text={_.taborRegister} />
       </div>
       <div className="partner section">
+        <h2>{_.partnerTitle}</h2>
         <img src={BonusPastorLogo} alt="bonus-pastor-logo" />
-        <h2>Partner</h2>
+        <img src={MannaLogo} alt="manna-association-logo" />
       </div>
       <div className="tabor-bio section">
         <Bios {..._.taborBios} />
-        <FeaturedText />
       </div>
       <div className="tabor-location section">
         <Location {..._.taborLocation} images={_.taborLocationImages} />
@@ -46,6 +47,9 @@ export default function Tabor({ lang }) {
       <div className="tabor-details section">
         <Details {..._.taborDetails} images={_.taborDetailImages} />
         <Register text={_.taborRegister} />
+      </div>
+      <div className="foto section">
+        <Details {..._.taborPhoto} images={_.previousTaborImages} />
       </div>
       <Footer />
     </div>

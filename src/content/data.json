@@ -18,11 +18,11 @@
   "homeFeatured": {
     "hu": {
       "subtitle": "Családban Keresztyénként Istennel",
-      "content": "A CSAKIS egy mozgalom, mely lehetőséget kínál keresztyén családok számára arra hogy a házastársak megerősítsék kapcsolatukat Istennel, egymással és gyermekeikkel. <br /> 2016 óta szervezünk eseményeket, ezidáig 3 alkalommal került sor <em>Csakis Családos Keresztyén Fesztiválra</em> a kézdivásárhelyi sportcsarnokban, idéntől <em>Csakis délutánokkal</em> és <em>Családos táborral</em> lepünk meg benneteket."
+      "content": "A CSAKIS egy mozgalom, mely lehetőséget kínál keresztyén családok számára arra hogy a házastársak megerősítsék kapcsolatukat Istennel, egymással és gyermekeikkel. 2016 óta szervezünk eseményeket, ezidáig 4 alkalommal került sor <em>Csakis Családos Keresztyén Fesztiválra</em> a kézdivásárhelyi sportcsarnokban, és Csakis délutánra a Vigadó Müvelödési Házban. 2019-ben <em>Családos tábort</em> szerveztünk a Jó Pásztor Egyesülettel karöltve Bálványosfürdön."
     },
     "en": {
       "subtitle": "An Organization Fostoring Chirstian Growth within Families",
-      "content": "CSAKIS is a movement that offers Christian families the opportunity to strengthen their relationship with God, with each other and with their children. <br /> We have been organizing events since 2016. So far we have organized 3 summer Family Christian Festivals in our local area."
+      "content": "CSAKIS is a movement that offers Christian families the opportunity to strengthen their relationship with God, with their spouses, and with their children. We have been organizing events since 2016. So far we have organized 4 summer Family Christian Festivals, one Afternoon of worship and learning, and in 2019, we held our first Family summer camp in Balvanyos, focusing on fellowship, counseling, and growth."
     }
   },
   "homePhotoTitle": {
@@ -52,15 +52,15 @@
   "homeEventTwo": {
     "hu": {
       "eventTitle": "Tábor",
-      "eventDate": "Júl. 3-6",
+      "eventDate": "Aug. 5-8, 2020",
       "description": "Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolósásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére.",
       "buttonText": "TUDJ MEG TÖBBET",
       "buttonLink": "/tabor"
     },
     "en": {
       "eventTitle": "Camp",
-      "eventDate": "Jul. 3rd-6th",
-      "description": "This camp, in the Bálványos area, provides an opportunity to rest and grow in God and as a family",
+      "eventDate": "Aug. 5th-8th, 2020",
+      "description": "This camp, in the Bálványos area, provides an opportunity to rest and grow in God and as a family.",
       "buttonText": "LEARN MORE",
       "buttonLink": "/en/tabor"
     }
@@ -129,7 +129,11 @@
       "alt": "speaker"
     }
   ],
-  "taborDate": "7/3/2019",
+  "partnerTitle": {
+    "en": "Partners",
+    "hu": "Partnerek"
+  },
+  "taborDate": "8/5/2020",
   "taborTitle": {
     "en": "Camp",
     "hu": "Tábor"
@@ -145,9 +149,9 @@
       "content": "Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolósásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére. Programjaink között szerepelnek előadások, kiscsoportos beszélgetések, tanácsadás (mentori beszélgetés házaspároknak), valamint gyermekprogramok, játék, sport, kirándulás. <br /> A táborunk helyszíne: Bálványosfürdő, Istvana vendégház és táborhely <br /> Szervezők: Manna Keresztyén Egyesület és Jó Pásztor Egyesület"
     },
     "en": {
-      "eventTitle": "Tábor",
+      "eventTitle": "Camp",
       "subtitle": "Christian Family Camp",
-      "content": "This escape is a great opportunity for families to relax while building relationships with God and their family. Our schedule includes lectures, small group discussions, counseling (mentoring for married couples), children's programs, games, sports and excursions. This is organised by the Manna Christian Association and Good Shepherd Association"
+      "content": "This escape is a great opportunity for families to relax while building relationships with God and their family. Our schedule includes lectures, small group discussions, counseling (mentoring for married couples), children's programs, games, sports, and excursions. This is organised by the Manna Christian Association and Good Shepherd Association."
     }
   },
   "taborBios": {
@@ -189,11 +193,11 @@
   "taborDetails": {
     "en": {
       "title": "Program Summary",
-      "content": "<strong>July 3 | Daily Topic: Unity in Marriage</strong><br />14:00 - Arrival and Registration<br />15:00 - Opening ceremony, worship, lecture, group discussion and a time to practice what we learned<br />19:00 - Dinner<br /><strong>July 4 | Daily Topic: What does it mean to 'marry' marriage and 'die' to ego?</strong><br />7:00 - Morning prayer and breakfast<br />9:00 - Main Lecture, smallgroups, mentor counseling times and  free time and time to practice what we learned<br />13:30 - Lunch<br />14:30 - Mentor counseling times, time to practice what we leaned, freetime and worship time as a family<br />19:00 - Dinner<br /><strong>July 5 | Daily Topic: Leting go of our partner's debt and not our partner</strong><br />7:00 - Morning prayer and breakfast<br />9:00 - Main Lecture, smallgroups, mentor counseling times, free time and time to practice what we learned<br />13:30 - Lunch<br />14:30 - mentor counseling times, time to practice what we leaned, freetime and worship time as a family<br />19:00 - Dinner<br /><strong>July 6 | Daily Topic: Brotherly Love, sharing int the body of Christ with our spouse as our partner</strong><br/>7:00 - Morning prayer and breakfast<br />9:00 - Main Lecture, smallgroups, mentor counseling times and free time and time to practice what we learned<br />13:30 - Lunch<br />14:30 - mentor counseling times, time to practice what we leaned, freetime, closing ceremony and discussion<br />18:00 - Head back home<br />*program subject to change*<br />**Camp lectures and content may only be available in Hungarian, although a few of our guests and staff speak English and/or Romanian.**"
+      "content": "<strong>Aug 5th-8th | Meals are provided, and the schedule and theme will be published once finalized. **Camp lectures and content will be available in Hungarian and translated into English, although a few of our guests and staff speak English and/or Romanian.**"
     },
     "hu": {
       "title": "Általános Program",
-      "content": "<strong>Július 3 | Előadás: Minőségi Kapcsolat</strong><br /><em>A fiúságban való egység elfogadása. </em><br />14:00 - Érkezés, regisztráció<br />15:00 - Megnyitó, Dicsőítés, előadás, csoport, gyakorlat<br />19:00 - Vacsora<br/><strong>Július 4 | Előadás: Egomentes Kapcsolat</strong><br /><em>Mit jelent „elhálni” a házasságot és „elhalni” az egot?</em><br/>7:00 - Torna, imaora, reggeli<br />9:00 - Előadás, kiscsoportok, mentori beszélgetés, kontemplációs gyakorlat, szabadidő<br />13:30 - Ebédszünet<br />14:30 - Mentori beszélgetés, páros gyakorlat, szabadidő, dicsőités + áhitat a gyerekekkel<br />19:00 - Vacsora<br /><strong>Július 5 | Előadás: Felszabadult Kapcsolat</strong><br /><em>Részesedés a Krisztus szabadságában: elengedni a Társam tartozását és nem a Társamat.</em><br/>7:00 - Torna, imaora, reggeli<br />9:00 - Előadás, kiscsoportok, mentori beszélgetés, kontemplációs gyakorlat, szabadidő<br />13:30 - Ebédszünet<br />14:30 - Mentori beszélgetés, páros gyakorlat, szabadidő, dicsőités + áhitat a gyerekekkel<br />19:00 - Vacsora<br /><strong>Július 6 | Előadás: Baráti Kapcsolat</strong><br /><em>Részesedés a Krisztus Testében. A közösségi és fele-baráti egység elfogadása. </em><br/>7:00 - Torna, imaora, reggeli<br />9:00 - Előadás, kiscsoportok, mentori beszélgetés, kontemplációs gyakorlat, szabadidő<br />13:30 - Ebédszünet<br />14:30 - Mentori beszélgetés, páros gyakorlat, szabadidő, úrvacsorás ünnepi közösség, Záró csoport, kiértékelő, elbocsátó zárszavak<br />18:00 - Eltávozás"
+      "content": "<strong>Aug. 5-8 | Az étkezés biztosítva lesz, a programot és a témát hamarosan közölni fogjuk."
     }
   },
   "taborDetailImages": [
@@ -207,14 +211,14 @@
     },
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_fill,h_500,w_500/v1551190080/Photos%20for%202019%20web%20promotion/Istvana/Screen_Shot_2019-02-26_at_4.07.44_PM.png",
-      "alt": "mountains"
+      "alt": "hotel room"
     }
   ],
   "taborLocation": {
     "en": {
       "title": "Location: Bálványos",
       "subtitle": "Istvana guesthouse and campground ",
-      "content": "This high quality location provides a relaxing place with rooms, apartments, a swiming pool, great views of the mountainous area, fresh air and good food."
+      "content": "This high quality location provides a relaxing place with rooms, apartments, a swiming pool, great views of the mountainous area, fresh air, and good food."
     },
     "hu": {
       "title": "Hely: Bálványos",
@@ -234,6 +238,60 @@
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_crop,e_art:red_rock,h_275,w_275/v1551187861/Photos%20for%202019%20web%20promotion/Istvana/52887062_2278305225553714_7730637800734720000_n.jpg",
       "alt": "Istvana dining room"
+    }
+  ],
+  "taborPhoto": {
+    "en": {
+      "title": "2019 Camp Photos"
+    },
+    "hu": {
+      "title": "2019 Tábor Fotok"
+    }
+  },
+  "previousTaborImages": [
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1582722625/2019%20Camp%20Photos/Csakis2019-SQ-1.jpg",
+      "alt": "2019"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1582722625/2019%20Camp%20Photos/Csakis2019-SQ-11.jpg",
+      "alt": "2019"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1582722624/2019%20Camp%20Photos/Csakis2019-SQ-5.jpg",
+      "alt": "2019"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1582722625/2019%20Camp%20Photos/Csakis2019-SQ-10.jpg",
+      "alt": "2019"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1582722625/2019%20Camp%20Photos/Csakis2019-SQ-4.jpg",
+      "alt": "2019"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1582722624/2019%20Camp%20Photos/Csakis2019-SQ-6.jpg",
+      "alt": "2019"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1582722625/2019%20Camp%20Photos/Csakis2019-SQ-3.jpg",
+      "alt": "2019"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1582722624/2019%20Camp%20Photos/Csakis2019-SQ-9.jpg",
+      "alt": "2019"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1582722624/2019%20Camp%20Photos/Csakis2019-SQ-7.jpg",
+      "alt": "2019"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1582722624/2019%20Camp%20Photos/Csakis2019-SQ-8.jpg",
+      "alt": "2019"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1582722625/2019%20Camp%20Photos/Csakis2019-SQ-3.jpg",
+      "alt": "2019"
     }
   ]
 }

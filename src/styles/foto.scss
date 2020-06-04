@@ -1,0 +1,12 @@
+.foto {
+  .image-row {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    img {
+      height: 200px;
+      width: 200px;
+      margin: 16px;
+      margin-top: 0;
+    }
+  }
+}

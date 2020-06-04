@@ -15,7 +15,7 @@ export default function FeaturedText() {
         <a href="https://csakis.net">
           <Information />
         </a>
-        <a href="mailto:csakisromania@gmail.com">
+        <a href="mailto:chakisromania@gmail.com">
           <Mail />
         </a>
         <a
@@ -28,7 +28,7 @@ export default function FeaturedText() {
         <a
           target="_blank"
           rel="noreferrer noopener"
-          href="https://www.facebook.com/pg/csakiscsaladban/photos"
+          href="https://www.facebook.com/pg/csakiscsaladban/photos/?tab=album&album_id=2578809232397440"
         >
           <PhotoGallery />
         </a>
