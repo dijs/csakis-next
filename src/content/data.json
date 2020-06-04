@@ -18,11 +18,11 @@
   "homeFeatured": {
     "hu": {
       "subtitle": "Családban Keresztyénként Istennel",
-      "content": "A CSAKIS egy mozgalom, mely lehetőséget kínál keresztyén családok számára arra hogy a házastársak megerősítsék kapcsolatukat Istennel, egymással és gyermekeikkel. 2016 óta szervezünk eseményeket, ezidáig 4 alkalommal került sor <em>Csakis Családos Keresztyén Fesztiválra</em> a kézdivásárhelyi sportcsarnokban, idéntől <em>Csakis délutánokkal</em> és <em>Családos táborral</em> lepünk meg benneteket."
+      "content": "A CSAKIS egy mozgalom, mely lehetőséget kínál keresztyén családok számára arra hogy a házastársak megerősítsék kapcsolatukat Istennel, egymással és gyermekeikkel. 2016 óta szervezünk eseményeket, ezidáig 4 alkalommal került sor <em>Csakis Családos Keresztyén Fesztiválra</em> a kézdivásárhelyi sportcsarnokban, és Csakis délutánra a Vigadó Müvelödési Házban. 2019-ben <em>Családos tábort</em> szerveztünk a Jó Pásztor Egyesülettel karöltve Bálványosfürdön."
     },
     "en": {
       "subtitle": "An Organization Fostoring Chirstian Growth within Families",
-      "content": "CSAKIS is a movement that offers Christian families the opportunity to strengthen their relationship with God, with each other and with their children. We have been organizing events since 2016. So far we have organized 4 summer Family Christian Festivals in our local area."
+      "content": "CSAKIS is a movement that offers Christian families the opportunity to strengthen their relationship with God, with their spouses, and with their children. We have been organizing events since 2016. So far we have organized 4 summer Family Christian Festivals, one Afternoon of worship and learning, and in 2019, we held our first Family summer camp in Balvanyos, focusing on fellowship, counseling, and growth."
     }
   },
   "homePhotoTitle": {
@@ -60,7 +60,7 @@
     "en": {
       "eventTitle": "Camp",
       "eventDate": "Aug. 5th-8th, 2020",
-      "description": "This camp, in the Bálványos area, provides an opportunity to rest and grow in God and as a family",
+      "description": "This camp, in the Bálványos area, provides an opportunity to rest and grow in God and as a family.",
       "buttonText": "LEARN MORE",
       "buttonLink": "/en/tabor"
     }
@@ -211,7 +211,7 @@
     },
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_fill,h_500,w_500/v1551190080/Photos%20for%202019%20web%20promotion/Istvana/Screen_Shot_2019-02-26_at_4.07.44_PM.png",
-      "alt": "mountains"
+      "alt": "hotel room"
     }
   ],
   "taborLocation": {
