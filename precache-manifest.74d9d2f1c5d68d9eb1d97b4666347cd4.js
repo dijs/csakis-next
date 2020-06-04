@@ -4,24 +4,28 @@ self.__precacheManifest = [
     "url": "/static/media/photo-gallery.63443714.svg"
   },
   {
-    "revision": "30d9c8ebfc38867367ce",
-    "url": "/static/css/main.578894de.chunk.css"
+    "revision": "1e7614ed2ae66aff87c7",
+    "url": "/static/css/main.4bf51e0c.chunk.css"
   },
   {
-    "revision": "fdfcfda2d9b1bf31db52",
-    "url": "/static/js/runtime~main.fdfcfda2.js"
+    "revision": "42ac5946195a7306e2a5",
+    "url": "/static/js/runtime~main.42ac5946.js"
   },
   {
     "revision": "ecc555950e524f74db98be1ac846a58b",
     "url": "/static/media/delete-ex.ecc55595.svg"
   },
   {
-    "revision": "9209a625f5a409b25bb8",
-    "url": "/static/js/2.9209a625.chunk.js"
+    "revision": "2d94c1347935820e4962",
+    "url": "/static/js/2.2d94c134.chunk.js"
   },
   {
     "revision": "d0cb7899b3299c30e37aeb0e6e1543cc",
     "url": "/static/media/bonus-pastor.d0cb7899.png"
+  },
+  {
+    "revision": "d49e687e8773e9b13151a2a784c67ff9",
+    "url": "/static/media/manna-logo.d49e687e.jpg"
   },
   {
     "revision": "c00223632a33a6bcbdc42f2b6777744a",
@@ -32,8 +36,8 @@ self.__precacheManifest = [
     "url": "/static/media/logo-whiteCsakis2019.28e93a4d.svg"
   },
   {
-    "revision": "30d9c8ebfc38867367ce",
-    "url": "/static/js/main.30d9c8eb.chunk.js"
+    "revision": "1e7614ed2ae66aff87c7",
+    "url": "/static/js/main.1e7614ed.chunk.js"
   },
   {
     "revision": "b9d866e4f8d1528f0a106bd76a35722a",
@@ -60,11 +64,11 @@ self.__precacheManifest = [
     "url": "/static/media/three-dot-menu.4c36debe.svg"
   },
   {
-    "revision": "9209a625f5a409b25bb8",
-    "url": "/static/css/2.0401954f.chunk.css"
+    "revision": "2d94c1347935820e4962",
+    "url": "/static/css/2.a187b51c.chunk.css"
   },
   {
-    "revision": "ef0ba5c0dbbf226c6d28b7739e65bd76",
+    "revision": "41519d3aa265aff907a6ca9fef38ecaf",
     "url": "/index.html"
   }
 ];
