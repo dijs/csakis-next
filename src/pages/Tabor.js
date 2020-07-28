@@ -10,6 +10,8 @@ import BonusPastorLogo from '../images/bonus-pastor.png';
 import MannaLogo from '../images/manna-logo.jpg';
 import content from '../content';
 
+//  <Register text={_.taborRegister} />
+
 function Register({ text }) {
   return (
     <a
@@ -31,7 +33,6 @@ export default function Tabor({ lang = 'hu' }) {
         <Logo lang={lang} title={_.taborTitle} />
         <Countdown lang={lang} fromDate={_.taborDate} />
         <FeaturedText {..._.taborFeatured} />
-        <Register text={_.taborRegister} />
       </div>
       <div className="partner section">
         <h2>{_.partnerTitle}</h2>
@@ -46,7 +47,6 @@ export default function Tabor({ lang = 'hu' }) {
       </div>
       <div className="tabor-details section">
         <Details {..._.taborDetails} images={_.taborDetailImages} />
-        <Register text={_.taborRegister} />
       </div>
       <div className="foto section">
         <Details {..._.taborPhoto} images={_.previousTaborImages} />
