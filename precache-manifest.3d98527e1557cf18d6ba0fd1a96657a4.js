@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/photo-gallery.63443714.svg"
   },
   {
-    "revision": "9f7e0456153af875aea4",
+    "revision": "d97661b5bb412c09dace",
     "url": "/static/css/main.8f6a3327.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/delete-ex.ecc55595.svg"
   },
   {
-    "revision": "2d94c1347935820e4962",
-    "url": "/static/js/2.2d94c134.chunk.js"
+    "revision": "00fa3d9756bca1959129",
+    "url": "/static/js/2.00fa3d97.chunk.js"
   },
   {
     "revision": "d0cb7899b3299c30e37aeb0e6e1543cc",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/static/media/logo-whiteCsakis2019.28e93a4d.svg"
   },
   {
-    "revision": "9f7e0456153af875aea4",
-    "url": "/static/js/main.9f7e0456.chunk.js"
+    "revision": "d97661b5bb412c09dace",
+    "url": "/static/js/main.d97661b5.chunk.js"
   },
   {
     "revision": "b9d866e4f8d1528f0a106bd76a35722a",
@@ -64,11 +64,11 @@ self.__precacheManifest = [
     "url": "/static/media/three-dot-menu.4c36debe.svg"
   },
   {
-    "revision": "2d94c1347935820e4962",
-    "url": "/static/css/2.a187b51c.chunk.css"
+    "revision": "00fa3d9756bca1959129",
+    "url": "/static/css/2.835b72ef.chunk.css"
   },
   {
-    "revision": "2e945a416f12bf53ffee596f89e639f8",
+    "revision": "e738c3e8c4bd71e4b08d6dd41f00dee7",
     "url": "/index.html"
   }
 ];
