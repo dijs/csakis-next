@@ -1,6 +1,6 @@
 import data from './data.json';
 
-export default function(lang) {
+export default function content(lang) {
   const handler = {
     get: function(obj, key) {
       if (!data[key]) return undefined;

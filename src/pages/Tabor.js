@@ -41,14 +41,14 @@ export default function Tabor({ lang = 'hu' }) {
       <div className="tabor-bio section">
         <Bios {..._.taborBios} />
       </div>
-      <div classname="tabor-location-video">
+      <div className="tabor-location-video">
         <iframe
           width="100%"
           src="https://www.youtube.com/embed/7uOUv9TYGaI?autoplay=1 "
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
       <div className="tabor-location section">

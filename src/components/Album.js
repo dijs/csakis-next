@@ -2,7 +2,7 @@ import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 
-function getPhotos(albumId, limit) {
+function usePhotos(albumId, limit) {
   const [photos] = React.useState([
     {
       low:
@@ -52,7 +52,7 @@ function Photo({ high, low, id }) {
 }
 
 export default function Album({ albumId }) {
-  const photos = getPhotos(albumId);
+  const photos = usePhotos(albumId);
   return (
     <div className="album">
       <Carousel showIndicators={false} showThumbs={false}>
