@@ -16,7 +16,7 @@ function Register({ text }) {
       className="register"
       target="_blank"
       rel="noopener noreferrer"
-      href="https://goo.gl/forms/ZZa9zxQz4thEaaHI2"
+      href="https://forms.gle/JVyuUMWJxD8sLuHN9"
     >
       <button>{text} </button>
     </a>
