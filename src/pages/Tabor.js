@@ -42,6 +42,16 @@ export default function Tabor({ lang = 'hu' }) {
       <div className="tabor-bio section">
         <Bios {..._.taborBios} />
       </div>
+      <div classname="tabor-location-video">
+        <iframe
+          width="100%"
+          src="https://www.youtube.com/embed/7uOUv9TYGaI?autoplay=1 "
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
+          allowfullscreen
+        ></iframe>
+      </div>
       <div className="tabor-location section">
         <Location {..._.taborLocation} images={_.taborLocationImages} />
       </div>
@@ -49,7 +59,8 @@ export default function Tabor({ lang = 'hu' }) {
         <Details {..._.taborDetails} images={_.taborDetailImages} />
       </div>
       <div className="foto section">
-        <Details {..._.taborPhoto} images={_.previousTaborImages} />
+        <Details {..._.twentyTaborPhoto} images={_.twentyTaborImages} />
+        <Details {..._.nineteenTaborPhoto} images={_.nineteenTaborImages} />
       </div>
       <Footer />
     </div>
