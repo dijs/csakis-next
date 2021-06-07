@@ -1,6 +1,6 @@
 import React from 'react';
-import { ReactComponent as Logo } from '../images/logo-coloredCsakis2019.svg';
-import { Link } from 'react-router-dom';
+import Logo from '../images/logo-coloredCsakis2019.svg';
+import Link from 'next/link';
 
 export default function EventCard({
   eventTitle,
@@ -21,7 +21,7 @@ export default function EventCard({
         </h2>
         <h3> {eventDate}</h3>
         <p>{description}</p>
-        <Link to={buttonLink}>
+        <Link href={buttonLink}>
           <button>{buttonText}</button>
         </Link>
       </div>

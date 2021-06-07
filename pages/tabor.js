@@ -1,4 +1,5 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 import Logo from '../components/Logo';
 import Countdown from '../components/Countdown';
 import FeaturedText from '../components/FeaturedText';
@@ -6,8 +7,6 @@ import Bios from '../components/Bios';
 import Footer from '../components/Footer';
 import Details from '../components/Details';
 import Location from '../components/Location';
-import BonusPastorLogo from '../images/bonus-pastor.png';
-import MannaLogo from '../images/manna-logo.jpg';
 import content from '../content';
 
 function Register({ text }) {
@@ -23,20 +22,21 @@ function Register({ text }) {
   );
 }
 
-export default function Tabor({ lang = 'hu' }) {
-  const _ = content(lang);
+export default function Tabor() {
+  const { locale } = useRouter();
+  const _ = content(locale);
   return (
     <div className="app">
       <div className="tabor-header section">
-        <Logo lang={lang} title={_.taborTitle} />
-        <Countdown lang={lang} fromDate={_.taborDate} />
+        <Logo lang={locale} title={_.taborTitle} />
+        <Countdown lang={locale} fromDate={_.taborDate} />
         <FeaturedText {..._.taborFeatured} />
         <Register text={_.taborRegister} />
       </div>
       <div className="partner section">
         <h2>{_.partnerTitle}</h2>
-        <img src={BonusPastorLogo} alt="bonus-pastor-logo" />
-        <img src={MannaLogo} alt="manna-association-logo" />
+        <img src="bonus-pastor.png" alt="bonus-pastor-logo" />
+        <img src="manna-logo.jpg" alt="manna-association-logo" />
       </div>
       <div className="tabor-bio section">
         <Bios {..._.taborBios} />

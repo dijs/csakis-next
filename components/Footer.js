@@ -1,9 +1,9 @@
 import React from 'react';
-import { ReactComponent as Logo } from '../images/logo-whiteCsakis2019.svg';
-import { ReactComponent as PhotoGallery } from '../icons/photo-gallery.svg';
-import { ReactComponent as Information } from '../icons/information.svg';
-import { ReactComponent as Facebook } from '../icons/facebook.svg';
-import { ReactComponent as Mail } from '../icons/mail-icon.svg';
+import Logo from '../images/logo-whiteCsakis2019.svg';
+import PhotoGallery from '../icons/photo-gallery.svg';
+import Information from '../icons/information.svg';
+import Facebook from '../icons/facebook.svg';
+import Mail from '../icons/mail-icon.svg';
 
 export default function FeaturedText() {
   return (

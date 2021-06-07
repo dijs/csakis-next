@@ -1,13 +1,12 @@
 import React from 'react';
-import { ReactComponent as Img } from '../images/logo-coloredCsakis2019withCircle.svg';
-import { Link } from 'react-router-dom';
+import Img from '../images/logo-coloredCsakis2019withCircle.svg';
 
 export default function Logo({ lang, title }) {
   return (
     <header className="logo">
-      <Link to={`/${lang}`}>
+      <a href={`/${lang}`}>
         <Img />
-      </Link>
+      </a>
       {title ? <h1>{title}</h1> : null}
     </header>
   );

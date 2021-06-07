@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as Img } from '../icons/location.svg';
+import Img from '../icons/location.svg';
 
 export default function Location({ subtitle, title, content, images = [] }) {
   return (
