@@ -202,15 +202,15 @@
   },
   "taborDetailImages": [
     {
-      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_fill,h_500,w_500/v1551187859/Photos%20for%202019%20web%20promotion/Istvana/52933333_612448429216124_953264671337480192_n.jpg",
+      "src": "https://www.zetavarpanzio.ro/files/image/cache/crop-2021-03-03-14-30-35_41603f816b53bf1.jpg-300x250.jpg",
       "alt": "cabins"
     },
     {
-      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_fill,h_470,w_470/v1551189935/Photos%20for%202019%20web%20promotion/Istvana/Screen_Shot_2019-02-26_at_4.05.13_PM.png",
-      "alt": "swimming"
+      "src": "https://www.zetavarpanzio.ro/files/image/cache/crop-2017-09-23-15-56-07_1059c659e78b037.jpg-300x250.jpg",
+      "alt": "main building"
     },
     {
-      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_fill,h_500,w_500/v1551190080/Photos%20for%202019%20web%20promotion/Istvana/Screen_Shot_2019-02-26_at_4.07.44_PM.png",
+      "src": "https://www.zetavarpanzio.ro/files/image/cache/crop-2021-03-03-14-32-07_43603f81c7e294a.jpg-300x250.jpg",
       "alt": "hotel room"
     }
   ],
@@ -229,15 +229,15 @@
   "taborLocationImages": [
     {
       "src": "http://www.zetavarpanzio.ro/files/image/2019-09-06-12-36-52_185d7228b482fa8.jpg.jpg",
-      "alt": "Istvana arial view"
+      "alt": "Cabbins"
     },
     {
       "src": "http://www.zetavarpanzio.ro/files/image/2017-06-12-19-28-57_14593ecf59f1904.jpg.jpg",
-      "alt": "Istvana pool - uszni hely"
+      "alt": "main building"
     },
     {
       "src": "http://www.zetavarpanzio.ro/files/image/2017-08-04-00-31-56_455983964cd79d4.jpg.jpg",
-      "alt": "Istvana dining room"
+      "alt": "dining room"
     }
   ],
   "nineteenTaborPhoto": {
@@ -249,14 +249,6 @@
     }
   },
   "nineteenTaborImages": [
-    {
-      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1582722625/2019%20Camp%20Photos/Csakis2019-SQ-1.jpg",
-      "alt": "2019"
-    },
-    {
-      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1582722625/2019%20Camp%20Photos/Csakis2019-SQ-11.jpg",
-      "alt": "2019"
-    },
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1582722624/2019%20Camp%20Photos/Csakis2019-SQ-5.jpg",
       "alt": "2019"
@@ -288,10 +280,6 @@
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1582722624/2019%20Camp%20Photos/Csakis2019-SQ-8.jpg",
       "alt": "2019"
-    },
-    {
-      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1582722625/2019%20Camp%20Photos/Csakis2019-SQ-3.jpg",
-      "alt": "2019"
     }
   ],
   "twentyTaborPhoto": {
@@ -304,11 +292,53 @@
   },
   "twentyTaborImages": [
     {
-      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1622884867/2020%20camp%20photos/IMG_1242.jpg",
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146618/2020%20camp%20photos/IMG_0186.jpg",
       "alt": "2019"
     },
     {
-      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1622884861/2020%20camp%20photos/IMG_1245.jpg",
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146620/2020%20camp%20photos/IMG_9993.jpg",
+      "alt": "2019"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146613/2020%20camp%20photos/IMG_9978.jpg",
+      "alt": "2019"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146609/2020%20camp%20photos/IMG_0177.jpg",
+      "alt": "2019"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146601/2020%20camp%20photos/IMG_0153.jpg",
+      "alt": "2019"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146573/2020%20camp%20photos/IMG_0104.jpg",
+      "alt": "2019"
+    },
+
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146520/2020%20camp%20photos/IMG_9990.jpg",
+      "alt": "2019"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146495/2020%20camp%20photos/IMG_9944.jpg",
+      "alt": "2019"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146479/2020%20camp%20photos/IMG_0053.jpg",
+      "alt": "2019"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146442/2020%20camp%20photos/117768019_3357518190954500_258215114813998193_n.jpg",
+      "alt": "2019"
+    },
+
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_fill,g_faces,h_3400,w_3456/v1623146138/2020%20camp%20photos/IMG_0139.jpg",
+      "alt": "2019"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146137/2020%20camp%20photos/IMG_9830.jpg",
       "alt": "2019"
     }
   ]
