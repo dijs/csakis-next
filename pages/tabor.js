@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import Logo from '../components/Logo';
+import Date from '../components/Date';
 import Countdown from '../components/Countdown';
 import FeaturedText from '../components/FeaturedText';
 import Bios from '../components/Bios';
@@ -29,6 +30,7 @@ export default function Tabor() {
     <div className="app">
       <div className="tabor-header section">
         <Logo lang={locale} title={_.taborTitle} />
+        <Date lang={locale} fromDate={_.taborDate} />
         <Countdown lang={locale} fromDate={_.taborDate} />
         <FeaturedText {..._.taborFeatured} />
         <Register text={_.taborRegister} />
