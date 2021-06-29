@@ -44,10 +44,10 @@ export default function Tabor() {
       <div className="tabor-location-video">
         <iframe
           width="100%"
-          src="https://www.youtube.com/embed/7uOUv9TYGaI?autoplay=1 "
+          src="https://www.youtube.com/embed/7uOUv9TYGaI"
           title="YouTube video player"
           frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope"
           allowFullScreen
         ></iframe>
       </div>
