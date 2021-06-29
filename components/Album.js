@@ -6,6 +6,22 @@ function usePhotos(albumId, limit) {
   const [photos] = React.useState([
     {
       low:
+        'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1623146615/2020%20camp%20photos/IMG_0187.jpg'
+    },
+    {
+      low:
+        'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1623146592/2020%20camp%20photos/IMG_0117.jpg'
+    },
+    {
+      low:
+        'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1623146516/2020%20camp%20photos/IMG_9989.jpg'
+    },
+    {
+      low:
+        'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1623146510/2020%20camp%20photos/IMG_9965.jpg'
+    },
+    {
+      low:
         'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1582722625/2019%20Camp%20Photos/Csakisgrouphoto.jpg'
     },
     {
