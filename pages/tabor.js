@@ -14,9 +14,9 @@ function Register({ text }) {
   return (
     <a
       className="register"
-      target="_blank"
+      /*  target="_blank"
       rel="noopener noreferrer"
-      href="https://forms.gle/JVyuUMWJxD8sLuHN9"
+      href="https://forms.gle/JVyuUMWJxD8sLuHN9"*/
     >
       <button>{text} </button>
     </a>
