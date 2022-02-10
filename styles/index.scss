@@ -16,7 +16,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: $blue;
 }
-
+.hide {
+  display: none !important;
+}
 .adorn {
   font-family: adorn-bouquet, sans-serif;
   font-weight: 400;

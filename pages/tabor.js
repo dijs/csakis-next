@@ -31,7 +31,9 @@ export default function Tabor() {
       <div className="tabor-header section">
         <Logo lang={locale} title={_.taborTitle} />
         <Date lang={locale} fromDate={_.taborDate} />
-        <Countdown lang={locale} fromDate={_.taborDate} />
+        <div className="hide">
+          <Countdown lang={locale} fromDate={_.taborDate} />
+        </div>
         <FeaturedText {..._.taborFeatured} />
         <Register text={_.taborRegister} />
       </div>
@@ -43,7 +45,7 @@ export default function Tabor() {
       <div className="tabor-bio section">
         <Bios {..._.taborBios} />
       </div>
-      <div className="tabor-location-video">
+      <div className="tabor-location-video hide">
         <iframe
           width="100%"
           src="https://www.youtube.com/embed/7uOUv9TYGaI"
@@ -53,11 +55,14 @@ export default function Tabor() {
           allowFullScreen
         ></iframe>
       </div>
-      <div className="tabor-location section">
+      <div className="tabor-location section hide">
         <Location {..._.taborLocation} images={_.taborLocationImages} />
       </div>
       <div className="tabor-details section">
-        <Details {..._.taborDetails} images={_.taborDetailImages} />
+        <div className="hide">
+          {' '}
+          <Details {..._.taborDetails} images={_.taborDetailImages} />
+        </div>{' '}
         <Register text={_.taborRegister} />
       </div>
       <div className="foto section">
