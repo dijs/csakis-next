@@ -10,16 +10,27 @@ import Details from '../components/Details';
 import Location from '../components/Location';
 import content from '../content';
 
-function Register({ text }) {
+function Register() {
+  const { locale } = useRouter();
   return (
-    <a
-      className="register"
-      /*  target="_blank"
-      rel="noopener noreferrer"
-      href="https://forms.gle/JVyuUMWJxD8sLuHN9"*/
-    >
-      <button>{text} </button>
-    </a>
+    <div>
+      <a
+        className="register"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://forms.gle/MfEWHS6JQZkJqFBFA"
+      >
+        <button>{locale === 'hu' ? 'Angol' : 'English'}</button>
+      </a>
+      <a
+        className="register"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://forms.gle/gCmr5KxAb6azeBCk9"
+      >
+        <button>{locale === 'hu' ? 'Magyar' : 'Hungarian'}</button>
+      </a>
+    </div>
   );
 }
 
@@ -35,7 +46,7 @@ export default function Tabor() {
           <Countdown lang={locale} fromDate={_.taborDate} />
         </div>
         <FeaturedText {..._.taborFeatured} />
-        <Register text={_.taborRegister} />
+        <Register />
       </div>
       <div className="partner section">
         <h2>{_.partnerTitle}</h2>
