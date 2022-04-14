@@ -216,28 +216,32 @@
   ],
   "taborLocation": {
     "en": {
-      "title": "Location: Zeteváralja",
-      "subtitle": "Zetavár guesthouse and campground ",
-      "content": "This high quality location provides a relaxing place with hotel rooms, cabins with on suite bathrooms, great views of the mountainous area, fresh air, and good food. "
+      "title": "Location: Bikfalva, Covasna County",
+      "subtitle": "Mókus Guesthouse",
+      "content": "The Mókus Guesthouse is in a closed bay-like little basin, at the upper side of Bicfalău village, enclosed by forests. The quiet environment, fresh air, and the guesthouse's professional inlay into the magic of nature is a distinguished place for those who wish to escape. The rooms are spacious and comfortable, with a fantastic view of the Háromszék basin and the neighbouring highland scenery. Each room has a private bathroom and LCD colour TV. Besides a spacious living-room and an installed kitchen are at the disposal of our guests. There is also a sauna and jacuzzi for guest use during your stay."
     },
     "hu": {
-      "title": "Hely: Zeteváralja",
-      "subtitle": "Zetavár Panzió és Kemping",
-      "content": "A Zetavár Panzió és Kemping, 2-3 ágyas földszinti és emeleti szobákkal, fürdőszobával ellátott faházikókkal várják vendégeiket. A festői környezet, a friss levegő, a finom ételek mind biztosítottak. "
+      "title": "Hely: Bikfalva, Kovászna megyében",
+      "subtitle": "Mókus Panzió",
+      "content": "A Mókus Panzió, Kovászna megyében, Sepsiszentgyörgytől 14 km-re, egy zárt “golfszerű kis medencében”, BIKFALVA, felső felében, erdei környezetben található.A panziót hegyek, erdők és tisztások övezik.A csendes környezet, ózondús, tiszta levegő, valamint a panzió szakszerű beillesztése a természet varázsába, kiváló hely azok számára, akik a városok zajától, zsúfoltságától menekülve, szorosan a természetben keresik pihenésüket."
     }
   },
   "taborLocationImages": [
     {
-      "src": "http://www.zetavarpanzio.ro/files/image/2019-09-06-12-36-52_185d7228b482fa8.jpg.jpg",
-      "alt": "Cabbins"
+      "src": "https://static.travelminit.com/thumbs/accm-101987/mokus-guesthouse-bikfalva-4-800x600.jpg",
+      "alt": "Main building"
     },
     {
-      "src": "http://www.zetavarpanzio.ro/files/image/2017-06-12-19-28-57_14593ecf59f1904.jpg.jpg",
-      "alt": "main building"
+      "src": "https://static.travelminit.com/thumbs/accm-102001/mokus-guesthouse-bikfalva-13-450x600.jpg",
+      "alt": "Dining Room"
     },
     {
-      "src": "http://www.zetavarpanzio.ro/files/image/2017-08-04-00-31-56_455983964cd79d4.jpg.jpg",
-      "alt": "dining room"
+      "src": "https://static.travelminit.com/thumbs/accm-7778/mokus-guesthouse-bikfalva-5-800x600.jpg",
+      "alt": "guest Room"
+    },
+    {
+      "src": "https://static.travelminit.com/thumbs/accm-101990/mokus-guesthouse-bikfalva-41-800x600.jpg",
+      "alt": "Garden"
     }
   ],
   "nineteenTaborPhoto": {
