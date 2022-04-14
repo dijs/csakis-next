@@ -20,7 +20,11 @@ function Register() {
         rel="noopener noreferrer"
         href="https://forms.gle/MfEWHS6JQZkJqFBFA"
       >
-        <button>{locale === 'hu' ? 'Angol' : 'English'}</button>
+        <button>
+          {locale === 'hu'
+            ? 'REGISZTRÁCIÓ ANGOL TABOR | JUL 10-14'
+            : 'REGISTER NOW FOR ENGLISH CAMP | JUL 10-14'}
+        </button>
       </a>
       <a
         className="register"
@@ -28,7 +32,11 @@ function Register() {
         rel="noopener noreferrer"
         href="https://forms.gle/gCmr5KxAb6azeBCk9"
       >
-        <button>{locale === 'hu' ? 'Magyar' : 'Hungarian'}</button>
+        <button>
+          {locale === 'hu'
+            ? 'REGISZTRÁCIÓ MAGYAR TABOR | AUG 3-7'
+            : 'REGISTER NOW FOR THE HUNGARIAN CAMP | AUG 3-7'}
+        </button>
       </a>
     </div>
   );
