@@ -146,12 +146,12 @@
     "hu": {
       "eventTitle": "Tábor",
       "subtitle": "Tesó kurzus házaspároknak",
-      "content": "Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolósásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére. Programjaink között szerepelnek előadások, kiscsoportos beszélgetések, tanácsadás (mentori beszélgetés házaspároknak), valamint gyermekprogramok, játék, sport, kirándulás. <br /> <strong>A táborunk helyszíne:</strong>Hamarosan több információ<br /> <strong>Szervezők:</strong> Manna Keresztyén Egyesület és Jó Pásztor Egyesület</br></br>"
+      "content": "Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolósásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére. Programjaink között szerepelnek előadások, kiscsoportos beszélgetések, tanácsadás (mentori beszélgetés házaspároknak), valamint gyermekprogramok, játék, sport, kirándulás. <br /> <strong>A táborunk helyszíne:</strong>Bikfalva<br /> <strong>Szervezők:</strong> Manna Keresztyén Egyesület és Bonus Pastor Alapítvány</br></br>"
     },
     "en": {
       "eventTitle": "Camp",
       "subtitle": "Christian Family Camp",
-      "content": "This escape is a great opportunity for families to relax while building relationships with God and their family. Our schedule includes lectures, small group discussions, counseling (mentoring for married couples), children's programs, games, sports, and excursions. This is organised by the Manna Christian Association and Good Shepherd Association. It will take place at: Mókus Guesthouse Bikfalva"
+      "content": "This escape is a great opportunity for families to relax while building relationships with God and their family. Our schedule includes lectures, small group discussions, counseling (mentoring for married couples), children's programs, games, sports, and excursions. This is organised by the Manna Christian Association and the Bonus Pastor Foundation. It will take place at: Mókus Guesthouse Bikfalva"
     }
   },
   "taborBios": {
@@ -202,16 +202,16 @@
   },
   "taborDetailImages": [
     {
-      "src": "https://www.zetavarpanzio.ro/files/image/cache/crop-2021-03-03-14-30-35_41603f816b53bf1.jpg-300x250.jpg",
-      "alt": "cabins"
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146618/2020%20camp%20photos/IMG_0186.jpg",
+      "alt": "2021"
     },
     {
-      "src": "https://www.zetavarpanzio.ro/files/image/cache/crop-2017-09-23-15-56-07_1059c659e78b037.jpg-300x250.jpg",
-      "alt": "main building"
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1582722624/2019%20Camp%20Photos/Csakis2019-SQ-7.jpg",
+      "alt": "2020"
     },
     {
-      "src": "https://www.zetavarpanzio.ro/files/image/cache/crop-2021-03-03-14-32-07_43603f81c7e294a.jpg-300x250.jpg",
-      "alt": "hotel room"
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1582722625/2019%20Camp%20Photos/Csakisgrouphoto.jpg",
+      "alt": "2019"
     }
   ],
   "taborLocation": {
@@ -297,53 +297,53 @@
   "twentyTaborImages": [
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146618/2020%20camp%20photos/IMG_0186.jpg",
-      "alt": "2019"
+      "alt": "2020"
     },
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146620/2020%20camp%20photos/IMG_9993.jpg",
-      "alt": "2019"
+      "alt": "2020"
     },
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146613/2020%20camp%20photos/IMG_9978.jpg",
-      "alt": "2019"
+      "alt": "2020"
     },
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146609/2020%20camp%20photos/IMG_0177.jpg",
-      "alt": "2019"
+      "alt": "2020"
     },
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146601/2020%20camp%20photos/IMG_0153.jpg",
-      "alt": "2019"
+      "alt": "2020"
     },
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146573/2020%20camp%20photos/IMG_0104.jpg",
-      "alt": "2019"
+      "alt": "2020"
     },
 
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146520/2020%20camp%20photos/IMG_9990.jpg",
-      "alt": "2019"
+      "alt": "2020"
     },
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146495/2020%20camp%20photos/IMG_9944.jpg",
-      "alt": "2019"
+      "alt": "2020"
     },
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146479/2020%20camp%20photos/IMG_0053.jpg",
-      "alt": "2019"
+      "alt": "2020"
     },
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146442/2020%20camp%20photos/117768019_3357518190954500_258215114813998193_n.jpg",
-      "alt": "2019"
+      "alt": "2020"
     },
 
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_fill,g_faces,h_3400,w_3456/v1623146138/2020%20camp%20photos/IMG_0139.jpg",
-      "alt": "2019"
+      "alt": "2020"
     },
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146137/2020%20camp%20photos/IMG_9830.jpg",
-      "alt": "2019"
+      "alt": "2020"
     }
   ]
 }
