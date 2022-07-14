@@ -27,7 +27,7 @@ function Register() {
         </button>
       </a>
       <a
-        className="register"
+        className="register hide"
         target="_blank"
         rel="noopener noreferrer"
         href="https://forms.gle/gCmr5KxAb6azeBCk9"
