@@ -226,24 +226,44 @@
       "content": ""
     }
   },
-  "taborLocationImages": [
-    {
-      "src": "https://static.travelminit.com/thumbs/accm-101987/mokus-guesthouse-bikfalva-4-800x600.jpg",
-      "alt": "Main building"
-    },
-    {
-      "src": "https://static.travelminit.com/thumbs/accm-102001/mokus-guesthouse-bikfalva-13-450x600.jpg",
-      "alt": "Dining Room"
-    },
-    {
-      "src": "https://static.travelminit.com/thumbs/accm-7778/mokus-guesthouse-bikfalva-5-800x600.jpg",
-      "alt": "guest Room"
-    },
-    {
-      "src": "https://static.travelminit.com/thumbs/accm-101990/mokus-guesthouse-bikfalva-41-800x600.jpg",
-      "alt": "Garden"
-    }
-  ],
+  "taborLocationImages": {
+    "en": [
+      {
+        "src": "https://static.travelminit.com/thumbs/accm-101987/mokus-guesthouse-bikfalva-4-800x600.jpg",
+        "alt": "Main building"
+      },
+      {
+        "src": "https://static.travelminit.com/thumbs/accm-102001/mokus-guesthouse-bikfalva-13-450x600.jpg",
+        "alt": "Dining Room"
+      },
+      {
+        "src": "https://static.travelminit.com/thumbs/accm-7778/mokus-guesthouse-bikfalva-5-800x600.jpg",
+        "alt": "guest Room"
+      },
+      {
+        "src": "https://static.travelminit.com/thumbs/accm-101990/mokus-guesthouse-bikfalva-41-800x600.jpg",
+        "alt": "Garden"
+      }
+    ],
+    "hu": [
+      {
+        "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1682691697/342840450_177404434830698_6083020266600162310_n_wptdej.jpg",
+        "alt": "Main building"
+      },
+      {
+        "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1682691697/340115281_201637865979293_5153653462677945220_n_bpyizl.jpg",
+        "alt": "Dining Room"
+      },
+      {
+        "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1682691697/342876913_2130893053767377_3411294011411907791_n_fd9v9x.jpg",
+        "alt": "guest Room"
+      },
+      {
+        "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1682691697/342906633_255137763634602_8729452863154066094_n_yvap6l.jpg",
+        "alt": "Garden"
+      }
+    ]
+  },
   "nineteenTaborPhoto": {
     "en": {
       "title": "2019 Camp Photos"
