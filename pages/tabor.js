@@ -22,20 +22,20 @@ function Register() {
       >
         <button>
           {locale === 'hu'
-            ? 'REGISZTRÁCIÓ ANGOL TABOR | JUL 10-14'
-            : 'REGISTER NOW FOR ENGLISH CAMP | JUL 10-14'}
+            ? 'REGISZTRÁCIÓ ANGOL TABOR | AUG 1-5'
+            : 'REGISTER NOW FOR ENGLISH CAMP | AUG 1-5'}
         </button>
       </a>
       <a
-        className="register hide"
+        className="register"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://forms.gle/gCmr5KxAb6azeBCk9"
+        href="https://docs.google.com/forms/d/e/1FAIpQLScwsOP_vU_jbkc-UJ_QSxiGX0SERMeG4jRUdUIywLA7ER7gVA/viewform"
       >
         <button>
           {locale === 'hu'
-            ? 'REGISZTRÁCIÓ MAGYAR TABOR | AUG 3-7'
-            : 'REGISTER NOW FOR THE HUNGARIAN CAMP | AUG 3-7'}
+            ? 'REGISZTRÁCIÓ MAGYAR TABOR | JUL 5-9'
+            : 'REGISTER NOW FOR THE HUNGARIAN CAMP | JUL 5-9'}
         </button>
       </a>
     </div>
