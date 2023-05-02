@@ -15,10 +15,10 @@ function Register() {
   return (
     <div>
       <a
-        className="register hide"
+        className="register "
         target="_blank"
         rel="noopener noreferrer"
-        href="https://forms.gle/MfEWHS6JQZkJqFBFA"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSc4i9HhtxI7aZ6i5ChXSQUM4HC7Uvoc4btqv_8PnxR8aB8JrQ/viewform"
       >
         <button>
           {locale === 'hu'
