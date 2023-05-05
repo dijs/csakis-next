@@ -27,15 +27,15 @@ function Register() {
         </button>
       </a>
       <a
-        className="register"
+        className="register "
         target="_blank"
         rel="noopener noreferrer"
-        href="https://docs.google.com/forms/d/e/1FAIpQLScwsOP_vU_jbkc-UJ_QSxiGX0SERMeG4jRUdUIywLA7ER7gVA/viewform"
+        href="/"
       >
         <button>
           {locale === 'hu'
-            ? 'REGISZTRÁCIÓ MAGYAR TABOR | JUL 5-9'
-            : 'REGISTER NOW FOR THE HUNGARIAN CAMP | JUL 5-9'}
+            ? 'REGISZTRÁCIÓ MAGYAR TABOR | CLOSED'
+            : 'REGISTER NOW FOR THE HUNGARIAN CAMP | CLOSED'}
         </button>
       </a>
     </div>
