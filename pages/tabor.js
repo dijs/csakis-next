@@ -30,12 +30,12 @@ function Register() {
         className="register "
         target="_blank"
         rel="noopener noreferrer"
-        href="/"
+        href="/tabor"
       >
         <button>
           {locale === 'hu'
-            ? 'REGISZTRÁCIÓ MAGYAR TABOR | CLOSED'
-            : 'REGISTER NOW FOR THE HUNGARIAN CAMP | CLOSED'}
+            ? 'REGISZTRÁCIÓ ZÁRVA | JUL 5-9'
+            : 'REGISTER IS NOW CLOSED | JUL 5-9'}
         </button>
       </a>
     </div>
