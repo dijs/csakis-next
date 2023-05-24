@@ -18,12 +18,12 @@ function Register() {
         className="register "
         target="_blank"
         rel="noopener noreferrer"
-        href="https://docs.google.com/forms/d/e/1FAIpQLSc4i9HhtxI7aZ6i5ChXSQUM4HC7Uvoc4btqv_8PnxR8aB8JrQ/viewform"
+        href="/tabor"
       >
         <button>
           {locale === 'hu'
-            ? 'REGISZTRÁCIÓ ANGOL TABOR | AUG 1-5'
-            : 'REGISTER NOW FOR ENGLISH CAMP | AUG 1-5'}
+            ? 'REGISZTRÁCIÓ ANGOL TABOR ZÁRVA | AUG 1-5'
+            : 'REGISTERATION FOR ENGLISH CAMP IS NOW CLOSED | AUG 1-5'}
         </button>
       </a>
       <a
