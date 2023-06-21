@@ -15,7 +15,7 @@ function Register() {
   return (
     <div>
       <a
-        className="register "
+        className="register hide"
         target="_blank"
         rel="noopener noreferrer"
         href="/tabor"
@@ -27,7 +27,7 @@ function Register() {
         </button>
       </a>
       <a
-        className="register "
+        className="register hide"
         target="_blank"
         rel="noopener noreferrer"
         href="/tabor"
