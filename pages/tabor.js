@@ -85,6 +85,8 @@ export default function Tabor() {
         <Register text={_.taborRegister} />
       </div>
       <div className="foto section">
+        <Details {..._.twentyTwoTaborPhoto} images={_.twentyTwoTaborImages} />
+
         <Details {..._.twentyOneTaborPhoto} images={_.twentyOneTaborImages} />
         <Details {..._.twentyTaborPhoto} images={_.twentyTaborImages} />
         <Details {..._.nineteenTaborPhoto} images={_.nineteenTaborImages} />

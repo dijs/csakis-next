@@ -208,6 +208,10 @@
   },
   "taborDetailImages": [
     {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1687361748/2022%20%20camp%20photos/2022-06.jpg",
+      "alt": "2022"
+    },
+    {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146618/2020%20camp%20photos/IMG_0186.jpg",
       "alt": "2021"
     },
@@ -400,6 +404,37 @@
     },
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1687360554/2021%20Photos/2021-006.jpg",
+      "alt": "2021"
+    }
+  ],
+  "twentyTwoTaborPhoto": {
+    "en": {
+      "title": "2022 Camp Photos"
+    },
+    "hu": {
+      "title": "2022 Tábor Fotok"
+    }
+  },
+  "twentyTwoTaborImages": [
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1687361748/2022%20%20camp%20photos/2022-05.jpg",
+      "alt": "2021"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1687361748/2022%20%20camp%20photos/2022-04.jpg",
+      "alt": "2021"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1687361748/2022%20%20camp%20photos/2022-03.jpg",
+      "alt": "2021"
+    },
+
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1687361748/2022%20%20camp%20photos/2022-02.jpg",
+      "alt": "2021"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1687361748/2022%20%20camp%20photos/2022-06.jpg",
       "alt": "2021"
     }
   ]
