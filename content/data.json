@@ -371,5 +371,36 @@
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1623146137/2020%20camp%20photos/IMG_9830.jpg",
       "alt": "2020"
     }
+  ],
+  "twentyOneTaborPhoto": {
+    "en": {
+      "title": "2021 Camp Photos"
+    },
+    "hu": {
+      "title": "2021 Tábor Fotok"
+    }
+  },
+  "twentyOneTaborImages": [
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1687360554/2021%20Photos/2021-005.jpg",
+      "alt": "2021"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1687360554/2021%20Photos/2021-004.jpg",
+      "alt": "2021"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1687360554/2021%20Photos/2021-001.jpg",
+      "alt": "2021"
+    },
+
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1687360554/2021%20Photos/2021-003.jpg",
+      "alt": "2021"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1687360554/2021%20Photos/2021-006.jpg",
+      "alt": "2021"
+    }
   ]
 }
