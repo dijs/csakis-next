@@ -151,7 +151,7 @@
     "en": {
       "eventTitle": "Camp",
       "subtitle": "Christian Family Camp",
-      "content": "This escape is a great opportunity for families to relax while building relationships with God and their family. Our schedule includes lectures, small group discussions, counseling (mentoring for married couples), children's programs, games, sports, and excursions. This is organised by the Manna Christian Association and the Bonus Pastor Foundation.  <br/> <br/>It will take place at: Mókus Guesthouse Bikfalva"
+      "content": "This escape is a great opportunity for families to relax while building relationships with God and their family. Our schedule includes lectures, small group discussions, counseling (mentoring for married couples), children's programs, games, sports, and excursions. This is organised by the Manna Christian Association and the Bonus Pastor Foundation.  <br/> <br/>It will take place at: <a href='https://goo.gl/maps/YHr5RpagVWSwmMpv8' target='_blank'>Mókus Guesthouse Bikfalva</a>"
     }
   },
   "taborBios": {
@@ -165,9 +165,9 @@
           "alt": "Horváth Levente"
         },
         {
-          "speakerName": "Sándor and Tünde Kocsis",
-          "content": "We have been married for thirty years now. We have experienced time ion the mountain top and in the valley. Our love has three fruits: to dwell in God's vision, to be in the present place and to arrive. We have had the opportunity to participate in some of the these courses, and have hope for what is to come. We are content and hopeful of future changes... but also content in the things we cannot change. How can we, as spouses, help each other? How can we live together in joy, in faith and in God's healing love? We are looking forward to seeking these answers together during this marriage course!",
-          "image": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_fill,e_art:eucalyptus,g_face,h_500,r_0,w_500/v1551434626/Kocsis_ha%CC%81zaspa%CC%81r_c35y1u.jpg",
+          "speakerName": "Chase A Johnson and Ailisha M. O’Sullivan",
+          "content": "Chase A Johnson and Ailisha M. O’Sullivan (Chase and Sha) have been in Cluj-Napoca, Romania since 1996, sent as missionaries by the most prominent Presbyterian (PCA) church in Chicago. Since 2002, they have been staff missionaries for Serge International (formerly World Harvest Mission), founded by Timothy Keller’s mentor Jack Miller. Since that time, they and a team gathered around them have worked along side several Cluj-based ministries and projects, including Genesius Association, Koinonia Publishing, Bonus Pastor Foundation, and work among the Roma community. They worked with Levente Horváth to create Kinship, a localized adaptation if Serge’s Sonship discipleship. They have lived and worked as part of the Christian community in Cluj for almost twenty-seven years.",
+          "image": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_fill,g_faces,h_1200,w_1200/v1689593864/2023/ChaseShaPortraits-5.jpg",
           "alt": "name of speaker"
         }
       ]
@@ -207,6 +207,10 @@
     }
   },
   "taborDetailImages": [
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1689594682/2023/Hungarian%20Camp%20Photos/GROUPPHOTO_RemoteMediaFile_combined_2023_07_09_10_31_52.jpg",
+      "alt": "2023 Hungarian-Magyar"
+    },
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1687361748/2022%20%20camp%20photos/2022-06.jpg",
       "alt": "2022"
@@ -418,24 +422,74 @@
   "twentyTwoTaborImages": [
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1687361748/2022%20%20camp%20photos/2022-05.jpg",
-      "alt": "2021"
+      "alt": "2022"
     },
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1687361748/2022%20%20camp%20photos/2022-04.jpg",
-      "alt": "2021"
+      "alt": "2022"
     },
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1687361748/2022%20%20camp%20photos/2022-03.jpg",
-      "alt": "2021"
+      "alt": "2022"
     },
 
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1687361748/2022%20%20camp%20photos/2022-02.jpg",
-      "alt": "2021"
+      "alt": "2022"
     },
     {
       "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1687361748/2022%20%20camp%20photos/2022-06.jpg",
-      "alt": "2021"
+      "alt": "2022"
+    }
+  ],
+  "twentyThreeHuTaborPhoto": {
+    "en": {
+      "title": "2023 Hungarian Camp Photos"
+    },
+    "hu": {
+      "title": "2023 Magyar Tábor Fotok"
+    }
+  },
+  "twentyThreeHuTaborImages": [
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1689595349/2023/Hungarian%20Camp%20Photos/IMG_9603-small.png",
+      "alt": "2023"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1689594772/2023/Hungarian%20Camp%20Photos/IMG_9393.jpg",
+      "alt": "2023"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1689594682/2023/Hungarian%20Camp%20Photos/GROUPPHOTO_RemoteMediaFile_combined_2023_07_09_10_31_52.jpg",
+      "alt": "2023"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1689594771/2023/Hungarian%20Camp%20Photos/PHOTO-2023-07-08-10-02-53_2.jpg",
+      "alt": "2023"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1689594772/2023/Hungarian%20Camp%20Photos/IMG_9464.jpg",
+      "alt": "2023"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1689594774/2023/Hungarian%20Camp%20Photos/IMG_9265.jpg",
+      "alt": "2023"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_fill,g_faces,h_2311,w_4032/v1689594774/2023/Hungarian%20Camp%20Photos/IMG_9704.jpg",
+      "alt": "2023"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1689594792/2023/Hungarian%20Camp%20Photos/IMG_9556.jpg",
+      "alt": "2023"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1689595489/2023/Hungarian%20Camp%20Photos/IMG_9957.jpg",
+      "alt": "2023"
+    },
+    {
+      "src": "https://res.cloudinary.com/csakis-fesztival/image/upload/v1689594803/2023/Hungarian%20Camp%20Photos/IMG_0051.jpg",
+      "alt": "2023"
     }
   ]
 }

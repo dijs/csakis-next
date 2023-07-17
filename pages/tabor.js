@@ -64,10 +64,10 @@ export default function Tabor() {
       <div className="tabor-bio section">
         <Bios {..._.taborBios} />
       </div>
-      <div className="tabor-location-video hide">
+      <div className="tabor-location-video">
         <iframe
           width="100%"
-          src="https://www.youtube.com/embed/7uOUv9TYGaI"
+          src="https://www.youtube.com/embed/9MQ5mE3LWP4"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope"
@@ -85,8 +85,11 @@ export default function Tabor() {
         <Register text={_.taborRegister} />
       </div>
       <div className="foto section">
+        <Details
+          {..._.twentyThreeHuTaborPhoto}
+          images={_.twentyThreeHuTaborImages}
+        />
         <Details {..._.twentyTwoTaborPhoto} images={_.twentyTwoTaborImages} />
-
         <Details {..._.twentyOneTaborPhoto} images={_.twentyOneTaborImages} />
         <Details {..._.twentyTaborPhoto} images={_.twentyTaborImages} />
         <Details {..._.nineteenTaborPhoto} images={_.nineteenTaborImages} />
