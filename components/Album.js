@@ -6,15 +6,15 @@ function usePhotos(albumId, limit) {
   const [photos] = React.useState([
     {
       low:
-        'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1623146615/2020%20camp%20photos/IMG_0187.jpg'
+        'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1691785177/2024%20Eng%20Csakis%20Camp/2024.09_GroupPhoto.jpg'
     },
     {
       low:
-        'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1623146592/2020%20camp%20photos/IMG_0117.jpg'
+        'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1689595489/2023/Hungarian%20Camp%20Photos/IMG_9957.jpg'
     },
     {
       low:
-        'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1623146516/2020%20camp%20photos/IMG_9989.jpg'
+        'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1689594774/2023/Hungarian%20Camp%20Photos/IMG_9704.jpg'
     },
     {
       low:
@@ -34,15 +34,15 @@ function usePhotos(albumId, limit) {
     },
     {
       low:
-        'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1551187816/Photos%20for%202019%20web%20promotion/Chakis%20Prev.%20Events/53145581_488454458351407_5148917626075873280_n.jpg'
+        'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1687361733/2022%20%20camp%20photos/2022-06.jpg'
     },
     {
       low:
-        'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1551187815/Photos%20for%202019%20web%20promotion/Chakis%20Prev.%20Events/52730260_528634587657832_6640666759906983936_n.jpg'
+        'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1687360551/2021%20Photos/2021-001.jpg'
     },
     {
       low:
-        'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1551187812/Photos%20for%202019%20web%20promotion/Chakis%20Prev.%20Events/52930326_1075014279368083_8167480784131719168_n.jpg'
+        'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1623146618/2020%20camp%20photos/IMG_0186.jpg'
     },
     {
       low:
@@ -51,10 +51,6 @@ function usePhotos(albumId, limit) {
     {
       low:
         'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1551187808/Photos%20for%202019%20web%20promotion/Chakis%20Prev.%20Events/53043022_2496782990397011_6085219276833161216_n.jpg'
-    },
-    {
-      low:
-        'https://res.cloudinary.com/csakis-fesztival/image/upload/c_fit,e_art:red_rock,h_500,w_500/v1551187780/Photos%20for%202019%20web%20promotion/Chakis%20Prev.%20Events/53309078_2276800315922450_289756906312957952_n.jpg'
     }
   ]);
   if (!photos.length) {
