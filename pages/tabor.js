@@ -15,15 +15,15 @@ function Register() {
   return (
     <div>
       <a
-        className="register hide"
+        className="register "
         target="_blank"
         rel="noopener noreferrer"
-        href="/tabor"
+        href="https://docs.google.com/forms/d/e/1FAIpQLScCbxPyRWqVQ4TEeAML2GtYXL9lAYzQ7KSNwctyFv51H88wdg/viewform?pli=1&pli=1"
       >
         <button>
           {locale === 'hu'
-            ? 'REGISZTRÁCIÓ ANGOL TABOR ZÁRVA | AUG 1-5'
-            : 'REGISTERATION FOR ENGLISH CAMP IS NOW CLOSED | AUG 1-5'}
+            ? 'REGISZTRÁCIÓ BETHEL TÁBOR | JÚN 22-26'
+            : 'REGISTERATION BETHEL CAMP IN HUNGARIAN | JUN 22-26'}
         </button>
       </a>
       <a
