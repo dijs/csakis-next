@@ -15,7 +15,7 @@ function Register() {
   return (
     <div>
       <a
-        className="register "
+        className="register hide"
         target="_blank"
         rel="noopener noreferrer"
         href="https://docs.google.com/forms/d/e/1FAIpQLScCbxPyRWqVQ4TEeAML2GtYXL9lAYzQ7KSNwctyFv51H88wdg/viewform?pli=1&pli=1"
