@@ -14,7 +14,12 @@ function Register() {
   const { locale } = useRouter();
   return (
     <div>
-      <a className="register" href="/tabor">
+      <a
+        className="register hide"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="/tabor"
+      >
         <button>
           {locale === 'hu'
             ? 'REGISZTRÁCIÓ ZARVA: DESAG 1 TÁBOR | JÚL 16-20'
