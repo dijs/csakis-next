@@ -14,16 +14,11 @@ function Register() {
   const { locale } = useRouter();
   return (
     <div>
-      <a
-        className="register"
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://forms.gle/6AjTxVuNmALQhxPw5"
-      >
+      <a className="register" href="/tabor">
         <button>
           {locale === 'hu'
-            ? 'REGISZTRÁCIÓ DESAG 1 TÁBOR | JÚL 16-20'
-            : 'REGISTERATION DESAG 1 CAMP IN HUNGARIAN | JUL 16-20'}
+            ? 'REGISZTRÁCIÓ ZARVA: DESAG 1 TÁBOR | JÚL 16-20'
+            : 'REGISTERATION CLOSED FOR DESAG 1 CAMP IN HUNGARIAN | JUL 16-20'}
         </button>
       </a>
       <a
