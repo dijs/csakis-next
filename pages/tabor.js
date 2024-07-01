@@ -77,13 +77,13 @@ export default function Tabor() {
       <div className="tabor-location section hide">
         <Location {..._.taborLocation} images={_.taborLocationImages} />
       </div>
-      <div className="tabor-details section hide">
+      <div className="tabor-details section ">
         <div className="">
           <Details {..._.taborDetails} images={_.taborDetailImages} />
         </div>
         <Register text={_.taborRegister} />
       </div>
-      <div className="foto section">
+      <div className="foto section hide">
         <Details
           {..._.twentyThreeEnTaborPhoto}
           images={_.twentyThreeEnTaborImages}
