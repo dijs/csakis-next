@@ -25,7 +25,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="home-photos section">
+      <div className="home-photos section hide">
         <h2> {_.homePhotoTitle} </h2>
         <Album albumId="1916057938672576" />
       </div>
