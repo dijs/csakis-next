@@ -19,10 +19,14 @@ export default function Home() {
       </div>
       <div className="home-text section">
         <FeaturedText {..._.homeFeatured} />
+        <div className="event-buttons">
+          <Link href={`/${locale}/tabor`}>
+            <button className="tabor">{_.taborTitle}</button>
+          </Link>
+        </div>
       </div>
       <div className="home-events section">
         <h2> {_.homeEventTitle} </h2>
-        <EventCard {..._.homeEventOne} />
         <EventCard {..._.homeEventTwo} />
       </div>
       <Footer />

@@ -6,8 +6,10 @@ export default function EventCard({
   eventTitle,
   eventDate,
   buttonText,
+  buttonTextRegister,
   description,
-  buttonLink
+  buttonLink,
+  buttonLinkRegister
 }) {
   return (
     <div className="event-card">
@@ -23,6 +25,9 @@ export default function EventCard({
         <p>{description}</p>
         <Link href={buttonLink}>
           <button>{buttonText}</button>
+        </Link>
+        <Link href={buttonLinkRegister}>
+          <button>{buttonTextRegister}</button>
         </Link>
       </div>
     </div>
