@@ -44,8 +44,8 @@
       "description": "Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolódásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére.",
       "buttonText": "TUDJ MEG TÖBBET",
       "buttonLink": "/tabor",
-      "buttonTextRegister": "A REGISZTRÁCIÓ HAMAROSAN MEGNYIT",
-      "buttonLinkRegister": "/"
+      "buttonTextRegister": "A REGISZTRÁCIÓ",
+      "buttonLinkRegister": "https://forms.gle/szDxjDiiPxUP2Poq6"
     },
     "en": {
       "eventTitle": "Second Camp",
@@ -53,8 +53,8 @@
       "description": "This is the only 2024 camp with English translation and provides a wonderful opportunity to rest and grow in God and as a family.",
       "buttonText": "LEARN MORE",
       "buttonLink": "/en/tabor",
-      "buttonTextRegister": "REGISTRATION OPENS SOON",
-      "buttonLinkRegister": "/"
+      "buttonTextRegister": "REGISTRATION",
+      "buttonLinkRegister": "https://forms.gle/szDxjDiiPxUP2Poq6"
     }
   },
   "delutanDetailImages": [
