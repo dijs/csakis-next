@@ -25,6 +25,7 @@ export default function Home() {
         <EventCard {..._.homeEventOne} />
         <EventCard {..._.homeEventTwo} />
       </div>
+      <Album />
       <Footer />
     </div>
   );

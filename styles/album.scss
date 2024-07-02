@@ -1,22 +1,43 @@
-.carousel {
-  li {
-    img {
-      height: 150px;
-      width: auto !important;
-      border: $white !important;
-      border-style: solid !important;
-      border-width: 8px !important;
-    }
-  }
-  .slide {
-    background: none !important;
-  }
-  button {
-    background-color: none !important;
-    box-shadow: none;
+.group-photos {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 8px;
+  background-color: $yellow;
+  padding-top: 50px;
+  box-shadow: 0 4px 16px rgba(59, 58, 92, 0.3), 0 8px 24px rgba(59, 58, 92, 0.2);
+  img {
+    height: 200px;
+    width: auto;
+    border: $white !important;
+    border-style: solid !important;
+    border-width: 8px !important;
+    border-radius: 16px;
+    margin: 16px;
   }
 }
 
-.carousel.carousel-slider .control-arrow:hover {
-  background: none !important;
-}
+// .carousel {
+//   li {
+//     img {
+//       height: 150px;
+//       width: auto !important;
+//       border: $white !important;
+//       border-style: solid !important;
+//       border-width: 8px !important;
+//     }
+//   }
+//   .slide {
+//     background: none !important;
+//   }
+//   button {
+//     background-color: none !important;
+//     box-shadow: none;
+//   }
+// }
+//
+// .carousel.carousel-slider .control-arrow:hover {
+//   background: none !important;
+// }
