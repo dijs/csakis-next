@@ -61,6 +61,9 @@ export default function Tabor() {
         <img src="bonus-pastor.png" alt="bonus-pastor-logo" />
         <img src="manna-logo.jpg" alt="manna-association-logo" />
       </div>
+      <div className="tabor-bio section">
+        <Bios {..._.taborBios} />
+      </div>
       <div className="tabor-location-video">
         <iframe
           width="100%"
@@ -71,9 +74,12 @@ export default function Tabor() {
           allowFullScreen
         ></iframe>
       </div>
+      <div className="tabor-location section hide">
+        <Location {..._.taborLocation} images={_.taborLocationImages} />
+      </div>
       <div className="tabor-details section ">
         <div className="">
-          <Details {..._.taborDetails} />
+          <Details {..._.taborDetails} images={_.taborDetailImages} />
         </div>
         <Register text={_.taborRegister} />
       </div>
