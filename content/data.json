@@ -8,6 +8,15 @@
       "subtitle": "An Organization Fostoring Chirstian Growth within Families",
       "content": "CSAKIS is a movement that offers Christian families the opportunity to strengthen their relationship with God, with their spouses, and with their children. We have been organizing events since 2016. So far we have organized 4 summer Family Christian Festivals, one Afternoon of worship and learning, and in 2019-2024, we held our Family summer camps, focusing on fellowship, counseling, and growth."
     }
+  },"homeSurvey": {
+    "hu": {
+      "subtitle": "Kedves Házaspárok! Kádár Anna-Bella vagyok, hatodéves teológus (KPTI). A segítségeteket kérem...",
+      "content": "A dolgozatomhoz járultok hozzá azzal, ha kitöltitek a kérdőívet. A tábor alapján két dolgot vizsgálok meg: az egyik felében a felépítését, a másikban pedig, hogy mennyire használható modell ez a gyakorlatban, a mindennapokban. Hálásan köszönök minden kitöltést! Isten áldjon benneteket!"
+    },
+    "en": {
+      "subtitle": "Dear Married Couples! I am Anna-Bella Kádár, a sixth-year theologian (KPTI). I am asking for your help...",
+      "content": "Will you please contribute to my thesis by filling out the questionnaire linked below. Based on the camp, I will examine two things: in one half, its structure, and in the other, how usable this model is in practice and in everyday life. I am grateful for all the responses! God bless you!"
+    }
   },
   "homePhotoTitle": {
     "en": "Photos",
@@ -20,43 +29,64 @@
   "homeEventOne": {
     "hu": {
       "eventTitle": "Első Tábor",
-      "eventDate": "Július 16-20, Desag Panzió, Zeteváralja",
+      "eventDate": "Július 22-26, Bikfalva, Mókus Panzió",
       "description": "Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolódásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére.",
       "buttonText": "TUDJ MEG TÖBBET",
       "buttonLink": "/tabor",
-      "buttonTextRegister": "A REGISZTRÁCIÓ LEZÁRT",
+      "buttonTextRegister": "A REGISZTRÁCIÓ MÁJUS 5-ÉN NYÍLIK MEG (19:00 ÓRÁTÓL)",
       "buttonLinkRegister": "/"
     },
     "en": {
       "eventTitle": "First Camp",
-      "eventDate": "July 16-20, Desag Panzió, Zeteváralja",
+      "eventDate": "July 22-26, Bikfalva, Mókus Panzió" ,
       "description": "This camp provides a wonderful opportunity to rest and grow in God and as a family. The first camp will be provided in Hungarian only with no translation.",
       "buttonText": "LEARN MORE",
       "buttonLink": "/en/tabor",
-      "buttonTextRegister": "REGISTRATION IS CLOSED",
+      "buttonTextRegister": "REGISTRATION OPENS ON MAY 5TH (At 7:00 PM)",
       "buttonLinkRegister": "/"
     }
   },
   "homeEventTwo": {
     "hu": {
       "eventTitle": "Második Tábor",
-      "eventDate": " Augusztus 13-17, Desag Panzió, Zeteváralja. (Magyar és angol fordító)",
+      "eventDate": " Augusztus 5-9, Bikfalva, Mókus Panzió.  (Magyar és angol fordító)",
       "description": "Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolódásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére.",
       "buttonText": "TUDJ MEG TÖBBET",
       "buttonLink": "/tabor",
-      "buttonTextRegister": "A REGISZTRÁCIÓ",
-      "buttonLinkRegister": "https://forms.gle/szDxjDiiPxUP2Poq6"
+      "buttonTextRegister": "A REGISZTRÁCIÓ MÁJUS 5-ÉN NYÍLIK MEG (19:00 ÓRÁTÓL)",
+      "buttonLinkRegister": "/"
     },
     "en": {
       "eventTitle": "Second Camp",
-      "eventDate": " August 13-17, Desag Panzió, Zeteváralja. ",
-      "description": "This is the only 2024 camp with English translation and provides a wonderful opportunity to rest and grow in God and as a family.",
+      "eventDate": " August 5-9, Bikfalva, Mókus Panzió. (This Camp with have English Translation)",
+      "description": "This is the only 2025 camp with English translation and provides a wonderful opportunity to rest and grow in God and as a family.",
       "buttonText": "LEARN MORE",
       "buttonLink": "/en/tabor",
-      "buttonTextRegister": "REGISTRATION",
-      "buttonLinkRegister": "https://forms.gle/szDxjDiiPxUP2Poq6"
+      "buttonTextRegister": "REGISTRATION OPENS ON MAY 5TH (At 7:00 PM)",
+      "buttonLinkRegister": "/"
     }
   },
+    "homeEventThree": {
+    "hu": {
+      "eventTitle": "Harmadik Tábor",
+      "eventDate": " Augusztus 26-30, Bikfalva, Mókus Panzió.",
+      "description": "Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolódásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére.",
+      "buttonText": "TUDJ MEG TÖBBET",
+      "buttonLink": "/tabor",
+      "buttonTextRegister": "A REGISZTRÁCIÓ MÁJUS 5-ÉN NYÍLIK MEG (19:00 ÓRÁTÓL)",
+      "buttonLinkRegister": "/"
+    },
+    "en": {
+      "eventTitle": "Third Camp",
+      "eventDate": " August 26-30, Bikfalva, Mókus Panzió. ",
+      "description": "This camp provides a wonderful opportunity to rest and grow in God and as a family. The first camp will be provided in Hungarian only with no translation.",
+      "buttonText": "LEARN MORE",
+      "buttonLink": "/en/tabor",
+      "buttonTextRegister": "REGISTRATION OPENS ON MAY 5TH (At 7:00 PM)",
+      "buttonLinkRegister": "/"
+    }
+  },
+  
   "delutanDetailImages": [
     {
       "src": "https://placeholder/csakis-fesztival/image/upload/c_fill,e_art:red_rock,h_500,w_500/v1551188997/Photos%20for%202019%20web%20promotion/What%20we%20will%20do%20-%20delutan/freely-jack-sharp-71320.jpg",
