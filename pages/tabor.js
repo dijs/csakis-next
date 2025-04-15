@@ -9,6 +9,7 @@ import Footer from '../components/Footer';
 import Details from '../components/Details';
 import Location from '../components/Location';
 import content from '../content';
+import Register from '../components/Register';
 
 export default function Tabor() {
   const { locale } = useRouter();
@@ -22,6 +23,7 @@ export default function Tabor() {
           <Countdown lang={locale} fromDate={_.taborDate} />
         </div>
         <FeaturedText {..._.taborFeatured} />
+        <Register />
       </div>
       <div className="partner section">
         <h2>{_.partnerTitle}</h2>
@@ -44,6 +46,7 @@ export default function Tabor() {
       <div className="tabor-details section ">
         <div className="">
           <Details {..._.taborDetails} />
+          <Register />
         </div>
       </div>
       <div className="foto section hide">
