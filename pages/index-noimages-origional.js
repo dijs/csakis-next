@@ -27,7 +27,12 @@ export default function Home() {
       </div>
       <div className="home-events section">
         <h2> {_.homeEventTitle} </h2>
-        <EventCard {..._.homeEventTwo} />
+        <EventCard
+          {..._.homeEventTwo}
+          monthNumber={7}
+          startDay={26}
+          endDay={30}
+        />
       </div>
       <Footer />
     </div>
