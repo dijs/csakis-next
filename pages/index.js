@@ -34,18 +34,21 @@ export default function Home() {
           monthNumber={6}
           startDay={22}
           endDay={26}
+          href="https://forms.gle/gHbXnLQwdqKwcsQt6"
         />
         <EventCard
           {..._.homeEventTwo}
           monthNumber={7}
           startDay={5}
           endDay={9}
+          href="https://forms.gle/mq7CLY5vXqNvxUiv9"
         />
         <EventCard
           {..._.homeEventThree}
           monthNumber={7}
           startDay={26}
           endDay={30}
+          href="https://forms.gle/TK54K96PYJ3ykNke6"
         />
       </div>
       <Album />

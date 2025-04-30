@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 // may 5th at 7pm EEST - use lib to check exact time
 // const openDateTime = new Date('2025-05-05T19:00:00+03:00');
-const openDateTime = new Date('2025-04-30T17:21:00+03:00');
+const openDateTime = new Date('2025-04-30T17:27:00+03:00');
 
 function checkOpen() {
   const now = new Date();
@@ -34,7 +34,12 @@ export function RegistrationButton({ href, monthNumber, startDay, endDay }) {
       href={isOpen ? href : '#'}
       disabled={!isOpen}
     >
-      <button disabled={!isOpen}>
+      <button
+        disabled={!isOpen}
+        style={{
+          cursor: isOpen ? 'pointer' : 'not-allowed'
+        }}
+      >
         {locale === 'hu'
           ? `REGISZTRÁCIÓ ${
               isOpen ? 'NYITVA' : 'ZÁRVA'
