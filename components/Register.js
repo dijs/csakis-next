@@ -3,14 +3,14 @@ import { useEffect, useState } from 'react';
 
 // may 5th at 7pm EEST - use lib to check exact time
 // const openDateTime = new Date('2025-05-05T19:00:00+03:00');
-const openDateTime = new Date('2025-04-30T17:08:00+03:00');
+const openDateTime = new Date('2025-04-30T17:19:00+03:00');
 
 function checkOpen() {
   const now = new Date();
   return now >= openDateTime;
 }
 
-function RegistrationButton({ href, monthNumber, startDay, endDay }) {
+export function RegistrationButton({ href, monthNumber, startDay, endDay }) {
   const { locale } = useRouter();
   const date = new Date(new Date().getFullYear(), monthNumber, startDay);
   const [isOpen, setIsOpen] = useState(checkOpen());
@@ -44,15 +44,5 @@ function RegistrationButton({ href, monthNumber, startDay, endDay }) {
             } | ${month} ${startDay}-${endDay}`}
       </button>
     </a>
-  );
-}
-
-export default function Register() {
-  return (
-    <div>
-      <RegistrationButton href="#" monthNumber={6} startDay={22} endDay={26} />
-      <RegistrationButton href="#" monthNumber={7} startDay={5} endDay={9} />
-      <RegistrationButton href="#" monthNumber={7} startDay={26} endDay={30} />
-    </div>
   );
 }

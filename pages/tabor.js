@@ -23,7 +23,7 @@ export default function Tabor() {
           <Countdown lang={locale} fromDate={_.taborDate} />
         </div>
         <FeaturedText {..._.taborFeatured} />
-        <Register />
+        {/* <Register /> */}
       </div>
       <div className="partner section">
         <h2>{_.partnerTitle}</h2>
@@ -46,7 +46,7 @@ export default function Tabor() {
       <div className="tabor-details section ">
         <div className="">
           <Details {..._.taborDetails} />
-          <Register />
+          {/* <Register /> */}
         </div>
       </div>
       <div className="foto section hide">

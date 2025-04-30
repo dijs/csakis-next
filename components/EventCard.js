@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../images/logo-coloredCsakis2019.svg';
 import Link from 'next/link';
+import { RegistrationButton } from './Register';
 
 export default function EventCard({
   eventTitle,
@@ -9,7 +10,10 @@ export default function EventCard({
   buttonTextRegister,
   description,
   buttonLink,
-  buttonLinkRegister
+  buttonLinkRegister,
+  monthNumber,
+  startDay,
+  endDay
 }) {
   return (
     <div className="event-card">
@@ -26,9 +30,11 @@ export default function EventCard({
         <Link href={buttonLink}>
           <button>{buttonText}</button>
         </Link>
-        <Link href={buttonLinkRegister}>
-          <button>{buttonTextRegister}</button>
-        </Link>
+        <RegistrationButton
+          monthNumber={monthNumber}
+          startDay={startDay}
+          endDay={endDay}
+        />
       </div>
     </div>
   );

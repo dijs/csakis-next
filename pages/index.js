@@ -20,13 +20,33 @@ export default function Home() {
       <div className="home-text section">
         <FeaturedText {..._.homeFeatured} />
         <FeaturedText {..._.homeSurvey} />
-        <Link className="survey" href="https://docs.google.com/forms/d/1q8MyRm774KDw_q8X98G7hS6y6GtyLHBmgJ-MFSSe8Sk/viewform?edit_requested=true"><button>Survey</button></Link>
+        <Link
+          className="survey"
+          href="https://docs.google.com/forms/d/1q8MyRm774KDw_q8X98G7hS6y6GtyLHBmgJ-MFSSe8Sk/viewform?edit_requested=true"
+        >
+          <button>Survey</button>
+        </Link>
       </div>
       <div className="home-events section">
         <h2> {_.homeEventTitle} </h2>
-        <EventCard {..._.homeEventOne} />
-        <EventCard {..._.homeEventTwo} />
-        <EventCard {..._.homeEventThree} />
+        <EventCard
+          {..._.homeEventOne}
+          monthNumber={6}
+          startDay={22}
+          endDay={26}
+        />
+        <EventCard
+          {..._.homeEventTwo}
+          monthNumber={7}
+          startDay={5}
+          endDay={9}
+        />
+        <EventCard
+          {..._.homeEventThree}
+          monthNumber={7}
+          startDay={26}
+          endDay={30}
+        />
       </div>
       <Album />
       <Footer />
