@@ -8,7 +8,8 @@
       "subtitle": "An Organization Fostoring Chirstian Growth within Families",
       "content": "CSAKIS is a movement that offers Christian families the opportunity to strengthen their relationship with God, with their spouses, and with their children. We have been organizing events since 2016. So far we have organized 4 summer Family Christian Festivals, one Afternoon of worship and learning, and in 2019-2024, we held our Family summer camps, focusing on fellowship, counseling, and growth."
     }
-  },"homeSurvey": {
+  },
+  "homeSurvey": {
     "hu": {
       "subtitle": "Kedves Házaspárok! Kádár Anna-Bella vagyok, hatodéves teológus (KPTI). A segítségeteket kérem...",
       "content": "A dolgozatomhoz járultok hozzá azzal, ha kitöltitek a kérdőívet. A tábor alapján két dolgot vizsgálok meg: az egyik felében a felépítését, a másikban pedig, hogy mennyire használható modell ez a gyakorlatban, a mindennapokban. Hálásan köszönök minden kitöltést! Isten áldjon benneteket!"
@@ -38,7 +39,7 @@
     },
     "en": {
       "eventTitle": "First Camp",
-      "eventDate": "July 22-26, Bikfalva, Mókus Panzió" ,
+      "eventDate": "July 22-26, Bikfalva, Mókus Panzió",
       "description": "This camp provides a wonderful opportunity to rest and grow in God and as a family. The first camp will be provided in Hungarian only with no translation.",
       "buttonText": "LEARN MORE",
       "buttonLink": "/en/tabor",
@@ -66,7 +67,7 @@
       "buttonLinkRegister": "/"
     }
   },
-    "homeEventThree": {
+  "homeEventThree": {
     "hu": {
       "eventTitle": "Harmadik Tábor",
       "eventDate": " Augusztus 26-30, Bikfalva, Mókus Panzió.",
@@ -86,7 +87,7 @@
       "buttonLinkRegister": "/"
     }
   },
-  
+
   "delutanDetailImages": [
     {
       "src": "https://placeholder/csakis-fesztival/image/upload/c_fill,e_art:red_rock,h_500,w_500/v1551188997/Photos%20for%202019%20web%20promotion/What%20we%20will%20do%20-%20delutan/freely-jack-sharp-71320.jpg",
@@ -112,13 +113,13 @@
   "taborFeatured": {
     "hu": {
       "eventTitle": "Tábor",
-      "subtitle": "2024: Idén két tábor közül lehet választani. ",
-      "content": "1. Július 16-20 (táborunkban a helyek beteltek), Desag Panzió, Zeteváralja (Kontszám: OTP Bank, Asociatia Crestina Manna, RO48OTPV301000738025RO01)<br/>2. Augusztus 13-17, Desag Panzió, Zeteváralja. (Hamarosan megnyílik a regisztráció. | Magyar, angol fordítás biztosítva)</br></br>Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolósásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére. Programjaink között szerepelnek előadások, kiscsoportos beszélgetések, tanácsadás (mentori beszélgetés házaspároknak), valamint gyermekprogramok, játék, sport, kirándulás. <br /> <br /> <strong>Szervezők:</strong> Manna Keresztyén Egyesület és Bonus Pastor Alapítvány"
+      "subtitle": "2025: Idén három tábor közül lehet választani.",
+      "content": "1. Július 22-26, Mókus Panzió, Bikfalva<br/>2. Augusztus 5-9, Mókus Panzió, Bikfalva (HU/EN)<br/>3. Augusztus 26-30, Mókus Panzió, Bikfalva<br/><br/>Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolósásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére. Programjaink között szerepelnek előadások, kiscsoportos beszélgetések, tanácsadás (mentori beszélgetés házaspároknak), valamint gyermekprogramok, játék, sport, kirándulás. <br /> <br /> Kontszám : Banca Transilvania RO53BTRLRONCRT0T0B42E901<br/><br/>A regisztráció Május 5-én, 19:00 órakor nyílik meg. <br/><br/><strong>Szervezők:</strong> Manna Keresztyén Egyesület és Bonus Pastor Alapítvány"
     },
     "en": {
       "eventTitle": "Camp",
-      "subtitle": "2024 Dates: ",
-      "content": "1. July 16-20, Desag Panzió in Zeteváralja (Hungarian only)<br/>2. August 13-17, Desag Panzió, Zeteváralja. (Hungarian with English translation) </br></br>This escape is a great opportunity for families to relax while building relationships with God and their family. Our schedule includes lectures, small group discussions, counseling (mentoring for married couples), children's programs, games, sports, and excursions. This is organised by the Manna Christian Association and the Bonus Pastor Foundation.  "
+      "subtitle": "2025 Dates for the Camps",
+      "content": "1. July 22-26, Mókus Panzió, Bikfalva<br/>2. August 5-9, Mókus Panzió, Bikfalva (Hungarian with English translation)<br/>3. August 26-30, Mókus Panzió, Bikfalva.<br/><br/>This escape is a great opportunity for families to relax while building relationships with God and their family. Our schedule includes lectures, small group discussions, counseling (mentoring for married couples), children's programs, games, sports, and excursions.<br/><br/>Registration opens on May 5th at 7:00 PM. <br/><br/><strong>Bank account:</strong> Banca Transilvania RO53BTRLRONCRT0T0B42E901<br/><br/>This is organised by the Manna Christian Association and the Bonus Pastor Foundation."
     }
   },
   "taborBios": {
@@ -171,11 +172,11 @@
   },
   "taborDetails": {
     "en": {
-      "title": "English Camp Program 2024 | July 16-20",
+      "title": "English Camp Program 2025 | July 26-30",
       "content": "<strong>Going through the Family Castle</strong></br>Are we different? Where do we meet<br /><br /><strong>Tuesday | Aug 13  </strong><br /><a target='_blank' href='https://goo.gl/maps/RMhgvMB8pdwLABFc9' target='_blank'>1:00p -2:00p | Arrival, registration</a><br />2:00p-3:00p | Lunch<br />3:00p-3:45p | Opening: introduction of volunteers, getting to know each other (together with the children)<br />3:45p-4:00p | Childcare begins<br />4:00p-5:15p | Lesson/Session and Practicle application <br />5:15p-5:30p | Break<br />5:30p-6:30p | Small groups<br />7:00p-8:00p | Dinner<br />8:00p-8:30p | <a target='_blank' href='https://docs.google.com/presentation/d/1uCrZkq2VCrey47fOEIcaSrq7DAoONJUPZmoxodFVLys' target='_blank'>Family Worship and Lesson<a/><br />8:30p00p-1:50p  | Szabad program<br /><br /><strong>Wednesday | Aug 14</strong><br />07:00-7:15 | Optional morning workout<br />7:15a-7:45a | <a target='_blank' href='https://docs.google.com/presentation/d/1uCrZkq2VCrey47fOEIcaSrq7DAoONJUPZmoxodFVLys' target='_blank'>Optional morning prayer and worship time</a><br />8:00a-8:45a | Breakfast<br />8:45a | Childcare begins<br />9:00a-10:15a | Lesson/Session and Practical Application <br />10:15a-10:30a | Break<br />10:30a-11:50a | Small Groups<br />12:00p-12:50p | Mentoring 1<br />1:00p-1:50p | Mentoring 2<br /><br /><em>12:00-5:30p | Sometime during the the break, find time to work ing your workbook. You should seak out time for both Individual observation (with out children) based on the questions and time for consultation with each other. This should take about a half hour outside of your mentoring time.</em><br /><br />2:00p | Lunch<br />3:30p-4:20p | Mentoring 3<br />4:30p-5:20p | Mentoring 4<br />6:00p-6:50p | <a target='_blank' href='https://docs.google.com/presentation/d/1uCrZkq2VCrey47fOEIcaSrq7DAoONJUPZmoxodFVLys' target='_blank'>Family Worship and Lesson</a><br />7:00p | Dinner<br />8:00p | Spouse Game Night<br/><br/><strong>Thursday | Aug 15</strong><br />7:00a-7:15a | Optional morning workout<br />7:15a-7:45a | <a target='_blank' href='https://docs.google.com/presentation/d/1uCrZkq2VCrey47fOEIcaSrq7DAoONJUPZmoxodFVLys' target='_blank'>Optional morning prayer and worship time</a><br />8:00a-8:45a | Breakfast<br />8:45a | Childcare begins<br />9:00a-10:00a | Lesson/Session and Practical Application<br />10:00a-10:15a | Break<br />10:15a-11:50a | Small Groups<br />12:00p-12:50p | Mentoring 1<br />1:00p-1:50p | Mentoring 2<br /><br /><em>12:00-5:30p | Sometime during the the break, find time to work ing your workbook. You should seak out time for both Individual observation (with out children) based on the questions and time for consultation with each other. This should take about a half hour outside of your mentoring time.<br /><br /></em>2:00p | Lunch<br />3:30p-4:20p | Mentoring 3<br />4:30p-5:20p | Mentoring 4<br />6:00p-6:50p | <a target='_blank' href='https://docs.google.com/presentation/d/1uCrZkq2VCrey47fOEIcaSrq7DAoONJUPZmoxodFVLys' target='_blank'>Family Worship and Lesson</a><br />7:00p | Dinner<br />8:00p | Family Craft Night<br/><br/><strong>Friday | Aug 16</strong><br />7:00a-7:15a | Optional morning workout<br />7:15a-7:45a | <a target='_blank' href='https://docs.google.com/presentation/d/1uCrZkq2VCrey47fOEIcaSrq7DAoONJUPZmoxodFVLys' target='_blank'>Optional morning prayer and worship time</a><br />8:00a-8:45a | Breakfast<br />8:45a | Childcare begins<br />9:00a-10:15a | Lesson/Session and Practical Application<br />10:15a-10:30a | Break<br />10:30a-11:50a | Small Groups<br />12:00p-12:50p | Mentoring 1<br />1:00p-1:50p | Mentoring 2<br /><br /><em>12:00-5:30p | Sometime during the the break, find time to work ing your workbook. You should seak out time for both Individual observation (with out children) based on the questions and time for consultation with each other. This should take about a half hour outside of your mentoring time.</em><br /><br />2:00p | Lunch<br /> 3:30p-4:20p | Mentoring 3<br />4:30p-5:20p | Mentoring 4<br />6:00p-6:50p | Worship and Closing time<br />7:00p | Dinner<br />8:00p | Married Couples Suprise Night<br /><br /><strong>Saturday | Aug 17</strong><br />07:45-08:00 | Optional morning workout<br />08:00-08:45 | Breakfast<br />09:00-10:00 | The Lord’s Supper <br />10:15-12:30 | Family Adventure<br />1:00p  | Lunch and departure<br /><br />"
     },
     "hu": {
-      "title": "Magyar Tábor Program 2024 | Július. 16-20",
+      "title": "Magyar Tábor Program 2025 | Július. 26-30",
       "content": "<strong>Családkastély kalauz</strong></br>Különbözünk? Találkozunk?<br /><br /><strong>Kedd | Augusztus 13  </strong><br /><a target='_blank' href='https://goo.gl/maps/RMhgvMB8pdwLABFc9' target='_blank'>13:00-14:00 | Érkezés, regisztráció</a><br />14:00-15:00 | Ebéd<br />15:00-15:45 | Megnyitó: Önkéntesek bemutatkozása, ismerkedés (a gyerekekkel együtt, játékosan)<br />15:45-16:00 | Gyerekek átadása<br />16:00-17:15 | ELŐADÁS és GYAKORLAT <br />17:15-17:30 | Szünet<br />17:30-18:30 | Kiscsoportos beszélgetés<br />19:00-20:00 | Vacsora<br />20:00-20:30 | <a target='_blank' href='https://docs.google.com/presentation/d/1uCrZkq2VCrey47fOEIcaSrq7DAoONJUPZmoxodFVLys' target='_blank'>Dicsőítés, áhítat<a/><br />20:30 | Szabad program<br /><br /><strong>Szerda | Augusztus 14</strong><br />07:00-07:15 | Közösségi torna (opcionális)<br />07:15-70:45 | Reggeli imaközösség és dicsőítés (opcionális)<br />08:00-08:45 | Reggeli<br />08:45 | Gyerekek átadása<br />09:00-10:15 | ELŐADÁS és GYAKORLAT <br />10:15-10:30 | Szünet<br />10:30-11:50 | Kiscsoportos beszélgetés<br />12:00-12:50 | Mentori 1<br />13:00-13:50 | Mentori 2<br /><br /><em>12:00-17:30 | között, valamikor a nap folyamán, egyéni kontemplációs gyakorlat. (Egyéni szemlélődés a kérdések alapján-mindenki egyedül. A társak egymással egyeztetve időt keresnek erre. Azalatt vonul el ki-ki egy fél órára, amíg nincsenek páros mentori beszélgetésen. Ezalatt a társa lehet a gyerekekkel.)</em><br /><br />14:00 | Ebéd<br />15:30-16:20 | Mentori 3<br />16:30-17:20 | Mentori 4<br />18:00-18:50 | <a target='_blank' href='https://docs.google.com/presentation/d/1uCrZkq2VCrey47fOEIcaSrq7DAoONJUPZmoxodFVLys' target='_blank'>Dicsőítés, áhítat</a><br />19:00 | Vacsora<br />20:00 | Játékest házaspároknak<br/><br/><strong>Csütörtök | Augusztus 15</strong><br />07:00-07:15 | Közösségi torna (opcionális)<br />07:15-07:45 | Reggeli imaközösség és dicsőítés (opcionális)<br />08:00-08:45 | Reggeli<br />08:45 | Gyerekek átadása<br />09:00-10:00 | ELŐADÁS és GYAKORLAT<br />10:00-10:15 | Szünet<br />10:15-11:50 | Kiscsoportos beszélgetés<br />12:00-12:50 | Mentori 1<br />13:00-13:50 | Mentori 2<br /><br /><em>12:00-17:30 | Között, valamikor a nap folyamán, egyéni kontemplációs gyakorlat. (Egyéni szemlélődés a kérdések alapján- mindenki egyedül. A társak egymással egyeztetve időt keresnek erre. Azalatt vonul el ki-ki egy fél órára, amíg nincsenek páros mentori beszélgetésen. Ezalatt a társa lehet a gyerekekkel.)<br /><br /></em>14:00 | Ebéd<br />15:30-16:20 | Mentori 3<br />16:30-17:20 | Mentori 4<br />18:00-18:50 | <a target='_blank' href='https://docs.google.com/presentation/d/1uCrZkq2VCrey47fOEIcaSrq7DAoONJUPZmoxodFVLys' target='_blank'>Dicsőítés, áhítat</a><br />19:00 | Vacsora<br />20:00 | Kézműves est családoknak<br/><br/><strong>Péntek | Augusztus 16</strong><br />07:00-07:15 | Közösségi torna (opcionális)<br />07:15-07:45 | Reggeli imaközösség és dicsőítés (opcionális)<br />08:00-08:45 | Reggeli<br />08:45 | Gyerekek átadása<br />09:00-10:15 | ELŐADÁS és GYAKORLAT<br />10:15-10:30 | Szünet<br />10:30-11:50 | Kiscsoportos beszélgetés<br />12:00-12:50 | Mentori 1<br />13:00-13:50 | Mentori 2<br /><br /><em>12:00-17:30 | Között, valamikor a nap folyamán, egyéni kontemplációs gyakorlat. (Egyéni szemlélődés a kérdések alapján - mindenki egyedül. A társak egymással egyeztetve időt keresnek erre. Azalatt vonul el ki-ki egy fél órára, amíg nincsenek páros mentori beszélgetésen. Ezalatt a társa lehet a gyerekekkel.)</em><br /><br />14:00 | Ebéd<br /> 15:30-16:20 | Mentori 3<br />16:30-17:20 | Mentori 4<br />18:00-18:50 | Áhitat, lezáró kör<br />19:00 | Vacsora<br />20:00 | Meglepetés házaspároknak<br /><br /><strong>Szombat | Augusztus 17</strong><br />07:45-08:00 | Közösségi torna (opcionális)<br />08:00-08:45 | Reggeli<br />09:00-10:00 | ÚRVACSORÁS ZÁRÓ ISTENTISZTELET <br />10:15-12:30 | Családos kirándulás<br />13:00 | Ebéd és eltávozás<br /><br />"
     }
   },
