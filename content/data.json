@@ -50,7 +50,7 @@
   "homeEventTwo": {
     "hu": {
       "eventTitle": "Második Tábor",
-      "eventDate": " Augusztus 5-9, Bikfalva, Mókus Panzió.  (Magyar és angol fordító)",
+      "eventDate": " Augusztus 5-9, Bikfalva, Mókus Panzió. (Angol fordítás biztosítva)",
       "description": "Egy nagyszerű lehetőség a családok számára a pihenésre, kikapcsolódásra de ugyanakkor Istennel-, és a családon belüli kapcsolatok építésére.",
       "buttonText": "TUDJ MEG TÖBBET",
       "buttonLink": "/tabor",
@@ -158,10 +158,10 @@
     },
     "hu": {
       "title": "Ismerd meg az előadókat ",
-      "camps": "Íme a mentorok, akik részt vesznek a 2025-ös táborokon:",
-      "camp1": "Júl 22-26: Kocsis Tünde, Kiss Jenő, Horváth Levente, and Horváth Mari.",
-      "camp2": "Aug 5-9: Becsky Bori, Kocsis Tünde, Kocsis Sándor, and Horváth Levente",
-      "camp3": "Aug 26-30: Kocsis Tünde, Kocsis Sándor, Kiss Jenő, and Horváth Levente.",
+      "camps": "Íme a mentorok, akik részt vesznek a 2025-ös táborokban:",
+      "camp1": "Júl 22-26: Kocsis Tünde, Kiss Jenő, Horváth Levente, Horváth Mari.",
+      "camp2": "Aug 5-9: Becsky Bori, Kocsis Tünde, Kocsis Sándor, Horváth Levente",
+      "camp3": "Aug 26-30: Kocsis Tünde, Kocsis Sándor, Kiss Jenő, Horváth Levente.",
       "bios": [
         {
           "speakerName": "Horváth Levente és Mária",
