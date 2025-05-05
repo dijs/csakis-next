@@ -125,6 +125,10 @@
   "taborBios": {
     "en": {
       "title": "Meet the Speakers and Counselors",
+      "camps": "Here are the Mentors attending each of the 2025 camps:",
+      "camp1": "July 22-26: Kocsis Tünde, Kiss Jenő, Horváth Levente, and Horváth Mari.",
+      "camp2": "Aug 5-9: Becsky Bori, Kocsis Tünde, Kocsis Sándor, and Horváth Levente",
+      "camp3": "Aug 26-30: Kocsis Tünde, Kocsis Sándor, Kiss Jenő, and Horváth Levente.",
       "bios": [
         {
           "speakerName": "Horváth Levente és Mária",
@@ -148,6 +152,10 @@
     },
     "hu": {
       "title": "Ismerd meg az előadókat ",
+      "camps": "Íme a mentorok, akik részt vesznek a 2025-ös táborokon:",
+      "camp1": "Júl 22-26: Kocsis Tünde, Kiss Jenő, Horváth Levente, and Horváth Mari.",
+      "camp2": "Aug 5-9: Becsky Bori, Kocsis Tünde, Kocsis Sándor, and Horváth Levente",
+      "camp3": "Aug 26-30: Kocsis Tünde, Kocsis Sándor, Kiss Jenő, and Horváth Levente.",
       "bios": [
         {
           "speakerName": "Horváth Levente és Mária",

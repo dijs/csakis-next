@@ -12,10 +12,14 @@ function Bio({ content, speakerName, image, alt }) {
   );
 }
 
-export default function Bios({ title, bios = [] }) {
+export default function Bios({ title, camps, camp1, camp2 , camp3, bios = [] }) {
   return (
     <div className="bios">
       <h2>{title}</h2>
+      <p className="center bold" >{camps}</p>
+      <p className="center " >{camp1}</p>
+      <p className="center " >{camp2}</p>
+      <p className="center " >{camp3}</p>
       {bios.map(Bio)}
     </div>
   );
