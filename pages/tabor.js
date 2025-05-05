@@ -43,13 +43,13 @@ export default function Tabor() {
           allowFullScreen
         ></iframe>
       </div>
-      <div className="tabor-details section ">
+      <div className="tabor-details section hide ">
         <div className="">
           <Details {..._.taborDetails} />
           {/* <Register /> */}
         </div>
       </div>
-      <div className="foto section hide">
+      <div className="foto section hide ">
         <Details
           {..._.twentyThreeEnTaborPhoto}
           images={_.twentyThreeEnTaborImages}
