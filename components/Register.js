@@ -9,7 +9,13 @@ function checkOpen() {
   return now >= openDateTime;
 }
 
-export function RegistrationButton({ href, monthNumber, startDay, endDay }) {
+export function RegistrationButton({
+  href,
+  monthNumber,
+  startDay,
+  endDay,
+  closed
+}) {
   const { locale } = useRouter();
   const date = new Date(new Date().getFullYear(), monthNumber, startDay);
   const [isOpen, setIsOpen] = useState(checkOpen());
@@ -25,26 +31,28 @@ export function RegistrationButton({ href, monthNumber, startDay, endDay }) {
     return () => clearInterval(intervalId);
   }, []);
 
+  const open = isOpen && !closed;
+
   return (
     <a
       className="register"
       target="_blank"
       rel="noopener noreferrer"
-      href={isOpen ? href : '#'}
-      disabled={!isOpen}
+      href={open ? href : '#'}
+      disabled={!open}
     >
       <button
-        disabled={!isOpen}
+        disabled={!open}
         style={{
-          cursor: isOpen ? 'pointer' : 'not-allowed'
+          cursor: open ? 'pointer' : 'not-allowed'
         }}
       >
         {locale === 'hu'
           ? `REGISZTRÁCIÓ ${
-              isOpen ? 'NYITVA' : 'ZÁRVA'
+              open ? 'NYITVA' : 'ZÁRVA'
             } | ${month} ${startDay}-${endDay}`
           : `REGISTRATION ${
-              isOpen ? 'OPEN' : 'CLOSED'
+              open ? 'OPEN' : 'CLOSED'
             } | ${month} ${startDay}-${endDay}`}
       </button>
     </a>
