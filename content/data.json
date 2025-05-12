@@ -149,10 +149,16 @@
           "alt": "Dr. Kiss Jenő"
         },
         {
-          "speakerName": "Sándor and Tünde Kocsis",
-          "content": "We have been married for thirty years and have experienced both time on the mountain top and in the valley. Our love has three fruits: to dwell in God's vision, to be in the present, and to arrive. We have participated in a few of the these courses before, and are both hopeful and excited for what is to come. We are content and hopeful of future changes... but also content in the things we cannot change. How can we, as spouses, help each other? How can we live together in joy, in faith, and in God's healing love? We are looking forward to seeking these answers together during this marriage course!",
+          "speakerName": "Sándor Kocsis",
+          "content": "I am Sándor, a mental health and experiential specialist. I studied at the University of Debrecen. Throughout my life, the Lord has guided me through deep valleys, lifting me out of them at great personal cost and with many lessons learned. I am grateful that together with my wife, Tünde, we can be of help to those who turn to us. The Csakis camps have been important to me from the very beginning — they are valuable opportunities for service and experiencing community.",
           "image": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_fill,e_art:eucalyptus,g_face,h_500,r_0,w_500/v1551434626/Kocsis_ha%CC%81zaspa%CC%81r_c35y1u.jpg",
-          "alt": "Kocsis Tünde is Sándor"
+          "alt": "Kocsis Sándor"
+        },
+        {
+          "speakerName": "Tünde Kocsis",
+          "content": "Married for thirty years, I too have experienced both highs and lows. Our love has three fruits: dwelling in God’s presence, being in the present moment, and arriving. I've participated in a few of these camps before, and look to what lies ahead with hope. I am content and hopeful for future changes… but also accept what I cannot change.",
+          "image": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_fill,e_art:eucalyptus,g_face,h_500,r_0,w_500/v1551434626/Kocsis_ha%CC%81zaspa%CC%81r_c35y1u.jpg",
+          "alt": "Kocsis Tünde"
         }
       ]
     },
@@ -180,11 +186,16 @@
           "content": "Dr. Kiss Jenő, a lelkigondozás elméletének tanára a KPTI-n, gyakorlott lelkigondozó (főleg a családi kapcsolatok terén),  kontextuális lelkigondozó, kontextuális segítő, szupervizor,  coach.",
           "image": "/Bios/kiss-jeno.JPG",
           "alt": "Dr. Kiss Jenő"
+        },{
+          "speakerName": "Sándor Kocsis",
+          "content": "Kocsis Sándor mentálhigiénés és tapasztalati szakember vagyok. Tanulmányaimat a Debreceni Egyetemen végeztem. Életem során hatalmas mélységeken vezetett át az Úristen, amikből sok tanulság és lecke árán kiemelt. Hálás vagyok, hogy feleségemmel, Tündével együtt segítségére lehetünk a hozzánk forduló embereknek. A Csakis táborok a kezdetektől fogva fontosak nekem.  Jó alkalmak a szolgálatra és a közösség megélésére.",
+          "image": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_fill,g_face,h_500,r_0,w_500/v1747069263/Bios/Sandor.jpg",
+          "alt": "Kocsis Sándor"
         },
         {
-          "speakerName": "Kocsis Sándor is Tünde ",
+          "speakerName": "Kocsis Tünde ",
           "content": "Harminc éve vagyunk házasok. Megéltünk már magasságokat és mélységeket is. Szerelmünknek három gyümölcse van: Isten jelenlétében lakozni, a jelenben lenni, és megérkezni. Részt vettünk már néhány ilyen táborban, és reménységgel tekintünk arra, ami előttünk áll. Elégedettek vagyunk, és reménykedünk a jövőbeni változásokban… de elfogadjuk azt is, amit nem tudunk megváltoztatni. Hogyan tudunk házastársakként segíteni egymásnak? Hogyan élhetünk együtt örömben, hitben, és Isten gyógyító szeretetében? Várakozással tekintünk erre a táborra, és arra, hogy együtt keressük ezekre a kérdésekre a válaszokat",
-          "image": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_fill,e_art:eucalyptus,g_face,h_500,r_0,w_500/v1551434626/Kocsis_ha%CC%81zaspa%CC%81r_c35y1u.jpg",
+          "image": "https://res.cloudinary.com/csakis-fesztival/image/upload/c_fill,g_face,h_500,r_0,w_500/v1747069370/Bios/tunde.jpg",
           "alt": "Kocsis Tünde is Sándor"
         }
       ]
