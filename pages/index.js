@@ -33,6 +33,7 @@ export default function Home() {
           {..._.homeEventOne}
           monthNumber={6}
           startDay={22}
+          closed
           endDay={26}
           href="https://forms.gle/gHbXnLQwdqKwcsQt6"
         />
@@ -40,6 +41,7 @@ export default function Home() {
           {..._.homeEventTwo}
           monthNumber={7}
           startDay={5}
+          closed
           endDay={9}
           href="https://forms.gle/mq7CLY5vXqNvxUiv9"
         />

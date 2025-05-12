@@ -14,7 +14,8 @@ export default function EventCard({
   monthNumber,
   startDay,
   endDay,
-  href
+  href, 
+  closed
 }) {
   return (
     <div className="event-card">
@@ -36,6 +37,7 @@ export default function EventCard({
           monthNumber={monthNumber}
           startDay={startDay}
           endDay={endDay}
+          closed={closed}
         />
       </div>
     </div>
