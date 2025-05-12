@@ -7,13 +7,14 @@ export default function EventCard({
   eventTitle,
   eventDate,
   buttonText,
+  buttonTextRegister,
   description,
   buttonLink,
+  buttonLinkRegister,
   monthNumber,
   startDay,
   endDay,
-  href,
-  closed = false
+  href
 }) {
   return (
     <div className="event-card">
@@ -31,11 +32,10 @@ export default function EventCard({
           <button>{buttonText}</button>
         </Link>
         <RegistrationButton
-          href={href}
+          href={href} 
           monthNumber={monthNumber}
           startDay={startDay}
           endDay={endDay}
-          closed={closed}
         />
       </div>
     </div>
