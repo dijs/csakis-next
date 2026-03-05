@@ -32,25 +32,25 @@ export default function Home() {
         <EventCard
           {..._.homeEventOne}
           monthNumber={6}
-          startDay={22}
-          closed
-          endDay={26}
-          href="https://forms.gle/gHbXnLQwdqKwcsQt6"
+          startDay={8}
+          // closed
+          endDay={12}
+          href="https://forms.gle/kPi6Lz8NdY3sML1Z7"
         />
         <EventCard
           {..._.homeEventTwo}
           monthNumber={7}
-          startDay={5}
-          closed
-          endDay={9}
-          href="https://forms.gle/mq7CLY5vXqNvxUiv9"
+          startDay={4}
+          // closed
+          endDay={8}
+          href="https://forms.gle/ezsMvjdmZndYrS3M6"
         />
         <EventCard
           {..._.homeEventThree}
           monthNumber={7}
-          startDay={26}
-          endDay={30}
-          href="https://forms.gle/TK54K96PYJ3ykNke6"
+          startDay={25}
+          endDay={29}
+          href="https://forms.gle/Wec1ZHeTDTt3CT2f7"
         />
       </div>
       <Album />
