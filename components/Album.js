@@ -11,6 +11,8 @@ export default function Album({ images = [] }) {
       <img src="/group/Csakis-2019KI-group.jpg" alt="group photo" />
       <img src="/group/Csakis-2019-group.jpg" alt="group photo" />
       <img src="/group/Csakis-2016FE-group.jpg" alt="group photo" />
+      <img src="/group/Csakis-2024-group1.jpg" alt="group photo" />
+      <img src="/group/Csakis-2024-group2.jpg" alt="group photo" />
     </div>
   );
 }
