@@ -2,7 +2,8 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 
 // March 7th at 6pm EEST - use lib to check exact time
-const openDateTime = new Date('2026-03-07T18:00:00+03:00');
+// const openDateTime = new Date('2026-03-07T18:00:00+03:00');
+const openDateTime = new Date('2026-03-06T18:00:00+03:00');
 
 function checkOpen() {
   const now = new Date();
